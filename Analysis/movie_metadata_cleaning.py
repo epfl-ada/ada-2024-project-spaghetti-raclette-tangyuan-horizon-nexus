@@ -39,6 +39,20 @@ print(df_movie_metadata[['movie_id', 'movie_name', 'countries_clean', 'genres_cl
 print("\nFinal cleaned dataset (first 5 rows):")
 print(df_movie_metadata[['movie_id', 'freebase_id', 'movie_name', 'release_date', 'revenue', 'runtime', 'languages_clean', 'countries_clean', 'genres_clean']].head())
 
-# Optional: Save cleaned DataFrame to a CSV file if needed
-# df_movie_metadata.to_csv('movie_metadata_cleaned.csv', index=False)
+# Ensure 'Data' directory exists
+data_directory = os.path.join(os.getcwd(), 'Data')
+if not os.path.exists(data_directory):
+    os.makedirs(data_directory)
+
+# Save cleaned DataFrame to CSV in the 'Data' directory
+# Replace invalid characters in the DataFrame
+# Replace invalid characters in each column of the DataFrame
+for col in df_movie_metadata.columns:
+    if df_movie_metadata[col].dtype == "object":  # Only process string columns
+        df_movie_metadata[col] = df_movie_metadata[col].map(lambda x: x.encode('utf-8', 'replace').decode('utf-8') if isinstance(x, str) else x)
+
+# Save the cleaned DataFrame to CSV, specifying 'utf-8' and replacing any remaining invalid characters
+df_movie_metadata.to_csv(os.path.join(data_directory, 'movie_metadata_cleaned.csv'), index=False, encoding='utf-8', errors='replace')
+
+
 

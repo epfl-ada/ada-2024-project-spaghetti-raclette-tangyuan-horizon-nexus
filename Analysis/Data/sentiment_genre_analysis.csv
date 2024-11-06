@@ -1,0 +1,999 @@
+movie_id,average_sentiment,std_dev_sentiment,num_peaks,num_valleys,genres,revenue,runtime,cluster
+23890098,1.0,0.0,1,0,"{""/m/07s9rl0"": ""Drama"", ""/m/03q4nz"": ""World cinema""}",,110.0,0
+31186339,-0.038461538461538464,0.999260081289737,25,27,"{""/m/03btsm8"": ""Action/Adventure"", ""/m/06n90"": ""Science Fiction"", ""/m/02kdv5l"": ""Action"", ""/m/07s9rl0"": ""Drama""}",686533290.0,142.0,2
+20663735,-0.15384615384615385,0.9880948137434713,11,15,"{""/m/04t36"": ""Musical"", ""/m/02kdv5l"": ""Action"", ""/m/07s9rl0"": ""Drama"", ""/m/01chg"": ""Bollywood""}",,175.0,3
+2231378,-0.1836734693877551,0.9829873125544731,20,29,"{""/m/06qm3"": ""Screwball comedy"", ""/m/01z4y"": ""Comedy""}",2300000.0,91.0,2
+595909,-0.2,0.9797958971132713,6,9,"{""/m/0lsxr"": ""Crime Fiction"", ""/m/07s9rl0"": ""Drama"", ""/m/01f9r0"": ""Docudrama"", ""/m/03q4nz"": ""World cinema"", ""/m/05bh16v"": ""Courtroom Drama""}",6908797.0,121.0,3
+5272176,-0.3333333333333333,0.9428090415820634,9,18,"{""/m/01jfsb"": ""Thriller"", ""/m/03btsm8"": ""Action/Adventure"", ""/m/02kdv5l"": ""Action"", ""/m/07s9rl0"": ""Drama""}",,93.0,3
+1952976,-0.21739130434782608,0.9760845356801588,18,28,"{""/m/01jfsb"": ""Thriller"", ""/m/07s9rl0"": ""Drama"", ""/m/03npn"": ""Horror""}",49483352.0,105.0,2
+24225279,0.07142857142857142,0.9974457174120672,15,13,"{""/m/07s9rl0"": ""Drama"", ""/m/02b5_l"": ""Teen""}",2260616.0,98.0,2
+2462689,0.1,0.99498743710662,11,9,"{""/m/06cvj"": ""Romantic comedy"", ""/m/0hj3nby"": ""Media Satire"", ""/m/09n5t_"": ""Americana"", ""/m/01t_vv"": ""Comedy-drama"", ""/m/01g6gs"": ""Black-and-white"", ""/m/07s9rl0"": ""Drama"", ""/m/01z4y"": ""Comedy"", ""/m/02l7c8"": ""Romance Film""}",,122.0,3
+20532852,-1.0,0.0,0,6,"{""/m/02hmvc"": ""Short Film"", ""/m/0hqxf"": ""Family Film"", ""/m/0hcr"": ""Animation""}",,,1
+15401493,0.058823529411764705,0.9982683969692436,9,8,"{""/m/01z4y"": ""Comedy""}",,90.0,3
+18188932,-1.0,0.0,0,5,"{""/m/0lsxr"": ""Crime Fiction"", ""/m/07s9rl0"": ""Drama"", ""/m/01z4y"": ""Comedy"", ""/m/03q4nz"": ""World cinema""}",2705163.0,108.0,1
+2940516,-0.3333333333333333,0.9428090415820634,1,2,"{""/m/0gf28"": ""Parody"", ""/m/01z4y"": ""Comedy""}",,93.0,3
+1335380,-0.16666666666666666,0.9860132971832695,15,21,"{""/m/082gq"": ""War film"", ""/m/06l3bl"": ""Epic"", ""/m/03btsm8"": ""Action/Adventure"", ""/m/04xvlr"": ""Period piece"", ""/m/07s9rl0"": ""Drama"", ""/m/060__y"": ""Film adaptation"", ""/m/02kdv5l"": ""Action"", ""/m/03mqtr"": ""Political drama""}",,212.0,2
+1480747,-0.2537313432835821,0.9672747311056508,25,42,"{""/m/01q03"": ""Cult"", ""/m/01j1n2"": ""Coming of age"", ""/m/01z4y"": ""Comedy"", ""/m/02b5_l"": ""Teen""}",19438638.0,94.0,2
+24448645,-0.5,0.8660254037844386,1,3,"{""/m/03npn"": ""Horror""}",,86.0,3
+15072401,-1.0,0.0,0,3,"{""/m/01jfsb"": ""Thriller"", ""/m/02n4kr"": ""Mystery"", ""/m/05p553"": ""Comedy film"", ""/m/0lsxr"": ""Crime Fiction"", ""/m/03npn"": ""Horror""}",,72.0,1
+4018288,0.25,0.9682458365518543,5,3,"{""/m/07s9rl0"": ""Drama""}",,93.0,3
+4596602,0.1111111111111111,0.9938079899999066,10,8,"{""/m/01jfsb"": ""Thriller"", ""/m/0lsxr"": ""Crime Fiction"", ""/m/0219x_"": ""Indie"", ""/m/04t2t"": ""Martial Arts Film"", ""/m/02l7c8"": ""Romance Film"", ""/m/02kdv5l"": ""Action""}",,90.0,3
+15224586,0.6363636363636364,0.77138921583987,9,2,"{""/m/04xvlr"": ""Period piece"", ""/m/07s9rl0"": ""Drama"", ""/m/0219x_"": ""Indie""}",,112.0,3
+15585766,0.2,0.9797958971132713,6,4,"{""/m/07s9rl0"": ""Drama"", ""/m/082gq"": ""War film""}",,68.0,3
+1760737,-0.6,0.8000000000000002,3,12,"{""/m/01zhp"": ""Computer Animation"", ""/m/02hmvc"": ""Short Film"", ""/m/0hqxf"": ""Family Film"", ""/m/0hcr"": ""Animation""}",,4.0,3
+29062594,1.0,0.0,2,0,"{""/m/07s9rl0"": ""Drama""}",,105.0,0
+29326153,1.0,0.0,2,0,"{""/m/02kdv5l"": ""Action"", ""/m/07s9rl0"": ""Drama"", ""/m/03k9fj"": ""Adventure""}",,90.0,0
+9252321,-0.7333333333333333,0.6798692684790381,2,13,"{""/m/07s9rl0"": ""Drama"", ""/m/0jtdp"": ""Documentary""}",,83.0,3
+8388648,-0.1724137931034483,0.9850246108334966,12,17,"{""/m/07s9rl0"": ""Drama""}",,,2
+10644072,-0.05263157894736842,0.9986139979479092,36,40,{},,,2
+13455076,0.5,0.8660254037844386,6,2,"{""/m/02hmvc"": ""Short Film"", ""/m/01z4y"": ""Comedy"", ""/m/01g6gs"": ""Black-and-white""}",,,3
+33269085,0.0,1.0,3,3,"{""/m/02l7c8"": ""Romance Film"", ""/m/05p553"": ""Comedy film""}",,119.0,3
+2254491,0.0,1.0,6,6,"{""/m/04t36"": ""Musical"", ""/m/02l7c8"": ""Romance Film"", ""/m/01z4y"": ""Comedy"", ""/m/01chg"": ""Bollywood""}",,157.0,3
+447194,-0.3333333333333333,0.9428090415820634,6,12,"{""/m/03g3w"": ""History"", ""/m/02l7c8"": ""Romance Film"", ""/m/02kdv5l"": ""Action"", ""/m/07s9rl0"": ""Drama"", ""/m/03k9fj"": ""Adventure""}",11000000.0,131.0,3
+24165951,1.0,0.0,2,0,"{""/m/01jfsb"": ""Thriller"", ""/m/02l7c8"": ""Romance Film"", ""/m/02kdv5l"": ""Action"", ""/m/03k9fj"": ""Adventure""}",,90.0,0
+18549958,-0.5,0.8660254037844386,2,6,"{""/m/07s9rl0"": ""Drama"", ""/m/0hj3mws"": ""Biopic [feature]""}",,90.0,3
+12978934,-0.2,0.9797958971132712,4,6,"{""/m/0hqxf"": ""Family Film"", ""/m/02h8pkk"": ""Family Drama"", ""/m/07s9rl0"": ""Drama"", ""/m/060__y"": ""Film adaptation""}",28121100.0,109.0,3
+8471210,-0.5833333333333334,0.8122328620674137,5,19,"{""/m/0qdzd"": ""B-movie"", ""/m/03npn"": ""Horror"", ""/m/01585b"": ""Slasher"", ""/m/02n4kr"": ""Mystery""}",2032311.0,87.0,3
+1925869,0.2,0.9797958971132713,9,6,"{""/m/03btsm8"": ""Action/Adventure"", ""/m/0hfjk"": ""Western"", ""/m/02kdv5l"": ""Action"", ""/m/07s9rl0"": ""Drama""}",5250375.0,90.0,3
+10799612,0.14285714285714285,0.989743318610787,8,6,"{""/m/07s9rl0"": ""Drama"", ""/m/06qm3"": ""Screwball comedy"", ""/m/0556j8"": ""Buddy film"", ""/m/01z4y"": ""Comedy""}",,140.0,3
+3150865,-0.09090909090909091,0.9958591954639383,5,6,"{""/m/02hmvc"": ""Short Film"", ""/m/0hqxf"": ""Family Film"", ""/m/01z4y"": ""Comedy"", ""/m/0hcr"": ""Animation""}",,,3
+20591333,1.0,0.0,2,0,"{""/m/07s9rl0"": ""Drama"", ""/m/0219x_"": ""Indie""}",,90.0,0
+28238240,0.0,1.0,1,1,"{""/m/02hmvc"": ""Short Film""}",,20.0,3
+5414895,-0.23404255319148937,0.9722263539400736,18,29,"{""/m/03q4nz"": ""World cinema"", ""/m/03g3w"": ""History"", ""/m/0hj3m_6"": ""Costume Adventure"", ""/m/06l3bl"": ""Epic"", ""/m/03btsm8"": ""Action/Adventure"", ""/m/07s9rl0"": ""Drama"", ""/m/082gq"": ""War film"", ""/m/0hj3n6f"": ""Historical Epic"", ""/m/02kdv5l"": ""Action"", ""/m/0gw5qqq"": ""Chinese Movies""}",248400000.0,150.0,2
+17124781,-0.15789473684210525,0.9874559494365115,8,11,"{""/m/03k9fj"": ""Adventure"", ""/m/03q4nz"": ""World cinema"", ""/m/0hj3m_6"": ""Costume Adventure"", ""/m/04xvlr"": ""Period piece"", ""/m/03btsm8"": ""Action/Adventure"", ""/m/0hfjk"": ""Western"", ""/m/01z4y"": ""Comedy"", ""/m/02kdv5l"": ""Action""}",44261209.0,128.0,3
+5425205,0.2727272727272727,0.962091385841669,14,8,"{""/m/01jfsb"": ""Thriller"", ""/m/02wtdps"": ""Crime Thriller"", ""/m/0lsxr"": ""Crime Fiction"", ""/m/07s9rl0"": ""Drama"", ""/m/02n4kr"": ""Mystery""}",17266000.0,96.0,3
+28207941,-1.0,0.0,0,2,"{""/m/02hmvc"": ""Short Film""}",,7.0,1
+14330027,0.6,0.8000000000000002,4,1,"{""/m/02l7c8"": ""Romance Film"", ""/m/01z4y"": ""Comedy""}",,103.0,3
+4356664,-0.1111111111111111,0.9938079899999066,4,5,"{""/m/01z4y"": ""Comedy"", ""/m/01chg"": ""Bollywood""}",,163.0,3
+19174305,-0.1,0.99498743710662,9,11,"{""/m/07s9rl0"": ""Drama"", ""/m/03q4nz"": ""World cinema""}",,105.0,3
+33417831,-1.0,0.0,0,6,"{""/m/05p553"": ""Comedy film"", ""/m/01z4y"": ""Comedy""}",,107.0,1
+2408359,-0.6666666666666666,0.7453559924999298,1,5,"{""/m/06cvj"": ""Romantic comedy"", ""/m/0220p9g"": ""Musical comedy"", ""/m/04t36"": ""Musical"", ""/m/01z4y"": ""Comedy"", ""/m/0hj3mw3"": ""Beach Film"", ""/m/02l7c8"": ""Romance Film"", ""/m/02b5_l"": ""Teen""}",,100.0,3
+1838882,0.14285714285714285,0.989743318610787,12,9,"{""/m/08322"": ""Wuxia"", ""/m/0hj3n2k"": ""Fantasy Adventure"", ""/m/03k9fj"": ""Adventure"", ""/m/03q4nz"": ""World cinema"", ""/m/04pbhw"": ""Superhero movie"", ""/m/0gw5qqq"": ""Chinese Movies"", ""/m/03btsm8"": ""Action/Adventure"", ""/m/04t2t"": ""Martial Arts Film"", ""/m/01hmnh"": ""Fantasy"", ""/m/03rzvv"": ""Romantic fantasy""}",,130.0,3
+25755313,-1.0,0.0,0,1,"{""/m/07s9rl0"": ""Drama""}",,120.0,1
+10016997,-0.1111111111111111,0.9938079899999066,4,5,"{""/m/02hmvc"": ""Short Film"", ""/m/0hqxf"": ""Family Film"", ""/m/01z4y"": ""Comedy"", ""/m/0hcr"": ""Animation""}",,8.0,3
+8153846,-0.3333333333333333,0.9428090415820634,2,4,"{""/m/0vgkd"": ""Black comedy"", ""/m/06nbt"": ""Satire"", ""/m/01z4y"": ""Comedy""}",,93.0,3
+24486071,-0.3333333333333333,0.9428090415820634,1,2,"{""/m/068d7h"": ""Romantic drama"", ""/m/02l7c8"": ""Romance Film"", ""/m/06ppq"": ""Silent film""}",,,3
+4466226,-0.2,0.9797958971132713,14,21,"{""/m/0219x_"": ""Indie"", ""/m/0424mc"": ""Experimental film"", ""/m/04xvlr"": ""Period piece"", ""/m/04t36"": ""Musical"", ""/m/01hmnh"": ""Fantasy"", ""/m/01z4y"": ""Comedy"", ""/m/07s9rl0"": ""Drama"", ""/m/02l7c8"": ""Romance Film"", ""/m/02wtdkf"": ""Musical Drama"", ""/m/0k345"": ""Avant-garde""}",,100.0,2
+27975390,-1.0,0.0,0,1,"{""/m/04t36"": ""Musical""}",,,1
+6167400,0.1111111111111111,0.9938079899999066,5,4,"{""/m/0hn10"": ""LGBT"", ""/m/07s9rl0"": ""Drama"", ""/m/0219x_"": ""Indie"", ""/m/0d63kt"": ""Gay""}",47370.0,97.0,3
+17711304,-0.2413793103448276,0.9704308468600199,11,18,"{""/m/01g6gs"": ""Black-and-white"", ""/m/0bkbm"": ""Spy""}",,94.0,2
+18392317,0.45454545454545453,0.8907235428302466,8,3,"{""/m/02hmvc"": ""Short Film""}",,11.0,3
+15161056,-0.21052631578947367,0.9775881905793006,15,23,"{""/m/0qdzd"": ""B-movie"", ""/m/03npn"": ""Horror"", ""/m/01585b"": ""Slasher"", ""/m/02b5_l"": ""Teen""}",,72.0,2
+21500407,0.5555555555555556,0.8314794192830982,21,6,"{""/m/068d7h"": ""Romantic drama"", ""/m/02l7c8"": ""Romance Film"", ""/m/02h8pkk"": ""Family Drama"", ""/m/07s9rl0"": ""Drama"", ""/m/01lrrt"": ""Melodrama""}",,85.0,3
+3459677,-0.3333333333333333,0.9428090415820634,2,4,"{""/m/06cvj"": ""Romantic comedy"", ""/m/03q4nz"": ""World cinema"", ""/m/07s9rl0"": ""Drama"", ""/m/01z4y"": ""Comedy"", ""/m/068d7h"": ""Romantic drama"", ""/m/02l7c8"": ""Romance Film""}",,133.0,3
+34420857,0.23076923076923078,0.9730085108210399,8,5,"{""/m/04t36"": ""Musical""}",,125.0,3
+18369853,-0.15789473684210525,0.9874559494365115,24,33,"{""/m/02hmvc"": ""Short Film"", ""/m/0hqxf"": ""Family Film"", ""/m/01z4y"": ""Comedy"", ""/m/0hcr"": ""Animation""}",,9.0,2
+529276,-0.3125,0.9499177595981665,11,21,"{""/m/03btsm8"": ""Action/Adventure"", ""/m/06vxwl5"": ""Natural horror films"", ""/m/02kdv5l"": ""Action"", ""/m/03npn"": ""Horror"", ""/m/01jfsb"": ""Thriller""}",51881013.0,91.0,2
+20631892,-0.23076923076923078,0.9730085108210398,10,16,"{""/m/02kdv5l"": ""Action""}",,,3
+24577134,0.5,0.8660254037844386,6,2,"{""/m/068d7h"": ""Romantic drama"", ""/m/02l7c8"": ""Romance Film"", ""/m/07s9rl0"": ""Drama""}",,76.0,3
+32556450,-0.3333333333333333,0.9428090415820634,1,2,"{""/m/07s9rl0"": ""Drama""}",,94.0,3
+455089,-0.2857142857142857,0.9583148474999099,10,18,"{""/m/01q03"": ""Cult"", ""/m/01z4y"": ""Comedy""}",,92.0,3
+23266463,0.0,1.0,3,3,"{""/m/07s9rl0"": ""Drama"", ""/m/015w9s"": ""Television movie""}",,86.0,3
+35779717,-0.18518518518518517,0.982703641586785,11,16,"{""/m/01jfsb"": ""Thriller"", ""/m/02hmvc"": ""Short Film"", ""/m/03npn"": ""Horror""}",,6.5,3
+23299845,0.75,0.6614378277661477,7,1,"{""/m/03q4nz"": ""World cinema"", ""/m/0jtdp"": ""Documentary""}",,99.0,3
+226664,-0.1891891891891892,0.9819406553829702,15,22,"{""/m/0219x_"": ""Indie"", ""/m/03p5xs"": ""Comedy of manners"", ""/m/01t_vv"": ""Comedy-drama"", ""/m/07s9rl0"": ""Drama"", ""/m/01z4y"": ""Comedy"", ""/m/0vgkd"": ""Black comedy"", ""/m/0q9mp"": ""Tragicomedy""}",105834556.0,120.0,2
+25113407,0.0,1.0,1,1,"{""/m/01z02hx"": ""Sports"", ""/m/07s9rl0"": ""Drama""}",,100.0,3
+27403920,0.07317073170731707,0.9973194292810182,22,19,"{""/m/01lrrt"": ""Melodrama"", ""/m/07s9rl0"": ""Drama""}",,97.0,2
+2524925,-0.043478260869565216,0.9990543733109614,11,12,"{""/m/03k9fj"": ""Adventure"", ""/m/0hj3myq"": ""Children's/Family"", ""/m/0hcr"": ""Animation"", ""/m/0bj8m2"": ""Children's"", ""/m/04rlf"": ""Music"", ""/m/0hqxf"": ""Family Film"", ""/m/0hj3n26"": ""Family-Oriented Adventure""}",,71.0,3
+657446,-0.21428571428571427,0.9767710236555244,11,17,"{""/m/09q17"": ""Slapstick"", ""/m/0hj3n2s"": ""Fantasy Comedy"", ""/m/01hmnh"": ""Fantasy"", ""/m/01z4y"": ""Comedy"", ""/m/0hj3n0k"": ""Domestic Comedy""}",302710615.0,86.0,3
+1591973,-0.15789473684210525,0.9874559494365113,16,22,"{""/m/01jfsb"": ""Thriller"", ""/m/03npn"": ""Horror"", ""/m/09blyk"": ""Psychological thriller"", ""/m/01g6gs"": ""Black-and-white"", ""/m/02n4kr"": ""Mystery"", ""/m/02wtdps"": ""Crime Thriller"", ""/m/05c4g7"": ""Psycho-biddy""}",7000000.0,133.0,2
+12383757,-1.0,0.0,0,1,"{""/m/03btsm8"": ""Action/Adventure"", ""/m/0hfjk"": ""Western"", ""/m/02kdv5l"": ""Action"", ""/m/0hj3mvm"": ""B-Western"", ""/m/01g6gs"": ""Black-and-white""}",,57.0,1
+4355919,0.0,1.0,2,2,"{""/m/07s9rl0"": ""Drama""}",,93.0,3
+32163620,1.0,0.0,4,0,"{""/m/02n4kr"": ""Mystery"", ""/m/02l7c8"": ""Romance Film"", ""/m/01hmnh"": ""Fantasy"", ""/m/07s9rl0"": ""Drama""}",,120.0,0
+11685571,-0.04,0.9991996797437438,12,13,"{""/m/07s9rl0"": ""Drama"", ""/m/087lqx"": ""Pre-Code"", ""/m/01g6gs"": ""Black-and-white""}",,80.0,3
+4039635,-0.2,0.9797958971132713,6,9,"{""/m/06n90"": ""Science Fiction"", ""/m/0l4h_"": ""Mockumentary""}",,75.0,3
+17371197,-0.42857142857142855,0.9035079029052512,2,5,"{""/m/01jfsb"": ""Thriller"", ""/m/09blyk"": ""Psychological thriller"", ""/m/03btsm8"": ""Action/Adventure"", ""/m/07s9rl0"": ""Drama"", ""/m/02wtdps"": ""Crime Thriller"", ""/m/02kdv5l"": ""Action""}",,,3
+1282593,-0.2903225806451613,0.9569288370446015,11,20,"{""/m/0hn10"": ""LGBT"", ""/m/06cvj"": ""Romantic comedy"", ""/m/0219x_"": ""Indie"", ""/m/0d63kt"": ""Gay"", ""/m/0bc42t_"": ""Gay Interest"", ""/m/01j1n2"": ""Coming of age"", ""/m/01z4y"": ""Comedy"", ""/m/04tkhfk"": ""Gay Themed"", ""/m/07s9rl0"": ""Drama"", ""/m/068d7h"": ""Romantic drama"", ""/m/02l7c8"": ""Romance Film""}",1977544.0,94.0,2
+7504323,0.0,1.0,2,2,"{""/m/02hmvc"": ""Short Film"", ""/m/0hqxf"": ""Family Film"", ""/m/01z4y"": ""Comedy"", ""/m/0hcr"": ""Animation""}",,,3
+7675415,-0.38461538461538464,0.9230769230769231,4,9,"{""/m/07s9rl0"": ""Drama"", ""/m/03q4nz"": ""World cinema"", ""/m/01g6gs"": ""Black-and-white"", ""/m/082gq"": ""War film""}",,110.0,3
+3109393,-0.5,0.8660254037844386,1,3,"{""/m/0gw5n2f"": ""Japanese Movies"", ""/m/03q4nz"": ""World cinema"", ""/m/03btsm8"": ""Action/Adventure"", ""/m/04t2t"": ""Martial Arts Film"", ""/m/02kdv5l"": ""Action"", ""/m/0gw5qqq"": ""Chinese Movies""}",,82.0,3
+7580720,0.30434782608695654,0.9525609695742019,30,16,"{""/m/02l7c8"": ""Romance Film"", ""/m/07s9rl0"": ""Drama"", ""/m/04t36"": ""Musical""}",,143.0,2
+457561,0.23076923076923078,0.9730085108210399,8,5,"{""/m/04p5fxn"": ""Christian film"", ""/m/06ppq"": ""Silent film"", ""/m/017fp"": ""Biography"", ""/m/0219x_"": ""Indie"", ""/m/03q4nz"": ""World cinema"", ""/m/04xvh5"": ""Costume drama"", ""/m/0hj3mws"": ""Biopic [feature]"", ""/m/06l3bl"": ""Epic"", ""/m/01g6gs"": ""Black-and-white"", ""/m/07s9rl0"": ""Drama"", ""/m/0hj3n57"": ""Hagiography"", ""/m/082gq"": ""War film"", ""/m/02p0szs"": ""Historical fiction"", ""/m/03mqtr"": ""Political drama""}",,110.0,3
+32137084,0.5,0.8660254037844386,12,4,"{""/m/03btsm8"": ""Action/Adventure"", ""/m/01jfsb"": ""Thriller"", ""/m/02kdv5l"": ""Action"", ""/m/07s9rl0"": ""Drama"", ""/m/03q4nz"": ""World cinema""}",,152.0,3
+4072739,-0.3333333333333333,0.9428090415820634,1,2,"{""/m/01jfsb"": ""Thriller"", ""/m/02n4kr"": ""Mystery"", ""/m/0lsxr"": ""Crime Fiction""}",,96.0,3
+8034072,0.3684210526315789,0.929659038560826,13,6,"{""/m/04t36"": ""Musical"", ""/m/07s9rl0"": ""Drama"", ""/m/01chg"": ""Bollywood"", ""/m/03q4nz"": ""World cinema""}",,155.0,3
+3470969,-0.02857142857142857,0.9995917534020514,17,18,"{""/m/01jfsb"": ""Thriller"", ""/m/06n90"": ""Science Fiction"", ""/m/03q4nz"": ""World cinema"", ""/m/0fdjb"": ""Supernatural"", ""/m/01hmnh"": ""Fantasy"", ""/m/02kdv5l"": ""Action""}",38862712.0,139.0,2
+4016437,-0.058823529411764705,0.9982683969692436,8,9,"{""/m/068d7h"": ""Romantic drama"", ""/m/02l7c8"": ""Romance Film"", ""/m/07s9rl0"": ""Drama"", ""/m/04xvlr"": ""Period piece""}",30036000.0,150.0,3
+17060199,-0.4375,0.899218410621135,9,23,"{""/m/06cvj"": ""Romantic comedy"", ""/m/0219x_"": ""Indie"", ""/m/01t_vv"": ""Comedy-drama"", ""/m/02hmvc"": ""Short Film"", ""/m/07s9rl0"": ""Drama"", ""/m/01z4y"": ""Comedy"", ""/m/02l7c8"": ""Romance Film""}",,104.0,2
+7481126,0.38461538461538464,0.9230769230769231,9,4,"{""/m/01jfsb"": ""Thriller"", ""/m/02n4kr"": ""Mystery"", ""/m/04t36"": ""Musical"", ""/m/07s9rl0"": ""Drama"", ""/m/01z4y"": ""Comedy"", ""/m/02l7c8"": ""Romance Film""}",,150.0,3
+9031450,0.0,1.0,7,7,"{""/m/02l7c8"": ""Romance Film"", ""/m/01z4y"": ""Comedy""}",,98.0,3
+1520023,-0.03125,0.9995115994824673,93,99,"{""/m/03npn"": ""Horror"", ""/m/03q4nz"": ""World cinema"", ""/m/0hcr"": ""Animation"", ""/m/0jxy"": ""Anime"", ""/m/01hmnh"": ""Fantasy"", ""/m/0gw5n2f"": ""Japanese Movies""}",,100.0,2
+14582951,-0.4,0.9165151389911681,3,7,"{""/m/07s9rl0"": ""Drama"", ""/m/03mqtr"": ""Political drama"", ""/m/082gq"": ""War film""}",,113.0,3
+4803289,-0.3142857142857143,0.9493284414763515,12,23,"{""/m/01jfsb"": ""Thriller"", ""/m/0lsxr"": ""Crime Fiction"", ""/m/02kdv5l"": ""Action"", ""/m/03btsm8"": ""Action/Adventure""}",,101.0,2
+1788654,-0.41935483870967744,0.9078224051271154,9,22,"{""/m/01jfsb"": ""Thriller"", ""/m/0lsxr"": ""Crime Fiction"", ""/m/0hj3m_x"": ""Crime Comedy"", ""/m/01t_vv"": ""Comedy-drama"", ""/m/07s9rl0"": ""Drama"", ""/m/01z4y"": ""Comedy"", ""/m/0vgkd"": ""Black comedy"", ""/m/03j0dp"": ""Neo-noir""}",,95.0,2
+25388139,0.25,0.9682458365518543,5,3,"{""/m/07s9rl0"": ""Drama""}",,,3
+21735071,-0.14285714285714285,0.989743318610787,3,4,"{""/m/0vgkd"": ""Black comedy""}",,104.0,3
+15912738,-0.17647058823529413,0.9843059135695007,7,10,"{""/m/01jfsb"": ""Thriller"", ""/m/03btsm8"": ""Action/Adventure"", ""/m/0gw5n2f"": ""Japanese Movies"", ""/m/01hmnh"": ""Fantasy"", ""/m/03q4nz"": ""World cinema""}",35227275.0,129.0,3
+24589422,0.15,0.9886859966642594,23,17,"{""/m/068d7h"": ""Romantic drama"", ""/m/02l7c8"": ""Romance Film"", ""/m/07s9rl0"": ""Drama"", ""/m/0219x_"": ""Indie""}",,103.0,2
+4767342,0.5,0.8660254037844386,3,1,"{""/m/07s9rl0"": ""Drama"", ""/m/0j1d47h"": ""Filipino"", ""/m/03q4nz"": ""World cinema"", ""/m/0gxblw4"": ""Filipino Movies""}",,116.0,3
+28177482,-0.5384615384615384,0.8426500884694864,3,10,"{""/m/0lsxr"": ""Crime Fiction"", ""/m/07s9rl0"": ""Drama""}",,96.0,3
+3662683,-0.0967741935483871,0.9953063626155813,14,17,"{""/m/0cshrf"": ""Political cinema"", ""/m/0gf28"": ""Parody"", ""/m/05mrx8"": ""Political satire"", ""/m/01z4y"": ""Comedy"", ""/m/0hj3nby"": ""Media Satire""}",16458459.0,108.0,2
+35068740,0.2727272727272727,0.9620913858416693,7,4,"{""/m/07s9rl0"": ""Drama""}",,135.0,3
+9709159,0.0,1.0,9,9,"{""/m/07s9rl0"": ""Drama"", ""/m/0hj3m_x"": ""Crime Comedy"", ""/m/01z4y"": ""Comedy"", ""/m/03q4nz"": ""World cinema""}",,87.0,3
+25094002,1.0,0.0,2,0,"{""/m/01z4y"": ""Comedy""}",,92.0,0
+30673459,-0.14285714285714285,0.989743318610787,6,8,"{""/m/01jfsb"": ""Thriller""}",,,3
+11624345,-0.3333333333333333,0.9428090415820634,2,4,"{""/m/01jfsb"": ""Thriller"", ""/m/03q4nz"": ""World cinema"", ""/m/03btsm8"": ""Action/Adventure"", ""/m/07s9rl0"": ""Drama"", ""/m/068d7h"": ""Romantic drama"", ""/m/02l7c8"": ""Romance Film""}",,90.0,3
+5786261,-0.2727272727272727,0.9620913858416693,8,14,"{""/m/04t36"": ""Musical""}",,,3
+30706685,-0.2,0.9797958971132713,2,3,"{""/m/05p553"": ""Comedy film""}",,108.0,3
+33837735,-1.0,0.0,0,1,"{""/m/02kdv5l"": ""Action"", ""/m/03k9fj"": ""Adventure""}",,,1
+21132951,-0.1111111111111111,0.9938079899999066,8,10,"{""/m/01jfsb"": ""Thriller"", ""/m/02n4kr"": ""Mystery""}",,115.0,3
+18906519,0.0,1.0,1,1,"{""/m/01jfsb"": ""Thriller"", ""/m/0vjs6"": ""Detective"", ""/m/07s9rl0"": ""Drama"", ""/m/060__y"": ""Film adaptation"", ""/m/02wtdps"": ""Crime Thriller"", ""/m/02xh1"": ""Film noir""}",,94.0,3
+30490651,0.25,0.9682458365518543,10,6,"{""/m/02l7c8"": ""Romance Film"", ""/m/07s9rl0"": ""Drama""}",,,3
+33745750,0.0,1.0,5,5,"{""/m/03hn0"": ""Historical drama""}",,131.0,3
+13542692,-0.3333333333333333,0.9428090415820634,1,2,"{""/m/07s9rl0"": ""Drama"", ""/m/01z4y"": ""Comedy"", ""/m/01g6gs"": ""Black-and-white""}",,104.0,3
+27380443,0.0,1.0,2,2,"{""/m/02hmvc"": ""Short Film"", ""/m/01z4y"": ""Comedy""}",,,3
+473286,0.0,1.0,1,1,"{""/m/06cvj"": ""Romantic comedy"", ""/m/02l7c8"": ""Romance Film"", ""/m/01z4y"": ""Comedy""}",13585075.0,108.0,3
+33942920,0.2413793103448276,0.9704308468600199,36,22,"{""/m/01hmnh"": ""Fantasy"", ""/m/03k9fj"": ""Adventure""}",,240.0,2
+11388102,0.25,0.9682458365518543,5,3,"{""/m/07s9rl0"": ""Drama"", ""/m/06ppq"": ""Silent film"", ""/m/01t_vv"": ""Comedy-drama"", ""/m/01g6gs"": ""Black-and-white""}",,65.0,3
+19757981,-1.0,0.0,0,3,"{""/m/02hmvc"": ""Short Film"", ""/m/0hqxf"": ""Family Film"", ""/m/01z4y"": ""Comedy"", ""/m/01g6gs"": ""Black-and-white""}",,10.0,1
+3644125,-0.6521739130434783,0.7580693814853344,4,19,"{""/m/0lsxr"": ""Crime Fiction"", ""/m/01jfsb"": ""Thriller"", ""/m/0gw5w78"": ""Gangster Film"", ""/m/05c3mp2"": ""Prison film"", ""/m/01g6gs"": ""Black-and-white"", ""/m/07s9rl0"": ""Drama"", ""/m/0d1w9"": ""Prison""}",,92.0,3
+21450904,0.0,1.0,1,1,"{""/m/0gf28"": ""Parody"", ""/m/06n90"": ""Science Fiction"", ""/m/0qdzd"": ""B-movie"", ""/m/05p553"": ""Comedy film"", ""/m/03npn"": ""Horror"", ""/m/02kdv5l"": ""Action""}",,93.0,3
+11823946,0.047619047619047616,0.9988655696858585,11,10,"{""/m/06cvj"": ""Romantic comedy"", ""/m/02l7c8"": ""Romance Film"", ""/m/07s9rl0"": ""Drama"", ""/m/01z4y"": ""Comedy"", ""/m/060__y"": ""Film adaptation""}",588621.0,134.0,3
+6575053,-0.8918918918918919,0.4522486629913922,2,35,"{""/m/01jfsb"": ""Thriller"", ""/m/06vxwl5"": ""Natural horror films"", ""/m/06n90"": ""Science Fiction"", ""/m/03npn"": ""Horror"", ""/m/0cq22z7"": ""Sci-Fi Horror"", ""/m/0hj3m_q"": ""Creature Film""}",8143225.0,99.0,1
+21714981,0.5,0.8660254037844386,3,1,"{""/m/07s9rl0"": ""Drama""}",,,3
+11990695,-0.25,0.9682458365518543,15,25,"{""/m/01jfsb"": ""Thriller"", ""/m/06vxwl5"": ""Natural horror films"", ""/m/06n90"": ""Science Fiction"", ""/m/03npn"": ""Horror"", ""/m/015w9s"": ""Television movie"", ""/m/03btsm8"": ""Action/Adventure"", ""/m/02kdv5l"": ""Action""}",,84.0,2
+3649186,-0.04,0.9991996797437438,12,13,"{""/m/01lrrt"": ""Melodrama"", ""/m/02n4lw"": ""Art film"", ""/m/03q4nz"": ""World cinema"", ""/m/01g6gs"": ""Black-and-white"", ""/m/07s9rl0"": ""Drama"", ""/m/068d7h"": ""Romantic drama"", ""/m/02l7c8"": ""Romance Film""}",,91.0,3
+6935978,0.0,1.0,5,5,"{""/m/0hfjk"": ""Western""}",,85.0,3
+12092931,1.0,0.0,2,0,"{""/m/01jfsb"": ""Thriller"", ""/m/068d7h"": ""Romantic drama"", ""/m/02l7c8"": ""Romance Film"", ""/m/0lsxr"": ""Crime Fiction"", ""/m/07s9rl0"": ""Drama""}",,85.0,0
+1596505,-0.3333333333333333,0.9428090415820634,1,2,"{""/m/01jfsb"": ""Thriller"", ""/m/0hj3n0w"": ""Ensemble Film"", ""/m/028v3"": ""Detective fiction"", ""/m/0219x_"": ""Indie"", ""/m/0vjs6"": ""Detective"", ""/m/03q4nz"": ""World cinema"", ""/m/02n4kr"": ""Mystery"", ""/m/07s9rl0"": ""Drama"", ""/m/02wtdps"": ""Crime Thriller""}",,121.0,3
+11901512,-1.0,0.0,0,1,"{""/m/02hmvc"": ""Short Film"", ""/m/04t36"": ""Musical"", ""/m/03npn"": ""Horror"", ""/m/01z4y"": ""Comedy""}",,22.0,1
+25807103,-1.0,0.0,0,2,"{""/m/02hmvc"": ""Short Film""}",,30.0,1
+20903293,-0.1891891891891892,0.9819406553829702,15,22,"{""/m/0lsxr"": ""Crime Fiction"", ""/m/02kdv5l"": ""Action"", ""/m/07s9rl0"": ""Drama"", ""/m/01z4y"": ""Comedy""}",,,2
+27387452,0.23529411764705882,0.9719242142269592,21,13,"{""/m/0hqxf"": ""Family Film"", ""/m/01z4y"": ""Comedy""}",,,2
+235406,-0.36363636363636365,0.9315409787235999,7,15,"{""/m/01chg"": ""Bollywood"", ""/m/01lrrt"": ""Melodrama"", ""/m/07s9rl0"": ""Drama"", ""/m/06l3bl"": ""Epic"", ""/m/03q4nz"": ""World cinema""}",,162.0,3
+7718873,-0.4,0.9165151389911679,12,28,"{""/m/0g092b"": ""Monster movie"", ""/m/06vxwl5"": ""Natural horror films"", ""/m/06n90"": ""Science Fiction"", ""/m/03npn"": ""Horror"", ""/m/0hj3m_q"": ""Creature Film"", ""/m/0qdzd"": ""B-movie""}",,90.0,2
+142423,0.12,0.9927738916792685,14,11,"{""/m/017fp"": ""Biography"", ""/m/03q4nz"": ""World cinema"", ""/m/04xvlr"": ""Period piece"", ""/m/07s9rl0"": ""Drama"", ""/m/01z4y"": ""Comedy"", ""/m/068d7h"": ""Romantic drama"", ""/m/02l7c8"": ""Romance Film""}",21848932.0,108.0,3
+29551629,1.0,0.0,2,0,"{""/m/0jtdp"": ""Documentary""}",,96.0,0
+5107196,0.6,0.8,4,1,"{""/m/03npn"": ""Horror"", ""/m/01585b"": ""Slasher"", ""/m/02b5_l"": ""Teen""}",,81.0,3
+30476388,0.0,1.0,3,3,"{""/m/05p553"": ""Comedy film"", ""/m/07s9rl0"": ""Drama""}",,90.0,3
+30005855,-1.0,0.0,0,2,"{""/m/01q03"": ""Cult"", ""/m/07s9rl0"": ""Drama"", ""/m/02l7c8"": ""Romance Film"", ""/m/03npn"": ""Horror"", ""/m/01585b"": ""Slasher""}",,,1
+6747334,0.3333333333333333,0.9428090415820634,2,1,"{""/m/06ppq"": ""Silent film"", ""/m/07s9rl0"": ""Drama"", ""/m/0219x_"": ""Indie""}",,,3
+2209027,-0.16666666666666666,0.9860132971832695,25,35,"{""/m/02l7c8"": ""Romance Film"", ""/m/07s9rl0"": ""Drama""}",,185.0,2
+14746604,-0.3333333333333333,0.9428090415820634,2,4,"{""/m/02hmvc"": ""Short Film"", ""/m/01z4y"": ""Comedy"", ""/m/01g6gs"": ""Black-and-white""}",,,3
+8191245,0.0,1.0,1,1,"{""/m/01jfsb"": ""Thriller"", ""/m/02wtdps"": ""Crime Thriller"", ""/m/07s9rl0"": ""Drama"", ""/m/01g6gs"": ""Black-and-white"", ""/m/0hj3n01"": ""Crime Drama""}",,69.0,3
+20914710,0.5,0.8660254037844386,3,1,"{""/m/0gw5qqq"": ""Chinese Movies""}",,,3
+27369092,0.14285714285714285,0.989743318610787,4,3,"{""/m/03btsm8"": ""Action/Adventure"", ""/m/068d7h"": ""Romantic drama"", ""/m/0hfjk"": ""Western""}",,97.0,3
+24268011,0.42857142857142855,0.9035079029052511,45,18,"{""/m/02l7c8"": ""Romance Film"", ""/m/07s9rl0"": ""Drama""}",,145.0,2
+4154028,-0.42857142857142855,0.9035079029052511,18,45,"{""/m/01jfsb"": ""Thriller"", ""/m/03npn"": ""Horror"", ""/m/0fdjb"": ""Supernatural"", ""/m/01tz3c"": ""Anthology"", ""/m/09blyk"": ""Psychological thriller"", ""/m/01q03"": ""Cult"", ""/m/07s9rl0"": ""Drama"", ""/m/060__y"": ""Film adaptation""}",349618.0,117.0,2
+770277,0.08196721311475409,0.9966350264636502,33,28,"{""/m/03q4nz"": ""World cinema"", ""/m/06l3bl"": ""Epic"", ""/m/07s9rl0"": ""Drama"", ""/m/082gq"": ""War film"", ""/m/068d7h"": ""Romantic drama"", ""/m/02l7c8"": ""Romance Film""}",,156.0,2
+18133264,-1.0,0.0,0,4,"{""/m/07s9rl0"": ""Drama""}",,,1
+25588342,-0.6666666666666666,0.7453559924999298,1,5,"{""/m/0hj3m_x"": ""Crime Comedy"", ""/m/01z4y"": ""Comedy""}",,106.0,3
+22479768,-0.6,0.8000000000000002,1,4,"{""/m/018td"": ""Blaxploitation"", ""/m/0771_"": ""Spaghetti Western"", ""/m/0hfjk"": ""Western""}",,103.0,3
+6002183,0.037037037037037035,0.9993138935727438,14,13,"{""/m/01zhp"": ""Computer Animation"", ""/m/0hqxf"": ""Family Film"", ""/m/0hcr"": ""Animation"", ""/m/03k9fj"": ""Adventure"", ""/m/01z4y"": ""Comedy""}",297138014.0,88.0,3
+6540216,1.0,0.0,1,0,"{""/m/0lsxr"": ""Crime Fiction"", ""/m/02kdv5l"": ""Action"", ""/m/07s9rl0"": ""Drama""}",,104.0,0
+31509403,-1.0,0.0,0,4,"{""/m/04t36"": ""Musical"", ""/m/0hqxf"": ""Family Film""}",,56.0,1
+225473,-0.2,0.9797958971132712,4,6,"{""/m/068d7h"": ""Romantic drama"", ""/m/02l7c8"": ""Romance Film"", ""/m/07s9rl0"": ""Drama""}",,117.0,3
+32995532,-0.3333333333333333,0.9428090415820634,2,4,"{""/m/06ppq"": ""Silent film""}",,,3
+36566804,-1.0,0.0,0,3,"{""/m/07s9rl0"": ""Drama""}",,104.0,1
+24073089,-0.13043478260869565,0.9914568913905546,10,13,"{""/m/0vgkd"": ""Black comedy"", ""/m/0hj3n0k"": ""Domestic Comedy"", ""/m/01z4y"": ""Comedy"", ""/m/09q17"": ""Slapstick""}",6132924.0,108.0,3
+30405742,0.7142857142857143,0.6998542122237652,6,1,"{""/m/06n90"": ""Science Fiction"", ""/m/03q4nz"": ""World cinema"", ""/m/0jtdp"": ""Documentary""}",,91.0,3
+23991052,-0.5652173913043478,0.8249419983047944,5,18,"{""/m/0lsxr"": ""Crime Fiction"", ""/m/015w9s"": ""Television movie"", ""/m/02n4kr"": ""Mystery"", ""/m/07s9rl0"": ""Drama"", ""/m/060__y"": ""Film adaptation"", ""/m/068d7h"": ""Romantic drama"", ""/m/02l7c8"": ""Romance Film""}",,100.0,3
+6084851,0.3333333333333333,0.9428090415820634,2,1,"{""/m/01z4y"": ""Comedy""}",,88.0,3
+2322506,-0.13333333333333333,0.9910712498212335,26,34,"{""/m/02hmvc"": ""Short Film"", ""/m/06n90"": ""Science Fiction"", ""/m/01hmnh"": ""Fantasy"", ""/m/03q4nz"": ""World cinema"", ""/m/0hcr"": ""Animation""}",,1.25,2
+13495023,0.0,1.0,1,1,"{""/m/06ppq"": ""Silent film"", ""/m/0219x_"": ""Indie"", ""/m/01g6gs"": ""Black-and-white"", ""/m/02n4kr"": ""Mystery"", ""/m/0hfjk"": ""Western"", ""/m/02kdv5l"": ""Action"", ""/m/0bkbm"": ""Spy""}",,50.0,3
+1813912,-0.2222222222222222,0.9749960430435692,7,11,"{""/m/03btsm8"": ""Action/Adventure"", ""/m/0hfjk"": ""Western"", ""/m/07s9rl0"": ""Drama"", ""/m/0hj3n7y"": ""Indian Western"", ""/m/0hj3mxr"": ""Chase Movie""}",,98.0,3
+23605990,1.0,0.0,1,0,"{""/m/0lsxr"": ""Crime Fiction"", ""/m/02n4kr"": ""Mystery""}",,86.0,0
+32558509,-0.13846153846153847,0.9903678116572974,28,37,"{""/m/01jfsb"": ""Thriller""}",15713724.0,111.0,2
+35030619,0.0,1.0,23,23,"{""/m/07s9rl0"": ""Drama""}",,62.0,2
+9138693,-0.5,0.8660254037844386,1,3,"{""/m/0gw5n2f"": ""Japanese Movies""}",,,3
+19332675,-0.2413793103448276,0.9704308468600199,11,18,"{""/m/060__y"": ""Film adaptation"", ""/m/07s9rl0"": ""Drama"", ""/m/015w9s"": ""Television movie""}",,96.0,2
+19755481,-0.5319148936170213,0.8467978188141445,11,36,"{""/m/01jfsb"": ""Thriller"", ""/m/03npn"": ""Horror"", ""/m/09blyk"": ""Psychological thriller"", ""/m/03pgfj"": ""New Hollywood"", ""/m/0c3351"": ""Suspense""}",17550741.0,107.0,2
+27368886,-0.2,0.9797958971132713,6,9,"{""/m/01jfsb"": ""Thriller"", ""/m/03btsm8"": ""Action/Adventure"", ""/m/07s9rl0"": ""Drama"", ""/m/0c3351"": ""Suspense"", ""/m/02qfv5d"": ""Political thriller"", ""/m/02wtdps"": ""Crime Thriller"", ""/m/02kdv5l"": ""Action""}",,89.0,3
+5925279,-0.09090909090909091,0.9958591954639383,10,12,"{""/m/06ppq"": ""Silent film"", ""/m/01lrrt"": ""Melodrama"", ""/m/0219x_"": ""Indie"", ""/m/01g6gs"": ""Black-and-white"", ""/m/02hmvc"": ""Short Film"", ""/m/04xvlr"": ""Period piece"", ""/m/07s9rl0"": ""Drama""}",,150.0,3
+26499399,-0.02857142857142857,0.9995917534020516,34,36,"{""/m/02kdv5l"": ""Action""}",,152.0,2
+35764248,-0.2,0.9797958971132713,2,3,"{""/m/07s9rl0"": ""Drama""}",,,3
+26393786,-0.09090909090909091,0.9958591954639383,5,6,"{""/m/07s9rl0"": ""Drama""}",,100.0,3
+27997130,1.0,0.0,1,0,"{""/m/05p553"": ""Comedy film""}",,88.0,0
+7429667,0.0,1.0,41,41,"{""/m/06cvj"": ""Romantic comedy"", ""/m/01z4y"": ""Comedy""}",,,2
+30866673,-0.02564102564102564,0.9996712148522015,19,20,"{""/m/01jfsb"": ""Thriller"", ""/m/02kdv5l"": ""Action"", ""/m/07s9rl0"": ""Drama""}",,129.0,2
+34501845,-0.25,0.9682458365518543,3,5,"{""/m/05p553"": ""Comedy film""}",,,3
+30622939,-0.2,0.9797958971132714,12,18,"{""/m/01jfsb"": ""Thriller"", ""/m/0gf28"": ""Parody"", ""/m/02n4kr"": ""Mystery"", ""/m/01z4y"": ""Comedy"", ""/m/0219x_"": ""Indie""}",,93.0,2
+1373219,0.14285714285714285,0.9897433186107871,12,9,"{""/m/03npn"": ""Horror"", ""/m/0hj3n5l"": ""Haunted House Film""}",34409206.0,88.0,3
+2311219,-0.2222222222222222,0.9749960430435692,21,33,"{""/m/01jfsb"": ""Thriller"", ""/m/01f9r0"": ""Docudrama"", ""/m/01z02hx"": ""Sports"", ""/m/04xvlr"": ""Period piece"", ""/m/07s9rl0"": ""Drama"", ""/m/02qfv5d"": ""Political thriller"", ""/m/0bkbm"": ""Spy"", ""/m/03mqtr"": ""Political drama"", ""/m/01xpvb7"": ""Airplanes and airports""}",130358911.0,164.0,2
+26834911,0.0,1.0,2,2,"{""/m/03btsm8"": ""Action/Adventure"", ""/m/01jfsb"": ""Thriller"", ""/m/0cq22f9"": ""Action Thrillers"", ""/m/02kdv5l"": ""Action"", ""/m/0219x_"": ""Indie""}",,86.0,3
+20120996,0.125,0.9921567416492215,27,21,"{""/m/02l7c8"": ""Romance Film"", ""/m/07s9rl0"": ""Drama""}",,94.0,2
+20533021,-0.3333333333333333,0.9428090415820634,1,2,"{""/m/02hmvc"": ""Short Film"", ""/m/05p553"": ""Comedy film"", ""/m/0hqxf"": ""Family Film"", ""/m/0hcr"": ""Animation""}",,,3
+31083557,-0.4603174603174603,0.8877543780387025,17,46,"{""/m/06cvj"": ""Romantic comedy"", ""/m/02l7c8"": ""Romance Film"", ""/m/01z4y"": ""Comedy""}",,91.0,2
+13448042,0.25,0.9682458365518543,5,3,"{""/m/01jfsb"": ""Thriller"", ""/m/03npn"": ""Horror"", ""/m/09blyk"": ""Psychological thriller"", ""/m/03q4nz"": ""World cinema""}",,89.0,3
+18563253,-1.0,0.0,0,3,"{""/m/0lsxr"": ""Crime Fiction"", ""/m/01jfsb"": ""Thriller"", ""/m/01g6gs"": ""Black-and-white""}",,103.0,1
+25858471,-0.2857142857142857,0.9583148474999097,5,9,"{""/m/02hmvc"": ""Short Film"", ""/m/05p553"": ""Comedy film"", ""/m/0hqxf"": ""Family Film"", ""/m/0hcr"": ""Animation""}",,,3
+9916623,-0.3333333333333333,0.9428090415820634,1,2,"{""/m/02kdv5l"": ""Action"", ""/m/03k9fj"": ""Adventure"", ""/m/01g6gs"": ""Black-and-white""}",,,3
+20753929,-0.2,0.9797958971132713,2,3,"{""/m/07s9rl0"": ""Drama"", ""/m/0hj3n0q"": ""Early Black Cinema""}",,107.0,3
+6777222,-0.4146341463414634,0.9099882003013479,12,29,"{""/m/02hmvc"": ""Short Film"", ""/m/04t36"": ""Musical"", ""/m/0bj8m2"": ""Children's"", ""/m/0hcr"": ""Animation""}",,30.0,2
+26464187,-0.5,0.8660254037844386,1,3,"{""/m/0lsxr"": ""Crime Fiction"", ""/m/01z4y"": ""Comedy""}",,69.0,3
+26182742,0.14285714285714285,0.989743318610787,4,3,"{""/m/07s9rl0"": ""Drama"", ""/m/03q4nz"": ""World cinema""}",,120.0,3
+5733324,-0.4,0.9165151389911679,6,14,"{""/m/0219x_"": ""Indie"", ""/m/01z4y"": ""Comedy""}",29309766.0,100.0,3
+8262659,0.06666666666666667,0.9977753031397176,8,7,"{""/m/0gf28"": ""Parody"", ""/m/0hqxf"": ""Family Film"", ""/m/01z4y"": ""Comedy"", ""/m/01g6gs"": ""Black-and-white""}",,78.0,3
+26003987,-0.3333333333333333,0.9428090415820634,2,4,{},,95.0,3
+6285350,0.3333333333333333,0.9428090415820634,2,1,"{""/m/07s9rl0"": ""Drama""}",,100.0,3
+4995581,0.043478260869565216,0.9990543733109615,12,11,"{""/m/01lrrt"": ""Melodrama"", ""/m/0hj3n01"": ""Crime Drama"", ""/m/02h8pkk"": ""Family Drama"", ""/m/02n4kr"": ""Mystery"", ""/m/07s9rl0"": ""Drama"", ""/m/02l7c8"": ""Romance Film"", ""/m/02xh1"": ""Film noir""}",,111.0,3
+20805584,0.3333333333333333,0.9428090415820634,4,2,"{""/m/07s9rl0"": ""Drama"", ""/m/0hj3n01"": ""Crime Drama""}",,86.0,3
+2257358,0.2727272727272727,0.9620913858416693,21,12,"{""/m/04xvh5"": ""Costume drama"", ""/m/04xvlr"": ""Period piece"", ""/m/07s9rl0"": ""Drama"", ""/m/060__y"": ""Film adaptation"", ""/m/068d7h"": ""Romantic drama"", ""/m/02l7c8"": ""Romance Film""}",,113.0,2
+11074454,0.0,1.0,1,1,"{""/m/0lsxr"": ""Crime Fiction"", ""/m/01jfsb"": ""Thriller"", ""/m/07s9rl0"": ""Drama"", ""/m/09blyk"": ""Psychological thriller""}",,93.0,3
+12113134,0.6666666666666666,0.7453559924999298,5,1,"{""/m/01z4y"": ""Comedy""}",,171.0,3
+5239234,-0.25,0.9682458365518543,12,20,"{""/m/01jfsb"": ""Thriller"", ""/m/0lsxr"": ""Crime Fiction"", ""/m/02kdv5l"": ""Action"", ""/m/03btsm8"": ""Action/Adventure""}",,97.0,2
+18066729,-0.3333333333333333,0.9428090415820634,1,2,"{""/m/0gw5n2f"": ""Japanese Movies""}",,115.0,3
+6593182,-0.15384615384615385,0.9880948137434713,11,15,"{""/m/0gf28"": ""Parody"", ""/m/06n90"": ""Science Fiction"", ""/m/03k9fj"": ""Adventure"", ""/m/03btsm8"": ""Action/Adventure"", ""/m/01hmnh"": ""Fantasy"", ""/m/01z4y"": ""Comedy"", ""/m/0h9qh"": ""Monster"", ""/m/02kdv5l"": ""Action"", ""/m/0cq23f0"": ""Sci-Fi Adventure""}",69548641.0,102.0,3
+3257958,-0.5,0.8660254037844386,4,12,"{""/m/0hj3n2s"": ""Fantasy Comedy"", ""/m/0bwgnb"": ""Christmas movie"", ""/m/0hqxf"": ""Family Film"", ""/m/01z4y"": ""Comedy"", ""/m/0hj3n6r"": ""Holiday Film""}",110768122.0,92.0,3
+4716139,0.3333333333333333,0.9428090415820634,4,2,"{""/m/068d7h"": ""Romantic drama"", ""/m/02l7c8"": ""Romance Film"", ""/m/07s9rl0"": ""Drama"", ""/m/0fztc6"": ""Tamil cinema"", ""/m/03q4nz"": ""World cinema""}",,168.0,3
+22480532,-0.5,0.8660254037844386,2,6,"{""/m/0hqxf"": ""Family Film"", ""/m/04zgj2"": ""Educational"", ""/m/04t36"": ""Musical"", ""/m/0hcr"": ""Animation""}",,60.0,3
+9294,-0.4,0.9165151389911679,9,21,"{""/m/01q03"": ""Cult"", ""/m/0qdzd"": ""B-movie"", ""/m/03npn"": ""Horror"", ""/m/0hj3n5l"": ""Haunted House Film"", ""/m/0219x_"": ""Indie""}",29400000.0,85.0,2
+32803232,0.2,0.9797958971132713,3,2,"{""/m/07s9rl0"": ""Drama"", ""/m/03q4nz"": ""World cinema""}",,109.0,3
+3389457,-1.0,0.0,0,2,"{""/m/01jfsb"": ""Thriller"", ""/m/02wtdps"": ""Crime Thriller"", ""/m/02n4kr"": ""Mystery"", ""/m/09blyk"": ""Psychological thriller"", ""/m/0c3351"": ""Suspense""}",,105.0,1
+8511975,1.0,0.0,4,0,"{""/m/03npn"": ""Horror""}",,82.0,0
+24840023,-0.15789473684210525,0.9874559494365115,8,11,"{""/m/01jfsb"": ""Thriller"", ""/m/03btsm8"": ""Action/Adventure"", ""/m/0gw5qqq"": ""Chinese Movies"", ""/m/03q4nz"": ""World cinema"", ""/m/02wtdps"": ""Crime Thriller""}",,100.0,3
+1330432,0.1111111111111111,0.9938079899999066,15,12,"{""/m/06cvj"": ""Romantic comedy"", ""/m/02l7c8"": ""Romance Film"", ""/m/0gsy3b"": ""Sex comedy"", ""/m/01z4y"": ""Comedy"", ""/m/0219x_"": ""Indie""}",26000000.0,95.0,3
+518117,0.30434782608695654,0.952560969574202,15,8,"{""/m/02l7c8"": ""Romance Film"", ""/m/07s9rl0"": ""Drama"", ""/m/04t36"": ""Musical"", ""/m/01chg"": ""Bollywood"", ""/m/082gq"": ""War film""}",,185.0,3
+19389615,-0.3333333333333333,0.9428090415820634,3,6,"{""/m/02hmvc"": ""Short Film"", ""/m/0hj3n26"": ""Family-Oriented Adventure"", ""/m/01z4y"": ""Comedy"", ""/m/01g6gs"": ""Black-and-white"", ""/m/0hj3myq"": ""Children's/Family""}",,20.0,3
+14359457,-0.6666666666666666,0.7453559924999298,1,5,"{""/m/0lsxr"": ""Crime Fiction"", ""/m/07s9rl0"": ""Drama"", ""/m/01z4y"": ""Comedy"", ""/m/03q4nz"": ""World cinema""}",,95.0,3
+6270685,-0.3333333333333333,0.9428090415820634,2,4,"{""/m/06cvj"": ""Romantic comedy"", ""/m/0219x_"": ""Indie"", ""/m/07s9rl0"": ""Drama"", ""/m/01z4y"": ""Comedy"", ""/m/068d7h"": ""Romantic drama"", ""/m/02l7c8"": ""Romance Film""}",,90.0,3
+11250635,-0.07692307692307693,0.9970370305242863,12,14,"{""/m/06n90"": ""Science Fiction"", ""/m/03k9fj"": ""Adventure"", ""/m/0hcr"": ""Animation"", ""/m/02hmvc"": ""Short Film"", ""/m/01hmnh"": ""Fantasy"", ""/m/0hqxf"": ""Family Film"", ""/m/02kdv5l"": ""Action""}",,,3
+6752415,0.05263157894736842,0.9986139979479093,10,9,"{""/m/03npn"": ""Horror"", ""/m/0gxblw4"": ""Filipino Movies""}",,,3
+6369452,-0.25,0.9682458365518543,3,5,"{""/m/06cvj"": ""Romantic comedy"", ""/m/02l7c8"": ""Romance Film"", ""/m/0gsy3b"": ""Sex comedy"", ""/m/01z4y"": ""Comedy""}",16574176.0,106.0,3
+5283066,-0.4166666666666667,0.9090593428863095,7,17,"{""/m/01jfsb"": ""Thriller"", ""/m/0lsxr"": ""Crime Fiction"", ""/m/03npn"": ""Horror"", ""/m/09blyk"": ""Psychological thriller"", ""/m/07s9rl0"": ""Drama"", ""/m/0c3351"": ""Suspense"", ""/m/02wtdps"": ""Crime Thriller"", ""/m/0gw5w78"": ""Gangster Film""}",,103.0,3
+13259610,0.3333333333333333,0.9428090415820634,4,2,"{""/m/03btsm8"": ""Action/Adventure"", ""/m/0gw5n2f"": ""Japanese Movies"", ""/m/07s9rl0"": ""Drama"", ""/m/02n4lw"": ""Art film"", ""/m/03q4nz"": ""World cinema""}",,122.0,3
+4199982,0.0,1.0,3,3,"{""/m/06cvj"": ""Romantic comedy"", ""/m/07s9rl0"": ""Drama"", ""/m/02l7c8"": ""Romance Film"", ""/m/01t_vv"": ""Comedy-drama""}",,105.0,3
+14570672,0.17647058823529413,0.9843059135695006,10,7,"{""/m/07s9rl0"": ""Drama"", ""/m/01lrrt"": ""Melodrama"", ""/m/01j1n2"": ""Coming of age"", ""/m/03mqtr"": ""Political drama""}",,97.0,3
+25098041,-0.45454545454545453,0.8907235428302466,9,24,"{""/m/082gq"": ""War film""}",,100.0,2
+1424603,0.0,1.0,1,1,"{""/m/05p553"": ""Comedy film""}",,,3
+19703899,-0.06666666666666667,0.9977753031397176,7,8,"{""/m/0jtdp"": ""Documentary""}",,60.0,3
+12786966,0.14285714285714285,0.9897433186107871,24,18,"{""/m/01lrrt"": ""Melodrama"", ""/m/07s9rl0"": ""Drama"", ""/m/01g6gs"": ""Black-and-white"", ""/m/02xh1"": ""Film noir""}",,71.0,2
+3523090,0.3333333333333333,0.9428090415820634,2,1,"{""/m/07s9rl0"": ""Drama"", ""/m/03q4nz"": ""World cinema""}",,98.0,3
+20887118,-0.2222222222222222,0.9749960430435692,35,55,"{""/m/06n90"": ""Science Fiction"", ""/m/0cq23f0"": ""Sci-Fi Adventure""}",,112.0,2
+3723154,0.25,0.9682458365518543,5,3,"{""/m/03btsm8"": ""Action/Adventure"", ""/m/0hfjk"": ""Western"", ""/m/0771_"": ""Spaghetti Western"", ""/m/03q4nz"": ""World cinema""}",,98.0,3
+2274938,-0.4166666666666667,0.9090593428863095,7,17,"{""/m/01q03"": ""Cult"", ""/m/03npn"": ""Horror"", ""/m/01585b"": ""Slasher"", ""/m/02b5_l"": ""Teen""}",22722776.0,86.0,3
+14983036,-0.043478260869565216,0.9990543733109615,11,12,"{""/m/02hmvc"": ""Short Film"", ""/m/06ppq"": ""Silent film"", ""/m/01g6gs"": ""Black-and-white"", ""/m/01jk9n"": ""Pornographic movie""}",,10.0,3
+3147170,-0.5,0.8660254037844386,2,6,"{""/m/0gf28"": ""Parody"", ""/m/01z4y"": ""Comedy"", ""/m/09q17"": ""Slapstick""}",2280148.0,103.0,3
+7529479,-0.2,0.9797958971132713,2,3,"{""/m/02l7c8"": ""Romance Film""}",,,3
+29049575,0.0,1.0,1,1,"{""/m/0lsxr"": ""Crime Fiction"", ""/m/02kdv5l"": ""Action"", ""/m/07s9rl0"": ""Drama"", ""/m/0219x_"": ""Indie""}",,120.0,3
+8665259,0.0,1.0,2,2,"{""/m/01z4y"": ""Comedy""}",,99.0,3
+31844153,0.2,0.9797958971132712,6,4,"{""/m/07s9rl0"": ""Drama"", ""/m/01f9r0"": ""Docudrama""}",,88.0,3
+9734319,0.2857142857142857,0.9583148474999097,9,5,{},,,3
+10016740,0.04,0.9991996797437438,13,12,"{""/m/02kdv5l"": ""Action"", ""/m/07s9rl0"": ""Drama""}",,,3
+28983795,0.0,1.0,1,1,"{""/m/0hqxf"": ""Family Film"", ""/m/07s9rl0"": ""Drama""}",,116.0,3
+22829,0.5,0.8660254037844386,6,2,"{""/m/0qdzd"": ""B-movie"", ""/m/0fdjb"": ""Supernatural"", ""/m/01q03"": ""Cult"", ""/m/0jb4p32"": ""Zombie Film"", ""/m/03npn"": ""Horror"", ""/m/06b0n3"": ""Sexploitation""}",,91.0,3
+9141521,0.058823529411764705,0.9982683969692436,9,8,"{""/m/03npn"": ""Horror"", ""/m/02kdv5l"": ""Action"", ""/m/07s9rl0"": ""Drama"", ""/m/01585b"": ""Slasher""}",,90.0,3
+12333653,-0.5,0.8660254037844386,2,6,"{""/m/01jfsb"": ""Thriller"", ""/m/0lsxr"": ""Crime Fiction"", ""/m/0219x_"": ""Indie"", ""/m/04t2t"": ""Martial Arts Film"", ""/m/02kdv5l"": ""Action"", ""/m/03k9fj"": ""Adventure""}",7496681.0,106.0,3
+34506820,0.3333333333333333,0.9428090415820634,2,1,"{""/m/05p553"": ""Comedy film"", ""/m/01hmnh"": ""Fantasy"", ""/m/06n90"": ""Science Fiction""}",,80.0,3
+11627124,-0.4,0.9165151389911679,3,7,"{""/m/02l7c8"": ""Romance Film""}",,,3
+1307956,-0.2,0.9797958971132712,4,6,"{""/m/0hn10"": ""LGBT"", ""/m/06cvj"": ""Romantic comedy"", ""/m/03p5xs"": ""Comedy of manners"", ""/m/01t_vv"": ""Comedy-drama"", ""/m/04xvlr"": ""Period piece"", ""/m/07s9rl0"": ""Drama"", ""/m/01z4y"": ""Comedy"", ""/m/068d7h"": ""Romantic drama"", ""/m/02l7c8"": ""Romance Film""}",2153070.0,109.0,3
+34410222,0.0,1.0,1,1,"{""/m/07s9rl0"": ""Drama""}",,78.0,3
+6009073,0.6,0.8000000000000002,4,1,"{""/m/07s9rl0"": ""Drama"", ""/m/01t_vv"": ""Comedy-drama"", ""/m/015w9s"": ""Television movie""}",,111.0,3
+3177319,-0.4090909090909091,0.9124936318129422,13,31,"{""/m/0556j8"": ""Buddy film"", ""/m/03p5xs"": ""Comedy of manners"", ""/m/01g6gs"": ""Black-and-white"", ""/m/06nbt"": ""Satire"", ""/m/01z4y"": ""Comedy"", ""/m/09q17"": ""Slapstick""}",,63.0,2
+22457596,-0.2753623188405797,0.9613405189435942,25,44,"{""/m/0gsy3b"": ""Sex comedy"", ""/m/01j1n2"": ""Coming of age"", ""/m/01z4y"": ""Comedy"", ""/m/02b5_l"": ""Teen""}",,93.0,2
+27972540,-0.14285714285714285,0.989743318610787,3,4,"{""/m/0lsxr"": ""Crime Fiction"", ""/m/01jfsb"": ""Thriller"", ""/m/07s9rl0"": ""Drama""}",,125.0,3
+2906378,1.0,0.0,4,0,"{""/m/0gf28"": ""Parody"", ""/m/06cvj"": ""Romantic comedy"", ""/m/03q4nz"": ""World cinema"", ""/m/0hj3l_y"": ""Action Comedy"", ""/m/03btsm8"": ""Action/Adventure"", ""/m/01z4y"": ""Comedy"", ""/m/02kdv5l"": ""Action""}",,91.0,0
+1871096,-0.4782608695652174,0.8782178207271373,6,17,"{""/m/0lsxr"": ""Crime Fiction"", ""/m/07s9rl0"": ""Drama"", ""/m/01j1n2"": ""Coming of age"", ""/m/01jfsb"": ""Thriller""}",9190819.0,123.0,3
+16898363,-0.2,0.9797958971132713,8,12,"{""/m/09blyk"": ""Psychological thriller""}",,88.0,3
+35295429,-0.7142857142857143,0.6998542122237653,1,6,{},,150.0,3
+33743642,0.0,1.0,6,6,"{""/m/07s9rl0"": ""Drama"", ""/m/03mqtr"": ""Political drama""}",,97.0,3
+17938594,-0.5,0.8660254037844386,1,3,"{""/m/01jfsb"": ""Thriller"", ""/m/01rbb"": ""Crime""}",,97.0,3
+797330,-0.3,0.9539392014169457,7,13,"{""/m/01q03"": ""Cult"", ""/m/06nbt"": ""Satire"", ""/m/0219x_"": ""Indie"", ""/m/01z4y"": ""Comedy"", ""/m/01hwc6"": ""Absurdism""}",8571374.0,90.0,3
+26816029,0.0,1.0,1,1,"{""/m/02hmvc"": ""Short Film"", ""/m/0jxy"": ""Anime""}",,22.0,3
+34171890,0.09090909090909091,0.9958591954639383,6,5,"{""/m/01jfsb"": ""Thriller"", ""/m/03npn"": ""Horror""}",,74.0,3
+8094606,0.0,1.0,1,1,"{""/m/01jfsb"": ""Thriller"", ""/m/03q4nz"": ""World cinema"", ""/m/0cq22f9"": ""Action Thrillers"", ""/m/07s9rl0"": ""Drama"", ""/m/082gq"": ""War film"", ""/m/02z8vz"": ""The Netherlands in World War II""}",,144.0,3
+3098782,0.3333333333333333,0.9428090415820634,2,1,"{""/m/06cvj"": ""Romantic comedy"", ""/m/02l7c8"": ""Romance Film"", ""/m/01z4y"": ""Comedy""}",,83.0,3
+8418734,0.3333333333333333,0.9428090415820634,4,2,"{""/m/0gf28"": ""Parody"", ""/m/03npn"": ""Horror"", ""/m/06n90"": ""Science Fiction"", ""/m/0qdzd"": ""B-movie"", ""/m/01z4y"": ""Comedy""}",,94.0,3
+7171361,0.5,0.8660254037844386,6,2,"{""/m/07s9rl0"": ""Drama""}",2049769.0,102.0,3
+8956466,1.0,0.0,4,0,"{""/m/01z02hx"": ""Sports"", ""/m/07s9rl0"": ""Drama"", ""/m/0219x_"": ""Indie"", ""/m/03q4nz"": ""World cinema""}",,90.0,0
+7977406,-0.23809523809523808,0.9712418121129114,8,13,"{""/m/02hmvc"": ""Short Film"", ""/m/01z4y"": ""Comedy"", ""/m/01g6gs"": ""Black-and-white""}",,19.0,3
+16179846,0.14285714285714285,0.989743318610787,8,6,"{""/m/07s9rl0"": ""Drama""}",,,3
+19203309,-0.2,0.9797958971132713,2,3,"{""/m/01f9r0"": ""Docudrama"", ""/m/0bkbm"": ""Spy""}",,90.0,3
+17063416,0.3333333333333333,0.9428090415820634,2,1,"{""/m/07s9rl0"": ""Drama""}",,115.0,3
+15052685,-0.25,0.9682458365518543,3,5,"{""/m/0lsxr"": ""Crime Fiction"", ""/m/02n4kr"": ""Mystery"", ""/m/05p553"": ""Comedy film"", ""/m/07s9rl0"": ""Drama"", ""/m/01jfsb"": ""Thriller""}",,72.0,3
+17991914,0.42857142857142855,0.9035079029052513,5,2,"{""/m/01z4y"": ""Comedy""}",,,3
+32136365,0.5,0.8660254037844386,6,2,"{""/m/01jfsb"": ""Thriller"", ""/m/02n4kr"": ""Mystery"", ""/m/02l7c8"": ""Romance Film"", ""/m/02kdv5l"": ""Action"", ""/m/07s9rl0"": ""Drama""}",,106.0,3
+21716330,-0.42857142857142855,0.9035079029052513,4,10,"{""/m/07s9rl0"": ""Drama""}",,140.0,3
+3192223,-0.3333333333333333,0.9428090415820634,16,32,"{""/m/02hmvc"": ""Short Film"", ""/m/0hqxf"": ""Family Film"", ""/m/01z4y"": ""Comedy"", ""/m/0hcr"": ""Animation""}",,,2
+6838347,1.0,0.0,3,0,"{""/m/01z4y"": ""Comedy""}",,90.0,0
+33431914,-0.6666666666666666,0.7453559924999298,1,5,"{""/m/02hmvc"": ""Short Film""}",,33.0,3
+61494,0.20754716981132076,0.9782250110804318,32,21,"{""/m/04t36"": ""Musical"", ""/m/07s9rl0"": ""Drama"", ""/m/01g6gs"": ""Black-and-white""}",,105.0,2
+3875037,1.0,0.0,1,0,"{""/m/0jtdp"": ""Documentary""}",,91.0,0
+203413,0.18518518518518517,0.982703641586785,16,11,"{""/m/06cvj"": ""Romantic comedy"", ""/m/03k9fj"": ""Adventure"", ""/m/01z4y"": ""Comedy"", ""/m/04rlf"": ""Music"", ""/m/02l7c8"": ""Romance Film"", ""/m/0hqxf"": ""Family Film"", ""/m/02b5_l"": ""Teen""}",55534455.0,111.0,3
+5981203,-0.1111111111111111,0.9938079899999066,4,5,"{""/m/06cvj"": ""Romantic comedy"", ""/m/02l7c8"": ""Romance Film"", ""/m/07s9rl0"": ""Drama"", ""/m/02b5_l"": ""Teen""}",,92.0,3
+30097713,0.0,1.0,3,3,"{""/m/05p553"": ""Comedy film"", ""/m/07s9rl0"": ""Drama"", ""/m/02l7c8"": ""Romance Film""}",,120.0,3
+28822507,1.0,0.0,1,0,"{""/m/01z4y"": ""Comedy""}",,88.0,0
+8204853,-0.6231884057971014,0.7820717427960605,13,56,"{""/m/0lsxr"": ""Crime Fiction"", ""/m/0hj3m_x"": ""Crime Comedy"", ""/m/03btsm8"": ""Action/Adventure"", ""/m/01z4y"": ""Comedy"", ""/m/0vgkd"": ""Black comedy"", ""/m/02kdv5l"": ""Action"", ""/m/0c3351"": ""Suspense""}",,86.0,2
+4179195,-0.3333333333333333,0.9428090415820634,6,12,"{""/m/0jtdp"": ""Documentary""}",,82.0,3
+204774,-0.06172839506172839,0.9980929842670487,38,43,"{""/m/0hn10"": ""LGBT"", ""/m/02n4lw"": ""Art film"", ""/m/03q4nz"": ""World cinema"", ""/m/07s9rl0"": ""Drama"", ""/m/04rlf"": ""Music"", ""/m/02l7c8"": ""Romance Film"", ""/m/0gw5qqq"": ""Chinese Movies""}",5216888.0,171.0,2
+17049621,-0.3898305084745763,0.9208866242173646,18,41,"{""/m/06n90"": ""Science Fiction""}",,169.0,2
+8423977,0.5,0.8660254037844386,6,2,"{""/m/01chg"": ""Bollywood"", ""/m/04t36"": ""Musical"", ""/m/02l7c8"": ""Romance Film"", ""/m/03q4nz"": ""World cinema"", ""/m/01z4y"": ""Comedy""}",,145.0,3
+6014959,-0.09090909090909091,0.9958591954639383,5,6,"{""/m/07s9rl0"": ""Drama"", ""/m/01chg"": ""Bollywood""}",,,3
+35002799,1.0,0.0,2,0,"{""/m/0jtdp"": ""Documentary""}",,90.0,0
+26283768,-0.3333333333333333,0.9428090415820634,2,4,"{""/m/0hj3m_x"": ""Crime Comedy"", ""/m/01z4y"": ""Comedy"", ""/m/02djzlc"": ""Religious Film""}",,80.0,3
+4268056,0.5555555555555556,0.8314794192830981,7,2,"{""/m/02h8pkk"": ""Family Drama"", ""/m/0hj3mxx"": ""Childhood Drama"", ""/m/04xvlr"": ""Period piece"", ""/m/07s9rl0"": ""Drama"", ""/m/0hj3n1c"": ""Escape Film"", ""/m/060__y"": ""Film adaptation"", ""/m/0hqxf"": ""Family Film""}",292376.0,90.0,3
+15842654,0.14285714285714285,0.989743318610787,4,3,"{""/m/06ppq"": ""Silent film"", ""/m/01z4y"": ""Comedy"", ""/m/01g6gs"": ""Black-and-white""}",,48.0,3
+5719024,-0.75,0.6614378277661477,1,7,"{""/m/03btsm8"": ""Action/Adventure"", ""/m/04btyz"": ""Heist"", ""/m/0hfjk"": ""Western"", ""/m/016vh2"": ""Caper story""}",6000000.0,101.0,3
+25480074,0.15384615384615385,0.9880948137434713,15,11,"{""/m/068d7h"": ""Romantic drama"", ""/m/02l7c8"": ""Romance Film"", ""/m/015w9s"": ""Television movie"", ""/m/07s9rl0"": ""Drama"", ""/m/060__y"": ""Film adaptation""}",,146.0,3
+9916970,-0.38461538461538464,0.9230769230769231,4,9,"{""/m/0lsxr"": ""Crime Fiction"", ""/m/07s9rl0"": ""Drama"", ""/m/01g6gs"": ""Black-and-white"", ""/m/0hj3n01"": ""Crime Drama""}",,86.0,3
+265033,0.2727272727272727,0.9620913858416692,14,8,"{""/m/06n90"": ""Science Fiction"", ""/m/03k9fj"": ""Adventure"", ""/m/0hj3myq"": ""Children's/Family"", ""/m/0hcr"": ""Animation"", ""/m/01z02hx"": ""Sports"", ""/m/0hj3mt0"": ""Alien Film"", ""/m/01hmnh"": ""Fantasy"", ""/m/01z4y"": ""Comedy"", ""/m/0hqxf"": ""Family Film""}",,83.0,3
+11102452,-0.6923076923076923,0.7216024245882199,2,11,"{""/m/02hmvc"": ""Short Film"", ""/m/0hqxf"": ""Family Film"", ""/m/05p553"": ""Comedy film"", ""/m/0hcr"": ""Animation""}",,,3
+14711494,-0.52,0.8541662601625049,6,19,"{""/m/01jfsb"": ""Thriller"", ""/m/01lrrt"": ""Melodrama"", ""/m/03k9fj"": ""Adventure"", ""/m/01g6gs"": ""Black-and-white"", ""/m/07s9rl0"": ""Drama"", ""/m/02l7c8"": ""Romance Film""}",,95.0,3
+2155517,-1.0,0.0,0,1,"{""/m/01jfsb"": ""Thriller"", ""/m/0glj9q"": ""Erotic thriller"", ""/m/03npn"": ""Horror"", ""/m/02nxfrh"": ""Adult""}",,92.0,1
+34638152,-0.06666666666666667,0.9977753031397177,14,16,{},,,2
+8764467,-0.6666666666666666,0.7453559924999298,1,5,"{""/m/03btsm8"": ""Action/Adventure"", ""/m/02kdv5l"": ""Action"", ""/m/01z4y"": ""Comedy""}",26891849.0,95.0,3
+28756896,-0.2,0.9797958971132713,2,3,"{""/m/04t36"": ""Musical"", ""/m/07s9rl0"": ""Drama"", ""/m/05p553"": ""Comedy film""}",,,3
+17643352,-0.6666666666666666,0.7453559924999298,2,10,"{""/m/02l7c8"": ""Romance Film"", ""/m/07s9rl0"": ""Drama""}",,,3
+6004920,0.16666666666666666,0.9860132971832694,7,5,"{""/m/0lsxr"": ""Crime Fiction"", ""/m/02n4kr"": ""Mystery"", ""/m/07s9rl0"": ""Drama"", ""/m/02cqmh"": ""Tollywood"", ""/m/02l7c8"": ""Romance Film"", ""/m/02kdv5l"": ""Action""}",,,3
+305909,-0.38461538461538464,0.9230769230769231,8,18,"{""/m/0gf28"": ""Parody"", ""/m/0hj3mz5"": ""Comedy of Errors"", ""/m/01z4y"": ""Comedy""}",,89.0,3
+11236428,0.14285714285714285,0.989743318610787,4,3,"{""/m/0lsxr"": ""Crime Fiction""}",,,3
+1324717,0.4117647058823529,0.9112901991076274,12,5,"{""/m/03q4nz"": ""World cinema"", ""/m/04t36"": ""Musical"", ""/m/07s9rl0"": ""Drama"", ""/m/01z4y"": ""Comedy"", ""/m/068d7h"": ""Romantic drama"", ""/m/02l7c8"": ""Romance Film"", ""/m/01chg"": ""Bollywood""}",,155.0,3
+106352,0.0,1.0,1,1,"{""/m/0lsxr"": ""Crime Fiction"", ""/m/04t36"": ""Musical"", ""/m/07s9rl0"": ""Drama"", ""/m/068d7h"": ""Romantic drama"", ""/m/02l7c8"": ""Romance Film"", ""/m/03pgfj"": ""New Hollywood""}",12729675.0,104.0,3
+26004682,0.2,0.9797958971132713,3,2,"{""/m/0jtdp"": ""Documentary""}",,,3
+19389514,0.3333333333333333,0.9428090415820634,2,1,"{""/m/02hmvc"": ""Short Film"", ""/m/0hqxf"": ""Family Film"", ""/m/01z4y"": ""Comedy"", ""/m/01g6gs"": ""Black-and-white""}",,20.0,3
+24228496,-0.08108108108108109,0.9967075088965286,17,20,"{""/m/01z4y"": ""Comedy"", ""/m/0hcr"": ""Animation""}",,51.0,2
+21447744,-0.23076923076923078,0.9730085108210399,5,8,"{""/m/0gw5n2f"": ""Japanese Movies"", ""/m/01g6gs"": ""Black-and-white""}",,94.0,3
+24277283,0.15789473684210525,0.9874559494365115,11,8,"{""/m/0jtdp"": ""Documentary""}",,90.0,3
+11293276,-0.16666666666666666,0.9860132971832694,5,7,"{""/m/02l7c8"": ""Romance Film"", ""/m/02kdv5l"": ""Action""}",,,3
+16673820,-1.0,0.0,0,3,"{""/m/0hqxf"": ""Family Film"", ""/m/0bj8m2"": ""Children's"", ""/m/01j1n2"": ""Coming of age"", ""/m/01z4y"": ""Comedy"", ""/m/015w9s"": ""Television movie""}",,94.0,1
+25335991,-0.5,0.8660254037844386,7,21,"{""/m/03q4nz"": ""World cinema"", ""/m/07s9rl0"": ""Drama"", ""/m/01z4y"": ""Comedy"", ""/m/0vgkd"": ""Black comedy"", ""/m/03mqtr"": ""Political drama"", ""/m/01chg"": ""Bollywood""}",,106.0,3
+5159732,0.5714285714285714,0.82065180664829,11,3,"{""/m/02l7c8"": ""Romance Film"", ""/m/01chg"": ""Bollywood""}",,169.0,3
+917524,0.08333333333333333,0.9965217285917831,13,11,"{""/m/0hj3n16"": ""Erotic Drama"", ""/m/02js9"": ""Erotica"", ""/m/03q4nz"": ""World cinema"", ""/m/07s9rl0"": ""Drama"", ""/m/068d7h"": ""Romantic drama"", ""/m/02l7c8"": ""Romance Film""}",27686100.0,122.0,3
+16150645,0.2413793103448276,0.9704308468600199,18,11,"{""/m/02l7c8"": ""Romance Film"", ""/m/0jxy"": ""Anime"", ""/m/07s9rl0"": ""Drama"", ""/m/0hcr"": ""Animation""}",,,2
+33567266,0.13333333333333333,0.9910712498212335,17,13,"{""/m/06cvj"": ""Romantic comedy"", ""/m/02l7c8"": ""Romance Film""}",,100.0,2
+3182458,-0.18181818181818182,0.9833321660356333,9,13,"{""/m/01t_vv"": ""Comedy-drama"", ""/m/03p5xs"": ""Comedy of manners"", ""/m/07s9rl0"": ""Drama"", ""/m/01g6gs"": ""Black-and-white""}",,127.0,3
+14901197,-0.16666666666666666,0.9860132971832694,15,21,"{""/m/0hfjk"": ""Western"", ""/m/01z4y"": ""Comedy"", ""/m/0hcr"": ""Animation""}",,71.0,2
+474750,0.043478260869565216,0.9990543733109614,12,11,"{""/m/02hmvc"": ""Short Film"", ""/m/0hj3n2k"": ""Fantasy Adventure"", ""/m/04pbhw"": ""Superhero movie"", ""/m/0btmb"": ""Superhero"", ""/m/0hcr"": ""Animation"", ""/m/03btsm8"": ""Action/Adventure"", ""/m/01hmnh"": ""Fantasy"", ""/m/095bb"": ""Animated cartoon"", ""/m/0hqxf"": ""Family Film""}",,6.0,3
+32777283,-0.2,0.9797958971132713,2,3,"{""/m/07s9rl0"": ""Drama""}",,,3
+6002416,0.0,1.0,3,3,"{""/m/01chg"": ""Bollywood""}",,,3
+3322205,-0.058823529411764705,0.9982683969692436,8,9,"{""/m/03q4nz"": ""World cinema"", ""/m/04t36"": ""Musical"", ""/m/07s9rl0"": ""Drama"", ""/m/068d7h"": ""Romantic drama"", ""/m/02l7c8"": ""Romance Film"", ""/m/01chg"": ""Bollywood""}",,150.0,3
+3006994,-0.6666666666666666,0.7453559924999298,2,10,"{""/m/02hmvc"": ""Short Film"", ""/m/06qln"": ""Stop motion"", ""/m/01z4y"": ""Comedy"", ""/m/0hcr"": ""Animation""}",,,3
+9537791,-0.3333333333333333,0.9428090415820634,2,4,"{""/m/06n90"": ""Science Fiction"", ""/m/03npn"": ""Horror"", ""/m/01z4y"": ""Comedy""}",,94.0,3
+23910715,-0.2413793103448276,0.9704308468600199,11,18,"{""/m/02l7c8"": ""Romance Film"", ""/m/01z4y"": ""Comedy"", ""/m/01g6gs"": ""Black-and-white""}",,86.0,2
+45772,0.5555555555555556,0.8314794192830981,14,4,"{""/m/01cgz"": ""Boxing"", ""/m/01z02hx"": ""Sports"", ""/m/07s9rl0"": ""Drama"", ""/m/02l7c8"": ""Romance Film"", ""/m/02kdv5l"": ""Action"", ""/m/03pgfj"": ""New Hollywood""}",225000000.0,120.0,3
+7537280,0.14285714285714285,0.989743318610787,4,3,"{""/m/02l7c8"": ""Romance Film"", ""/m/07s9rl0"": ""Drama"", ""/m/03k9fj"": ""Adventure"", ""/m/082gq"": ""War film""}",28445927.0,105.0,3
+600008,-0.06666666666666667,0.9977753031397176,7,8,"{""/m/0hj3n0w"": ""Ensemble Film"", ""/m/02h8pkk"": ""Family Drama"", ""/m/07s9rl0"": ""Drama"", ""/m/04gm78f"": ""Medical fiction"", ""/m/0hqxf"": ""Family Film"", ""/m/0hj3n0k"": ""Domestic Comedy""}",95904091.0,123.0,3
+15428140,-0.14285714285714285,0.989743318610787,3,4,"{""/m/06cvj"": ""Romantic comedy"", ""/m/05p553"": ""Comedy film"", ""/m/06nbt"": ""Satire"", ""/m/03p5xs"": ""Comedy of manners""}",,100.0,3
+7671792,-0.7333333333333333,0.6798692684790381,2,13,"{""/m/02hmvc"": ""Short Film"", ""/m/0gf28"": ""Parody"", ""/m/05p553"": ""Comedy film"", ""/m/02kdv5l"": ""Action"", ""/m/0hcr"": ""Animation""}",,4.0,3
+5983605,0.09090909090909091,0.9958591954639383,6,5,"{""/m/06cvj"": ""Romantic comedy"", ""/m/07s9rl0"": ""Drama"", ""/m/01z4y"": ""Comedy""}",,105.0,3
+7548602,0.017857142857142856,0.9998405485121011,57,55,"{""/m/04p5fxn"": ""Christian film"", ""/m/01lmb_"": ""Sword and Sandal"", ""/m/04xvh5"": ""Costume drama"", ""/m/0520lz"": ""Roadshow theatrical release"", ""/m/06l3bl"": ""Epic"", ""/m/04xvlr"": ""Period piece"", ""/m/07s9rl0"": ""Drama""}",36000000.0,134.0,2
+33614310,-0.16666666666666666,0.9860132971832694,5,7,"{""/m/07s9rl0"": ""Drama""}",,,3
+30439611,-1.0,0.0,0,4,"{""/m/0lsxr"": ""Crime Fiction"", ""/m/01jfsb"": ""Thriller"", ""/m/07s9rl0"": ""Drama"", ""/m/03q4nz"": ""World cinema"", ""/m/02n4kr"": ""Mystery""}",21925534.0,163.0,1
+14935392,-0.6,0.8,5,20,"{""/m/0lsxr"": ""Crime Fiction"", ""/m/0hj3mz5"": ""Comedy of Errors"", ""/m/02kdv5l"": ""Action"", ""/m/0hj3m_x"": ""Crime Comedy"", ""/m/01z4y"": ""Comedy""}",10027047.0,84.0,3
+26561332,0.25925925925925924,0.9658077637337256,34,20,"{""/m/0hfjk"": ""Western"", ""/m/02kdv5l"": ""Action"", ""/m/07s9rl0"": ""Drama""}",,,2
+5672605,0.5,0.8660254037844386,3,1,"{""/m/05mrx8"": ""Political satire"", ""/m/0hj3mz5"": ""Comedy of Errors"", ""/m/07s9rl0"": ""Drama"", ""/m/01z4y"": ""Comedy"", ""/m/03q4nz"": ""World cinema""}",,133.0,3
+19078967,1.0,0.0,2,0,"{""/m/02hmvc"": ""Short Film"", ""/m/0hcr"": ""Animation""}",,6.0,0
+5657238,1.0,0.0,4,0,"{""/m/07s9rl0"": ""Drama"", ""/m/01z4y"": ""Comedy""}",,135.0,0
+35019319,1.0,0.0,6,0,{},,140.0,0
+29549727,-0.42857142857142855,0.9035079029052513,2,5,"{""/m/03q4nz"": ""World cinema""}",,116.0,3
+25958067,0.30434782608695654,0.952560969574202,15,8,"{""/m/03q4nz"": ""World cinema"", ""/m/04t36"": ""Musical"", ""/m/07s9rl0"": ""Drama"", ""/m/01z4y"": ""Comedy"", ""/m/068d7h"": ""Romantic drama"", ""/m/02l7c8"": ""Romance Film"", ""/m/01chg"": ""Bollywood""}",,145.0,3
+3709021,0.0,1.0,3,3,"{""/m/0hqxf"": ""Family Film"", ""/m/02h8pkk"": ""Family Drama"", ""/m/07s9rl0"": ""Drama"", ""/m/01z4y"": ""Comedy"", ""/m/0hj3mxx"": ""Childhood Drama""}",16207116.0,133.0,3
+4734122,-0.2727272727272727,0.9620913858416692,8,14,"{""/m/01jfsb"": ""Thriller"", ""/m/02wtdps"": ""Crime Thriller"", ""/m/09blyk"": ""Psychological thriller"", ""/m/03q4nz"": ""World cinema""}",795223.0,86.0,3
+17193728,-0.1111111111111111,0.9938079899999066,4,5,"{""/m/07s9rl0"": ""Drama"", ""/m/03k9fj"": ""Adventure"", ""/m/01g6gs"": ""Black-and-white"", ""/m/082gq"": ""War film""}",,94.0,3
+785488,-0.2,0.9797958971132712,4,6,"{""/m/03q4nz"": ""World cinema""}",,70.0,3
+11493672,-1.0,0.0,0,1,"{""/m/06n90"": ""Science Fiction"", ""/m/07s9rl0"": ""Drama"", ""/m/01z4y"": ""Comedy""}",,101.0,1
+30714098,-0.28,0.96,18,32,"{""/m/01jfsb"": ""Thriller"", ""/m/03btsm8"": ""Action/Adventure"", ""/m/02kdv5l"": ""Action""}",16863583.0,93.0,2
+6215073,-0.15,0.9886859966642594,17,23,"{""/m/01jfsb"": ""Thriller"", ""/m/06n90"": ""Science Fiction"", ""/m/0gw5n2f"": ""Japanese Movies"", ""/m/03q4nz"": ""World cinema"", ""/m/01zhp"": ""Computer Animation"", ""/m/0hcr"": ""Animation"", ""/m/03btsm8"": ""Action/Adventure"", ""/m/0jxy"": ""Anime"", ""/m/02kdv5l"": ""Action""}",1461989.0,103.0,2
+21099183,-1.0,0.0,0,3,"{""/m/02l7c8"": ""Romance Film"", ""/m/0hqxf"": ""Family Film"", ""/m/01hmnh"": ""Fantasy"", ""/m/01z4y"": ""Comedy"", ""/m/015w9s"": ""Television movie""}",,120.0,1
+484102,-0.15151515151515152,0.9884549351697024,14,19,"{""/m/07s9rl0"": ""Drama"", ""/m/03q4nz"": ""World cinema""}",14493284.0,94.0,2
+4415958,-0.12,0.9927738916792685,11,14,"{""/m/0219x_"": ""Indie"", ""/m/02h8pkk"": ""Family Drama"", ""/m/01t_vv"": ""Comedy-drama"", ""/m/01j1n2"": ""Coming of age"", ""/m/01z4y"": ""Comedy"", ""/m/07s9rl0"": ""Drama"", ""/m/0hqxf"": ""Family Film"", ""/m/02b5_l"": ""Teen""}",405792.0,96.0,3
+9307052,0.2903225806451613,0.9569288370446015,20,11,"{""/m/01jfsb"": ""Thriller"", ""/m/02n4kr"": ""Mystery"", ""/m/03npn"": ""Horror"", ""/m/01z4y"": ""Comedy""}",,159.0,2
+17489502,-0.23809523809523808,0.9712418121129114,8,13,"{""/m/0lsxr"": ""Crime Fiction"", ""/m/02kdv5l"": ""Action""}",,,3
+101523,-0.08108108108108109,0.9967075088965286,17,20,"{""/m/04228s"": ""Road movie"", ""/m/03v6qx"": ""Stoner film"", ""/m/0556j8"": ""Buddy film"", ""/m/01z4y"": ""Comedy""}",33788161.0,104.0,2
+25223887,0.0,1.0,10,10,"{""/m/07s9rl0"": ""Drama""}",,98.0,3
+12152908,-0.2,0.9797958971132713,16,24,"{""/m/01z4y"": ""Comedy"", ""/m/0220p9g"": ""Musical comedy""}",8767338.0,102.0,2
+14060163,1.0,0.0,1,0,"{""/m/02kdv5l"": ""Action"", ""/m/082gq"": ""War film""}",,96.0,0
+1697309,-0.1875,0.982264602843857,13,19,"{""/m/060__y"": ""Film adaptation"", ""/m/07s9rl0"": ""Drama"", ""/m/02b5_l"": ""Teen"", ""/m/015w9s"": ""Television movie""}",,120.0,2
+10014126,0.5,0.8660254037844386,3,1,"{""/m/04p5fxn"": ""Christian film"", ""/m/02hmvc"": ""Short Film""}",,95.0,3
+25489908,-0.3333333333333333,0.9428090415820634,6,12,"{""/m/01z4y"": ""Comedy""}",,90.0,3
+20627774,0.3333333333333333,0.9428090415820634,2,1,"{""/m/0gw5qqq"": ""Chinese Movies""}",,98.0,3
+35316287,-0.3333333333333333,0.9428090415820634,3,6,"{""/m/02kdv5l"": ""Action"", ""/m/01z4y"": ""Comedy""}",30610000.0,105.0,3
+14840073,-1.0,0.0,0,4,"{""/m/01jfsb"": ""Thriller"", ""/m/01z4y"": ""Comedy""}",,97.0,1
+10395114,1.0,0.0,1,0,"{""/m/02l7c8"": ""Romance Film"", ""/m/07s9rl0"": ""Drama"", ""/m/01z4y"": ""Comedy"", ""/m/01g6gs"": ""Black-and-white""}",,75.0,0
+6788669,-0.03225806451612903,0.9994795732148174,15,16,"{""/m/03btsm8"": ""Action/Adventure"", ""/m/0hfjk"": ""Western"", ""/m/0hj3mzj"": ""Comedy Western"", ""/m/01z4y"": ""Comedy""}",,95.0,2
+23805662,0.21739130434782608,0.9760845356801586,14,9,"{""/m/02hmvc"": ""Short Film""}",,14.0,3
+32715601,0.42857142857142855,0.9035079029052513,5,2,"{""/m/0jtdp"": ""Documentary""}",,,3
+12494128,1.0,0.0,5,0,"{""/m/068d7h"": ""Romantic drama"", ""/m/02l7c8"": ""Romance Film"", ""/m/07s9rl0"": ""Drama"", ""/m/04xvlr"": ""Period piece""}",2000000.0,110.0,0
+9214302,0.2,0.9797958971132713,3,2,"{""/m/0hn10"": ""LGBT"", ""/m/07s9rl0"": ""Drama"", ""/m/0219x_"": ""Indie"", ""/m/03q4nz"": ""World cinema""}",,134.0,3
+35131808,1.0,0.0,4,0,"{""/m/05p553"": ""Comedy film"", ""/m/0hqxf"": ""Family Film"", ""/m/07s9rl0"": ""Drama"", ""/m/04t36"": ""Musical""}",,60.0,0
+17758086,-0.22727272727272727,0.9738311493467522,17,27,"{""/m/06cvj"": ""Romantic comedy"", ""/m/02l7c8"": ""Romance Film"", ""/m/06qm3"": ""Screwball comedy"", ""/m/01z4y"": ""Comedy""}",88335.0,96.0,2
+31805047,-1.0,0.0,0,1,"{""/m/07s9rl0"": ""Drama""}",,,1
+1862086,0.3333333333333333,0.9428090415820632,14,7,"{""/m/01jfsb"": ""Thriller"", ""/m/03q4nz"": ""World cinema"", ""/m/0fdjb"": ""Supernatural"", ""/m/02n4kr"": ""Mystery"", ""/m/07s9rl0"": ""Drama"", ""/m/0hj3n2_"": ""Fantasy Drama"", ""/m/068d7h"": ""Romantic drama"", ""/m/02l7c8"": ""Romance Film""}",,134.0,3
+42861,0.14285714285714285,0.989743318610787,4,3,"{""/m/06ppq"": ""Silent film"", ""/m/0219x_"": ""Indie"", ""/m/06l3bl"": ""Epic"", ""/m/01g6gs"": ""Black-and-white"", ""/m/07s9rl0"": ""Drama"", ""/m/0jtdp"": ""Documentary""}",,69.0,3
+23057797,0.0,1.0,1,1,"{""/m/0gw5n2f"": ""Japanese Movies"", ""/m/02js9"": ""Erotica"", ""/m/01jk9n"": ""Pornographic movie""}",,59.0,3
+6902699,-0.18181818181818182,0.9833321660356333,9,13,"{""/m/068d7h"": ""Romantic drama"", ""/m/04t36"": ""Musical"", ""/m/07s9rl0"": ""Drama"", ""/m/04xvlr"": ""Period piece"", ""/m/02l7c8"": ""Romance Film""}",,108.0,3
+5965800,-0.5,0.8660254037844386,1,3,"{""/m/069x_s"": ""Gay pornography"", ""/m/01jk9n"": ""Pornographic movie""}",,80.0,3
+3410910,-0.2,0.9797958971132713,2,3,"{""/m/07s9rl0"": ""Drama"", ""/m/068d7h"": ""Romantic drama"", ""/m/087lqx"": ""Pre-Code"", ""/m/01g6gs"": ""Black-and-white""}",,73.0,3
+8454631,-0.4647887323943662,0.8854216138310824,19,52,"{""/m/01jfsb"": ""Thriller"", ""/m/02n4kr"": ""Mystery"", ""/m/0glj9q"": ""Erotic thriller"", ""/m/09blyk"": ""Psychological thriller"", ""/m/03j0dp"": ""Neo-noir""}",,99.0,2
+35030681,1.0,0.0,2,0,"{""/m/07s9rl0"": ""Drama""}",,100.0,0
+6551508,-0.6,0.8000000000000002,1,4,"{""/m/06n90"": ""Science Fiction"", ""/m/03npn"": ""Horror"", ""/m/0hj3m_q"": ""Creature Film"", ""/m/01g6gs"": ""Black-and-white""}",,62.0,3
+4707517,0.0,1.0,7,7,"{""/m/03q4nz"": ""World cinema"", ""/m/07s9rl0"": ""Drama"", ""/m/02n4lw"": ""Art film"", ""/m/01chg"": ""Bollywood""}",,135.0,3
+21674541,-0.3333333333333333,0.9428090415820634,1,2,"{""/m/0hj3mz5"": ""Comedy of Errors"", ""/m/01z4y"": ""Comedy""}",,112.0,3
+2870583,0.0,1.0,4,4,"{""/m/02l7c8"": ""Romance Film"", ""/m/01z4y"": ""Comedy""}",,90.0,3
+22541211,-0.02857142857142857,0.9995917534020514,17,18,"{""/m/04t36"": ""Musical"", ""/m/07s9rl0"": ""Drama"", ""/m/01chg"": ""Bollywood"", ""/m/03q4nz"": ""World cinema""}",,165.0,2
+8955193,-0.5,0.8660254037844386,1,3,"{""/m/07s9rl0"": ""Drama""}",,110.0,3
+23268277,0.6666666666666666,0.7453559924999298,5,1,"{""/m/0jtdp"": ""Documentary""}",,,3
+19896950,-0.2653061224489796,0.964164229470834,18,31,"{""/m/0lsxr"": ""Crime Fiction"", ""/m/07s9rl0"": ""Drama"", ""/m/0219x_"": ""Indie""}",,94.0,2
+26340503,1.0,0.0,1,0,"{""/m/01jfsb"": ""Thriller"", ""/m/0lsxr"": ""Crime Fiction""}",,92.0,0
+4372744,0.21052631578947367,0.9775881905793005,23,15,"{""/m/0lsxr"": ""Crime Fiction"", ""/m/03q4nz"": ""World cinema"", ""/m/04xvlr"": ""Period piece"", ""/m/07s9rl0"": ""Drama"", ""/m/068d7h"": ""Romantic drama"", ""/m/02l7c8"": ""Romance Film""}",516517.0,117.0,2
+1261355,0.047619047619047616,0.9988655696858585,22,20,"{""/m/04p5fxn"": ""Christian film"", ""/m/06ppq"": ""Silent film"", ""/m/07s9rl0"": ""Drama"", ""/m/0219x_"": ""Indie""}",,155.0,2
+12599417,1.0,0.0,3,0,"{""/m/04xvlr"": ""Period piece"", ""/m/07s9rl0"": ""Drama"", ""/m/03mqtr"": ""Political drama""}",,,0
+7192710,-0.5,0.8660254037844386,1,3,"{""/m/02l7c8"": ""Romance Film"", ""/m/02kdv5l"": ""Action"", ""/m/07s9rl0"": ""Drama"", ""/m/01z4y"": ""Comedy""}",,,3
+24355979,-0.3333333333333333,0.9428090415820634,11,22,"{""/m/06n90"": ""Science Fiction"", ""/m/0219x_"": ""Indie""}",3000000.0,91.0,2
+1376896,0.2,0.9797958971132713,3,2,"{""/m/01z02hx"": ""Sports"", ""/m/01z4y"": ""Comedy""}",13906394.0,89.0,3
+11419319,-0.3333333333333333,0.9428090415820634,13,26,"{""/m/02hmvc"": ""Short Film"", ""/m/0hcr"": ""Animation""}",,,2
+21682038,-0.058823529411764705,0.9982683969692436,8,9,"{""/m/03k9fj"": ""Adventure"", ""/m/03q4nz"": ""World cinema"", ""/m/03g3w"": ""History"", ""/m/03btsm8"": ""Action/Adventure"", ""/m/04t36"": ""Musical"", ""/m/07s9rl0"": ""Drama"", ""/m/082gq"": ""War film"", ""/m/02l7c8"": ""Romance Film"", ""/m/02kdv5l"": ""Action"", ""/m/01chg"": ""Bollywood""}",,155.0,3
+33383946,-0.058823529411764705,0.9982683969692436,8,9,"{""/m/0fztc6"": ""Tamil cinema"", ""/m/01z4y"": ""Comedy""}",,,3
+161450,-0.5,0.8660254037844386,7,21,"{""/m/01lrrt"": ""Melodrama"", ""/m/07s9rl0"": ""Drama"", ""/m/0hj3mry"": ""Addiction Drama"", ""/m/01g6gs"": ""Black-and-white"", ""/m/060__y"": ""Film adaptation""}",4350000.0,121.0,3
+23566477,-0.14285714285714285,0.989743318610787,3,4,"{""/m/02hmvc"": ""Short Film"", ""/m/01z4y"": ""Comedy"", ""/m/0hcr"": ""Animation""}",,8.0,3
+31832848,0.0,1.0,5,5,"{""/m/05p553"": ""Comedy film""}",,60.0,3
+4370892,-0.36363636363636365,0.9315409787235999,7,15,"{""/m/0jb4p32"": ""Zombie Film"", ""/m/0vgkd"": ""Black comedy"", ""/m/03npn"": ""Horror"", ""/m/01z4y"": ""Comedy""}",22144631.0,92.0,3
+22834804,0.7142857142857143,0.6998542122237653,12,2,"{""/m/02kdv5l"": ""Action"", ""/m/03k9fj"": ""Adventure"", ""/m/01z4y"": ""Comedy""}",,93.0,3
+19282000,0.3333333333333333,0.9428090415820634,2,1,"{""/m/0hqxf"": ""Family Film"", ""/m/0bj8m2"": ""Children's"", ""/m/01z4y"": ""Comedy"", ""/m/03k9fj"": ""Adventure""}",,95.0,3
+34985021,-1.0,0.0,0,5,"{""/m/02hmvc"": ""Short Film"", ""/m/05p553"": ""Comedy film"", ""/m/0hcr"": ""Animation""}",,2.0,1
+1595987,-0.4782608695652174,0.8782178207271372,6,17,"{""/m/05p553"": ""Comedy film"", ""/m/082gq"": ""War film""}",,104.0,3
+23899512,0.75,0.6614378277661477,7,1,"{""/m/04t36"": ""Musical"", ""/m/02kdv5l"": ""Action"", ""/m/01z4y"": ""Comedy""}",,,3
+3036635,-0.3333333333333333,0.9428090415820634,1,2,"{""/m/06cvj"": ""Romantic comedy"", ""/m/02l7c8"": ""Romance Film"", ""/m/06qm3"": ""Screwball comedy"", ""/m/01z4y"": ""Comedy""}",17552255.0,99.0,3
+24898518,0.13043478260869565,0.9914568913905546,13,10,"{""/m/07s9rl0"": ""Drama"", ""/m/03q4nz"": ""World cinema""}",,160.0,3
+34431042,1.0,0.0,4,0,"{""/m/03k9fj"": ""Adventure""}",,50.0,0
+5549799,0.2222222222222222,0.9749960430435692,22,14,"{""/m/02h8pkk"": ""Family Drama"", ""/m/07s9rl0"": ""Drama"", ""/m/01lrrt"": ""Melodrama""}",27484464.0,117.0,2
+228355,-0.058823529411764705,0.9982683969692436,16,18,"{""/m/0gf28"": ""Parody"", ""/m/0lsxr"": ""Crime Fiction"", ""/m/06qm3"": ""Screwball comedy"", ""/m/01z4y"": ""Comedy"", ""/m/02l7c8"": ""Romance Film"", ""/m/02kdv5l"": ""Action""}",78756177.0,85.0,2
+8773488,0.0,1.0,3,3,"{""/m/01z4y"": ""Comedy""}",,80.0,3
+645071,-0.7777777777777778,0.6285393610547089,1,8,"{""/m/03npn"": ""Horror"", ""/m/02n4kr"": ""Mystery"", ""/m/073_6"": ""Surrealism"", ""/m/01hmnh"": ""Fantasy"", ""/m/07s9rl0"": ""Drama"", ""/m/01z4y"": ""Comedy"", ""/m/0vgkd"": ""Black comedy""}",,265.0,3
+11192132,0.5,0.8660254037844386,3,1,"{""/m/01jfsb"": ""Thriller""}",,105.0,3
+13005847,-1.0,0.0,0,4,"{""/m/0lsxr"": ""Crime Fiction"", ""/m/01jfsb"": ""Thriller"", ""/m/02n4kr"": ""Mystery"", ""/m/07s9rl0"": ""Drama"", ""/m/02qfv5d"": ""Political thriller"", ""/m/02wtdps"": ""Crime Thriller"", ""/m/03mqtr"": ""Political drama""}",,98.0,1
+18520285,-0.4603174603174603,0.8877543780387025,17,46,"{""/m/06cvj"": ""Romantic comedy"", ""/m/02l7c8"": ""Romance Film"", ""/m/01z4y"": ""Comedy"", ""/m/0219x_"": ""Indie""}",,104.0,2
+1740764,-0.15789473684210525,0.9874559494365115,8,11,"{""/m/01q03"": ""Cult"", ""/m/0vgkd"": ""Black comedy"", ""/m/01z4y"": ""Comedy""}",14581765.0,99.0,3
+35586499,-0.4444444444444444,0.8958064164776167,5,13,{},,,3
+26350638,0.0,1.0,1,1,"{""/m/03bxz7"": ""Biographical film""}",2230496.0,,3
+32496356,0.23809523809523808,0.9712418121129114,13,8,"{""/m/04t36"": ""Musical"", ""/m/07s9rl0"": ""Drama"", ""/m/03q4nz"": ""World cinema"", ""/m/01chg"": ""Bollywood""}",,150.0,3
+3790121,-0.5,0.8660254037844386,2,6,"{""/m/0219x_"": ""Indie"", ""/m/03g3w"": ""History"", ""/m/0hj3n9r"": ""Law & Crime"", ""/m/0cshrf"": ""Political cinema"", ""/m/075fzd"": ""Social issues"", ""/m/0jtdp"": ""Documentary""}",,50.0,3
+33059077,0.4,0.9165151389911679,14,6,"{""/m/0556j8"": ""Buddy film"", ""/m/07s9rl0"": ""Drama"", ""/m/01z4y"": ""Comedy""}",,125.0,3
+1266819,1.0,0.0,10,0,"{""/m/02jfc"": ""Education"", ""/m/014dsx"": ""Travel"", ""/m/0jtdp"": ""Documentary""}",,47.0,0
+3615688,-0.30434782608695654,0.9525609695742019,8,15,"{""/m/01jfsb"": ""Thriller"", ""/m/0lsxr"": ""Crime Fiction"", ""/m/0219x_"": ""Indie"", ""/m/02n4kr"": ""Mystery"", ""/m/07s9rl0"": ""Drama"", ""/m/02wtdps"": ""Crime Thriller""}",,112.0,3
+31677943,0.1111111111111111,0.9938079899999066,10,8,"{""/m/0jtdp"": ""Documentary""}",,68.0,3
+33329567,-0.5294117647058824,0.8483650059915269,4,13,"{""/m/02hmvc"": ""Short Film"", ""/m/0hqxf"": ""Family Film"", ""/m/05p553"": ""Comedy film"", ""/m/0hcr"": ""Animation""}",,,3
+3564596,-0.19047619047619047,0.9816918156232525,17,25,"{""/m/0lsxr"": ""Crime Fiction"", ""/m/02l7c8"": ""Romance Film"", ""/m/01z4y"": ""Comedy""}",,111.0,2
+25576998,0.08333333333333333,0.9965217285917831,13,11,"{""/m/05p553"": ""Comedy film"", ""/m/02l7c8"": ""Romance Film""}",,120.0,3
+10552882,0.0,1.0,4,4,"{""/m/02hmvc"": ""Short Film"", ""/m/01z4y"": ""Comedy"", ""/m/095bb"": ""Animated cartoon""}",,,3
+23945123,-1.0,0.0,0,4,"{""/m/01z4y"": ""Comedy""}",,100.0,1
+23438736,0.12,0.9927738916792685,14,11,"{""/m/06cvj"": ""Romantic comedy"", ""/m/0vgkd"": ""Black comedy"", ""/m/02l7c8"": ""Romance Film"", ""/m/01z4y"": ""Comedy"", ""/m/02b5_l"": ""Teen""}",74952305.0,93.0,3
+12576808,-0.07407407407407407,0.9972527420619453,25,29,"{""/m/06n90"": ""Science Fiction"", ""/m/01z4y"": ""Comedy""}",,89.0,2
+3067907,-0.3333333333333333,0.9428090415820634,1,2,"{""/m/01z4y"": ""Comedy""}",,107.0,3
+1906889,0.0,1.0,5,5,"{""/m/0hn10"": ""LGBT"", ""/m/06cvj"": ""Romantic comedy"", ""/m/02js9"": ""Erotica"", ""/m/07s9rl0"": ""Drama"", ""/m/01z4y"": ""Comedy"", ""/m/02l7c8"": ""Romance Film""}",14815317.0,94.0,3
+35014366,0.0,1.0,2,2,"{""/m/02hmvc"": ""Short Film"", ""/m/07s9rl0"": ""Drama""}",,20.0,3
+32426830,-0.3333333333333333,0.9428090415820634,4,8,"{""/m/02hmvc"": ""Short Film"", ""/m/05p553"": ""Comedy film"", ""/m/0hqxf"": ""Family Film"", ""/m/0hcr"": ""Animation""}",,,3
+28305369,0.07692307692307693,0.9970370305242864,7,6,"{""/m/0lsxr"": ""Crime Fiction"", ""/m/07s9rl0"": ""Drama""}",,67.0,3
+9013693,0.5,0.8660254037844386,3,1,"{""/m/0hn10"": ""LGBT"", ""/m/01jfsb"": ""Thriller"", ""/m/0gw5n2f"": ""Japanese Movies"", ""/m/03q4nz"": ""World cinema""}",,85.0,3
+24320501,-0.18518518518518517,0.982703641586785,11,16,"{""/m/07s9rl0"": ""Drama"", ""/m/01g6gs"": ""Black-and-white""}",,71.0,3
+22632836,1.0,0.0,1,0,"{""/m/02n4kr"": ""Mystery"", ""/m/07s9rl0"": ""Drama""}",,126.0,0
+20671625,0.6666666666666666,0.7453559924999298,5,1,"{""/m/0hn10"": ""LGBT"", ""/m/07s9rl0"": ""Drama"", ""/m/02l7c8"": ""Romance Film"", ""/m/0556j8"": ""Buddy film""}",,98.0,3
+7463316,-0.15384615384615385,0.9880948137434713,11,15,"{""/m/02kdv5l"": ""Action"", ""/m/07s9rl0"": ""Drama""}",,93.0,3
+7443928,-0.2,0.9797958971132714,6,9,"{""/m/07s9rl0"": ""Drama"", ""/m/015w9s"": ""Television movie""}",,92.0,3
+24446273,-0.5714285714285714,0.8206518066482897,3,11,"{""/m/03q4nz"": ""World cinema"", ""/m/04t36"": ""Musical"", ""/m/07s9rl0"": ""Drama"", ""/m/068d7h"": ""Romantic drama"", ""/m/02l7c8"": ""Romance Film"", ""/m/01chg"": ""Bollywood""}",,117.0,3
+32907230,-0.2,0.9797958971132713,2,3,"{""/m/06ppq"": ""Silent film""}",,,3
+35978509,0.0,1.0,3,3,"{""/m/03npn"": ""Horror""}",,92.0,3
+26358395,-0.6470588235294118,0.7624400821656306,6,28,"{""/m/01jfsb"": ""Thriller"", ""/m/06n90"": ""Science Fiction"", ""/m/03npn"": ""Horror""}",,90.0,2
+20645464,-0.5,0.8660254037844386,1,3,"{""/m/06n90"": ""Science Fiction"", ""/m/02kdv5l"": ""Action"", ""/m/03npn"": ""Horror"", ""/m/03k9fj"": ""Adventure""}",,90.0,3
+9963622,-0.2727272727272727,0.9620913858416692,8,14,"{""/m/01jfsb"": ""Thriller"", ""/m/0hj3mt0"": ""Alien Film"", ""/m/06n90"": ""Science Fiction"", ""/m/02kdv5l"": ""Action""}",,91.0,3
+5894429,0.4666666666666667,0.8844332774281067,11,4,"{""/m/068d7h"": ""Romantic drama"", ""/m/02l7c8"": ""Romance Film"", ""/m/07s9rl0"": ""Drama"", ""/m/082gq"": ""War film""}",,117.0,3
+19730179,-1.0,0.0,0,3,"{""/m/07s9rl0"": ""Drama"", ""/m/01z4y"": ""Comedy"", ""/m/03k9fj"": ""Adventure""}",,60.0,1
+26906212,0.0,1.0,4,4,"{""/m/01jfsb"": ""Thriller"", ""/m/03npn"": ""Horror""}",,95.0,3
+1343628,-0.034482758620689655,0.9994052928406509,14,15,"{""/m/068d7h"": ""Romantic drama"", ""/m/02l7c8"": ""Romance Film"", ""/m/01lrrt"": ""Melodrama"", ""/m/07s9rl0"": ""Drama"", ""/m/03q4nz"": ""World cinema""}",,125.0,2
+26015681,-0.75,0.6614378277661477,1,7,"{""/m/03npn"": ""Horror"", ""/m/0gw5qqq"": ""Chinese Movies""}",,99.0,3
+6639909,-0.2,0.9797958971132713,2,3,"{""/m/02l7c8"": ""Romance Film""}",,,3
+30627321,0.09090909090909091,0.9958591954639383,6,5,"{""/m/03btsm8"": ""Action/Adventure"", ""/m/07s9rl0"": ""Drama"", ""/m/01hmnh"": ""Fantasy"", ""/m/03k9fj"": ""Adventure"", ""/m/060__y"": ""Film adaptation""}",,95.0,3
+32643768,0.3333333333333333,0.9428090415820634,2,1,"{""/m/05p553"": ""Comedy film"", ""/m/07s9rl0"": ""Drama""}",,91.0,3
+5846938,-0.21052631578947367,0.9775881905793006,15,23,"{""/m/068d7h"": ""Romantic drama"", ""/m/02l7c8"": ""Romance Film"", ""/m/07s9rl0"": ""Drama"", ""/m/03q4nz"": ""World cinema""}",,142.0,2
+3138227,0.0,1.0,3,3,"{""/m/04fy52"": ""Kitchen sink realism"", ""/m/06lbpz"": ""Social problem film"", ""/m/07s9rl0"": ""Drama"", ""/m/060__y"": ""Film adaptation"", ""/m/068d7h"": ""Romantic drama"", ""/m/02l7c8"": ""Romance Film""}",,101.0,3
+5697632,-0.6666666666666666,0.7453559924999298,1,5,"{""/m/0lsxr"": ""Crime Fiction"", ""/m/07s9rl0"": ""Drama"", ""/m/01j1n2"": ""Coming of age"", ""/m/0219x_"": ""Indie"", ""/m/02b5_l"": ""Teen""}",,86.0,3
+15205867,0.3333333333333333,0.9428090415820634,2,1,"{""/m/07s9rl0"": ""Drama"", ""/m/01z4y"": ""Comedy""}",,101.0,3
+15508824,0.3333333333333333,0.9428090415820634,4,2,"{""/m/0lsxr"": ""Crime Fiction"", ""/m/02wtdps"": ""Crime Thriller"", ""/m/02h8pkk"": ""Family Drama"", ""/m/07s9rl0"": ""Drama""}",2507321.0,118.0,3
+2210286,-0.42857142857142855,0.9035079029052512,2,5,"{""/m/068d7h"": ""Romantic drama"", ""/m/07s9rl0"": ""Drama"", ""/m/02xh1"": ""Film noir""}",,85.0,3
+27160764,0.3333333333333333,0.9428090415820634,20,10,"{""/m/01jfsb"": ""Thriller"", ""/m/0lsxr"": ""Crime Fiction"", ""/m/02kdv5l"": ""Action""}",,,2
+8113966,0.45454545454545453,0.8907235428302466,8,3,"{""/m/07s9rl0"": ""Drama""}",,135.0,3
+617769,-0.21212121212121213,0.9772433634301273,13,20,"{""/m/03npn"": ""Horror"", ""/m/0gw5n2f"": ""Japanese Movies"", ""/m/03q4nz"": ""World cinema"", ""/m/0fdjb"": ""Supernatural""}",,97.0,2
+14445660,-0.6666666666666666,0.7453559924999298,1,5,"{""/m/03npn"": ""Horror"", ""/m/03q4nz"": ""World cinema""}",4443849.0,98.0,3
+2259030,0.1111111111111111,0.9938079899999066,5,4,"{""/m/02kdv5l"": ""Action"", ""/m/087lqx"": ""Pre-Code"", ""/m/03k9fj"": ""Adventure"", ""/m/01g6gs"": ""Black-and-white""}",2540000.0,189.0,3
+11937252,0.0,1.0,2,2,"{""/m/01hmnh"": ""Fantasy"", ""/m/03k9fj"": ""Adventure"", ""/m/0hcr"": ""Animation""}",,86.0,3
+2769852,-0.3181818181818182,0.9480297097551913,15,29,"{""/m/0lsxr"": ""Crime Fiction"", ""/m/0vgkd"": ""Black comedy"", ""/m/01t_vv"": ""Comedy-drama"", ""/m/07s9rl0"": ""Drama"", ""/m/0hj3nby"": ""Media Satire""}",63513.0,96.0,2
+4400405,-0.5,0.8660254037844386,1,3,"{""/m/0253g1"": ""Epic Western"", ""/m/06l3bl"": ""Epic"", ""/m/03btsm8"": ""Action/Adventure"", ""/m/0hfjk"": ""Western"", ""/m/07s9rl0"": ""Drama"", ""/m/02kdv5l"": ""Action""}",,135.0,3
+8294126,-0.4166666666666667,0.9090593428863095,14,34,"{""/m/02h8pkk"": ""Family Drama"", ""/m/07s9rl0"": ""Drama""}",,105.0,2
+3177439,-0.4117647058823529,0.9112901991076274,5,12,"{""/m/01z4y"": ""Comedy"", ""/m/01g6gs"": ""Black-and-white""}",,81.0,3
+7906,0.25,0.9682458365518543,5,3,"{""/m/03btsm8"": ""Action/Adventure"", ""/m/0hfjk"": ""Western"", ""/m/01z4y"": ""Comedy"", ""/m/01g6gs"": ""Black-and-white""}",,95.0,3
+11842746,-0.2,0.9797958971132713,2,3,"{""/m/0lsxr"": ""Crime Fiction"", ""/m/0hj3n01"": ""Crime Drama"", ""/m/01g6gs"": ""Black-and-white"", ""/m/087lqx"": ""Pre-Code"", ""/m/05r6jc"": ""Women in prison films"", ""/m/07s9rl0"": ""Drama"", ""/m/0d1w9"": ""Prison""}",,69.0,3
+8896753,-0.47058823529411764,0.8823529411764707,9,25,"{""/m/01jfsb"": ""Thriller"", ""/m/03npn"": ""Horror"", ""/m/0fdjb"": ""Supernatural"", ""/m/02n4kr"": ""Mystery"", ""/m/0c3351"": ""Suspense"", ""/m/02wtdps"": ""Crime Thriller""}",13000000.0,109.0,2
+27923824,-0.2222222222222222,0.9749960430435692,14,22,"{""/m/01q03"": ""Cult"", ""/m/02n4kr"": ""Mystery"", ""/m/03npn"": ""Horror"", ""/m/0c3351"": ""Suspense""}",177512032.0,99.0,2
+11850569,0.5,0.8660254037844386,3,1,"{""/m/0hqxf"": ""Family Film"", ""/m/01hmnh"": ""Fantasy"", ""/m/03q4nz"": ""World cinema"", ""/m/0hcr"": ""Animation""}",,95.0,3
+5787450,-0.5,0.8660254037844386,9,27,"{""/m/01jfsb"": ""Thriller"", ""/m/03btsm8"": ""Action/Adventure"", ""/m/02n4kr"": ""Mystery"", ""/m/07s9rl0"": ""Drama"", ""/m/02wtdps"": ""Crime Thriller"", ""/m/02kdv5l"": ""Action""}",,86.0,2
+1461417,0.25,0.9682458365518543,5,3,"{""/m/07s9rl0"": ""Drama"", ""/m/01z4y"": ""Comedy""}",,88.0,3
+14143644,-0.5,0.8660254037844386,2,6,"{""/m/03k9fj"": ""Adventure"", ""/m/01g6gs"": ""Black-and-white"", ""/m/0bkbm"": ""Spy""}",,,3
+9495654,0.14285714285714285,0.989743318610787,8,6,"{""/m/07s9rl0"": ""Drama"", ""/m/02n4lw"": ""Art film""}",,120.0,3
+31140821,0.15789473684210525,0.9874559494365115,44,32,"{""/m/06n90"": ""Science Fiction""}",,139.0,2
+5760640,0.13636363636363635,0.9906588508046984,25,19,"{""/m/01chg"": ""Bollywood"", ""/m/04t36"": ""Musical"", ""/m/07s9rl0"": ""Drama"", ""/m/01z4y"": ""Comedy"", ""/m/03q4nz"": ""World cinema""}",,146.0,2
+5937788,0.3333333333333333,0.9428090415820634,4,2,"{""/m/02l7c8"": ""Romance Film""}",,,3
+32826498,0.3333333333333333,0.9428090415820634,2,1,"{""/m/03btsm8"": ""Action/Adventure"", ""/m/0hfjk"": ""Western""}",,56.0,3
+35012794,0.3333333333333333,0.9428090415820634,2,1,"{""/m/02hmvc"": ""Short Film"", ""/m/0jtdp"": ""Documentary""}",,15.0,3
+30413149,0.0,1.0,1,1,"{""/m/07s9rl0"": ""Drama"", ""/m/03q4nz"": ""World cinema""}",,118.0,3
+2344137,-0.1282051282051282,0.9917476720930112,34,44,"{""/m/06n90"": ""Science Fiction"", ""/m/0jxy"": ""Anime"", ""/m/0gw5n2f"": ""Japanese Movies""}",,123.0,2
+4971555,-0.47368421052631576,0.8806947647727111,10,28,"{""/m/03btsm8"": ""Action/Adventure"", ""/m/01drsx"": ""Disaster"", ""/m/06n90"": ""Science Fiction"", ""/m/0fztc6"": ""Tamil cinema"", ""/m/03q4nz"": ""World cinema""}",,189.0,2
+17722134,-0.6,0.8,1,4,"{""/m/06n90"": ""Science Fiction"", ""/m/07s9rl0"": ""Drama""}",,89.0,3
+5120572,-0.6,0.8,1,4,"{""/m/0gf28"": ""Parody"", ""/m/0vgkd"": ""Black comedy"", ""/m/07s9rl0"": ""Drama"", ""/m/01z4y"": ""Comedy"", ""/m/0219x_"": ""Indie""}",,106.0,3
+26131380,-1.0,0.0,0,1,"{""/m/02n4kr"": ""Mystery"", ""/m/02xh1"": ""Film noir""}",,68.0,1
+34540617,0.5,0.8660254037844386,3,1,"{""/m/0hqxf"": ""Family Film""}",,,3
+12414587,0.10344827586206896,0.9946348346107556,16,13,"{""/m/0hj3myq"": ""Children's/Family"", ""/m/04t36"": ""Musical"", ""/m/01z4y"": ""Comedy"", ""/m/02l7c8"": ""Romance Film"", ""/m/0hqxf"": ""Family Film"", ""/m/02b5_l"": ""Teen""}",,94.0,2
+25540872,1.0,0.0,3,0,"{""/m/02l7c8"": ""Romance Film"", ""/m/07s9rl0"": ""Drama""}",,,0
+10031038,0.0,1.0,2,2,"{""/m/01z4y"": ""Comedy""}",,,3
+16047605,-1.0,0.0,0,2,"{""/m/0lsxr"": ""Crime Fiction"", ""/m/087lqx"": ""Pre-Code"", ""/m/07s9rl0"": ""Drama"", ""/m/01g6gs"": ""Black-and-white""}",,70.0,1
+2116356,-0.42857142857142855,0.9035079029052513,8,20,"{""/m/01jfsb"": ""Thriller"", ""/m/01f9r0"": ""Docudrama"", ""/m/07s9rl0"": ""Drama"", ""/m/01g6gs"": ""Black-and-white"", ""/m/02wtdps"": ""Crime Thriller"", ""/m/02xh1"": ""Film noir"", ""/m/0bkbm"": ""Spy""}",,88.0,3
+15060240,0.1891891891891892,0.9819406553829703,22,15,"{""/m/01zhp"": ""Computer Animation"", ""/m/0hqxf"": ""Family Film"", ""/m/0bj8m2"": ""Children's"", ""/m/03k9fj"": ""Adventure"", ""/m/0hcr"": ""Animation""}",,75.0,2
+4288473,0.15789473684210525,0.9874559494365114,22,16,"{""/m/0fx2s"": ""Tragedy"", ""/m/02h8pkk"": ""Family Drama"", ""/m/06n90"": ""Science Fiction"", ""/m/0hj3n0k"": ""Domestic Comedy"", ""/m/01hmnh"": ""Fantasy"", ""/m/01z4y"": ""Comedy"", ""/m/060__y"": ""Film adaptation"", ""/m/07s9rl0"": ""Drama"", ""/m/0hqxf"": ""Family Film"", ""/m/02l7c8"": ""Romance Film""}",87423861.0,132.0,2
+21600231,-0.375,0.9270248108869579,5,11,"{""/m/02hmvc"": ""Short Film"", ""/m/0hqxf"": ""Family Film"", ""/m/01z4y"": ""Comedy"", ""/m/0hcr"": ""Animation""}",,7.0,3
+1141596,-0.3181818181818182,0.9480297097551913,15,29,"{""/m/0lsxr"": ""Crime Fiction"", ""/m/01jfsb"": ""Thriller"", ""/m/03npn"": ""Horror"", ""/m/0hj3n01"": ""Crime Drama"", ""/m/01q03"": ""Cult"", ""/m/07s9rl0"": ""Drama"", ""/m/01585b"": ""Slasher""}",609939.0,83.0,2
+24972992,1.0,0.0,3,0,"{""/m/0l4h_"": ""Mockumentary"", ""/m/01z4y"": ""Comedy"", ""/m/0219x_"": ""Indie""}",,88.0,0
+28226679,-0.6666666666666666,0.7453559924999298,1,5,"{""/m/05p553"": ""Comedy film""}",,64.0,3
+171545,-0.2631578947368421,0.96475277788544,7,12,"{""/m/04p5fxn"": ""Christian film"", ""/m/07s9rl0"": ""Drama"", ""/m/0219x_"": ""Indie""}",19868354.0,133.0,3
+14136794,-0.3333333333333333,0.9428090415820634,2,4,"{""/m/01chg"": ""Bollywood"", ""/m/04t36"": ""Musical"", ""/m/01z4y"": ""Comedy"", ""/m/03q4nz"": ""World cinema""}",,121.0,3
+23128400,-0.5,0.8660254037844386,1,3,"{""/m/0lsxr"": ""Crime Fiction"", ""/m/01jfsb"": ""Thriller"", ""/m/06n90"": ""Science Fiction"", ""/m/02n4lw"": ""Art film"", ""/m/03q4nz"": ""World cinema"", ""/m/01hmnh"": ""Fantasy"", ""/m/01z4y"": ""Comedy"", ""/m/07s9rl0"": ""Drama"", ""/m/0gw5qqq"": ""Chinese Movies""}",,89.0,3
+3912910,-0.5,0.8660254037844386,6,18,"{""/m/01q03"": ""Cult"", ""/m/0g092b"": ""Monster movie"", ""/m/03npn"": ""Horror"", ""/m/01z4y"": ""Comedy""}",658573.0,85.0,3
+3681139,0.13333333333333333,0.9910712498212336,17,13,"{""/m/01z02hx"": ""Sports"", ""/m/01z4y"": ""Comedy""}",26255594.0,108.0,2
+2762659,-0.37662337662337664,0.9263664675390654,24,53,"{""/m/01jfsb"": ""Thriller"", ""/m/0lsxr"": ""Crime Fiction"", ""/m/0219x_"": ""Indie"", ""/m/03btsm8"": ""Action/Adventure"", ""/m/07s9rl0"": ""Drama"", ""/m/02wtdps"": ""Crime Thriller"", ""/m/02kdv5l"": ""Action""}",,97.0,2
+451791,0.05263157894736842,0.9986139979479093,10,9,"{""/m/0hn10"": ""LGBT"", ""/m/03q4nz"": ""World cinema"", ""/m/0d63kt"": ""Gay"", ""/m/04xvlr"": ""Period piece"", ""/m/0bc42t_"": ""Gay Interest"", ""/m/07s9rl0"": ""Drama"", ""/m/04tkhfk"": ""Gay Themed"", ""/m/068d7h"": ""Romantic drama"", ""/m/02l7c8"": ""Romance Film""}",,126.0,3
+26364509,0.3333333333333333,0.9428090415820634,4,2,"{""/m/0qdzd"": ""B-movie"", ""/m/03npn"": ""Horror""}",,71.0,3
+24732529,0.6,0.8,4,1,"{""/m/02l7c8"": ""Romance Film"", ""/m/07s9rl0"": ""Drama""}",5938940.0,,3
+21388424,-0.6666666666666666,0.7453559924999298,3,15,"{""/m/01g6gs"": ""Black-and-white""}",,79.0,3
+445895,0.3333333333333333,0.9428090415820634,18,9,"{""/m/06n90"": ""Science Fiction""}",,87.0,3
+32038154,-0.6,0.8,1,4,"{""/m/0hqxf"": ""Family Film""}",,,3
+456959,0.07317073170731707,0.9973194292810182,22,19,"{""/m/03npn"": ""Horror"", ""/m/0219x_"": ""Indie"", ""/m/0fdjb"": ""Supernatural"", ""/m/0hj3m_q"": ""Creature Film"", ""/m/01hmnh"": ""Fantasy"", ""/m/0vgkd"": ""Black comedy""}",,90.0,2
+4140604,0.8181818181818182,0.5749595745760689,10,1,"{""/m/04rlf"": ""Music"", ""/m/02p0szs"": ""Historical fiction"", ""/m/0jtdp"": ""Documentary""}",,108.0,0
+15127637,0.3333333333333333,0.9428090415820634,6,3,"{""/m/04t36"": ""Musical"", ""/m/07s9rl0"": ""Drama"", ""/m/0hqxf"": ""Family Film"", ""/m/01g6gs"": ""Black-and-white""}",,87.0,3
+28148325,-0.8461538461538461,0.5329387100211931,1,12,"{""/m/0hqxf"": ""Family Film"", ""/m/01z4y"": ""Comedy""}",,94.0,1
+24583533,0.38461538461538464,0.9230769230769231,9,4,"{""/m/02l7c8"": ""Romance Film""}",,,3
+8302915,-0.32,0.9474175425861608,17,33,"{""/m/03npn"": ""Horror"", ""/m/0qdzd"": ""B-movie"", ""/m/01585b"": ""Slasher""}",,82.0,2
+129246,0.4117647058823529,0.9112901991076274,12,5,"{""/m/017fp"": ""Biography"", ""/m/03g3w"": ""History"", ""/m/06l3bl"": ""Epic"", ""/m/0gw5qqq"": ""Chinese Movies"", ""/m/04xvlr"": ""Period piece"", ""/m/07s9rl0"": ""Drama"", ""/m/03bxz7"": ""Biographical film"", ""/m/03mqtr"": ""Political drama""}",43984230.0,160.0,3
+9119884,-0.14285714285714285,0.989743318610787,3,4,"{""/m/02hmvc"": ""Short Film"", ""/m/06ppq"": ""Silent film"", ""/m/0219x_"": ""Indie"", ""/m/01g6gs"": ""Black-and-white""}",,0.7,3
+859241,-0.6,0.8,1,4,"{""/m/0lsxr"": ""Crime Fiction"", ""/m/03bxz7"": ""Biographical film"", ""/m/0hj3n01"": ""Crime Drama"", ""/m/07s9rl0"": ""Drama"", ""/m/0hj3mws"": ""Biopic [feature]""}",,115.0,3
+22225850,-0.25,0.9682458365518543,3,5,"{""/m/04rlf"": ""Music"", ""/m/05p553"": ""Comedy film""}",,105.0,3
+29460177,-0.5,0.8660254037844386,4,12,"{""/m/04t36"": ""Musical"", ""/m/0hfjk"": ""Western"", ""/m/03npn"": ""Horror"", ""/m/01z4y"": ""Comedy""}",,,3
+35281447,-0.7333333333333333,0.6798692684790382,2,13,"{""/m/07s9rl0"": ""Drama""}",,130.0,3
+1226363,0.2,0.9797958971132713,21,14,"{""/m/02n4lw"": ""Art film"", ""/m/03q4nz"": ""World cinema"", ""/m/01g6gs"": ""Black-and-white"", ""/m/01hmnh"": ""Fantasy"", ""/m/07s9rl0"": ""Drama"", ""/m/068d7h"": ""Romantic drama"", ""/m/02l7c8"": ""Romance Film""}",,93.0,2
+12248294,1.0,0.0,1,0,"{""/m/02l7c8"": ""Romance Film"", ""/m/07s9rl0"": ""Drama""}",,87.0,0
+17957459,0.0,1.0,1,1,"{""/m/03npn"": ""Horror"", ""/m/01585b"": ""Slasher""}",,75.0,3
+26226313,-0.21052631578947367,0.9775881905793005,15,23,"{""/m/01drsx"": ""Disaster"", ""/m/06n90"": ""Science Fiction"", ""/m/015w9s"": ""Television movie""}",,91.0,2
+23790789,0.0,1.0,1,1,"{""/m/07s9rl0"": ""Drama""}",,96.0,3
+26695384,-0.1111111111111111,0.9938079899999066,8,10,"{""/m/02kdv5l"": ""Action"", ""/m/07s9rl0"": ""Drama""}",,179.0,3
+2295200,0.3333333333333333,0.9428090415820634,2,1,"{""/m/0hfjk"": ""Western"", ""/m/01z4y"": ""Comedy""}",,91.0,3
+1475914,0.2,0.9797958971132713,3,2,"{""/m/07s9rl0"": ""Drama"", ""/m/01z4y"": ""Comedy"", ""/m/0219x_"": ""Indie""}",,103.0,3
+9693961,-0.14285714285714285,0.9897433186107871,9,12,"{""/m/0gf28"": ""Parody"", ""/m/03npn"": ""Horror"", ""/m/0hj3m_q"": ""Creature Film"", ""/m/0hj3n5l"": ""Haunted House Film"", ""/m/0hj3n7f"": ""Horror Comedy"", ""/m/01z4y"": ""Comedy""}",4000000.0,75.0,3
+29029252,0.23076923076923078,0.9730085108210398,16,10,"{""/m/06ppq"": ""Silent film""}",,,3
+32874019,0.0,1.0,3,3,"{""/m/0hqxf"": ""Family Film"", ""/m/03k9fj"": ""Adventure""}",,100.0,3
+11076103,0.5,0.8660254037844386,6,2,"{""/m/068d7h"": ""Romantic drama"", ""/m/02l7c8"": ""Romance Film"", ""/m/07s9rl0"": ""Drama"", ""/m/0219x_"": ""Indie""}",,85.0,3
+5416532,-0.3333333333333333,0.9428090415820634,1,2,"{""/m/01t_vv"": ""Comedy-drama"", ""/m/0gw5n2f"": ""Japanese Movies"", ""/m/03q4nz"": ""World cinema"", ""/m/04gm78f"": ""Medical fiction"", ""/m/01z4y"": ""Comedy""}",,120.0,3
+19773644,-0.42857142857142855,0.9035079029052512,2,5,"{""/m/02hmvc"": ""Short Film"", ""/m/0hqxf"": ""Family Film"", ""/m/01z4y"": ""Comedy"", ""/m/01g6gs"": ""Black-and-white""}",,10.0,3
+1364238,0.0,1.0,6,6,"{""/m/04xvh5"": ""Costume drama"", ""/m/07s9rl0"": ""Drama"", ""/m/03k9fj"": ""Adventure"", ""/m/01g6gs"": ""Black-and-white"", ""/m/03g3w"": ""History""}",,101.0,3
+4705518,1.0,0.0,6,0,"{""/m/03k9fj"": ""Adventure"", ""/m/0hj3myq"": ""Children's/Family"", ""/m/0hcr"": ""Animation"", ""/m/01hmnh"": ""Fantasy"", ""/m/0hj3myc"": ""Children's Fantasy"", ""/m/0hqxf"": ""Family Film""}",,90.0,0
+12757619,-0.6,0.8000000000000002,1,4,"{""/m/0lsxr"": ""Crime Fiction"", ""/m/01jfsb"": ""Thriller"", ""/m/06n90"": ""Science Fiction"", ""/m/0qdzd"": ""B-movie"", ""/m/03npn"": ""Horror"", ""/m/01585b"": ""Slasher""}",,83.0,3
+19208905,1.0,0.0,3,0,"{""/m/0lsxr"": ""Crime Fiction"", ""/m/02n4kr"": ""Mystery"", ""/m/01jfsb"": ""Thriller"", ""/m/07s9rl0"": ""Drama"", ""/m/02wtdps"": ""Crime Thriller""}",,62.0,0
+7109992,1.0,0.0,1,0,"{""/m/017fp"": ""Biography"", ""/m/0219x_"": ""Indie"", ""/m/01g6gs"": ""Black-and-white"", ""/m/03btsm8"": ""Action/Adventure"", ""/m/07s9rl0"": ""Drama"", ""/m/03bxz7"": ""Biographical film"", ""/m/02kdv5l"": ""Action"", ""/m/03k9fj"": ""Adventure""}",,90.0,0
+512161,0.25925925925925924,0.9658077637337258,17,10,"{""/m/03k9fj"": ""Adventure"", ""/m/0hj3myq"": ""Children's/Family"", ""/m/07s9rl0"": ""Drama"", ""/m/01z4y"": ""Comedy"", ""/m/0hqxf"": ""Family Film"", ""/m/0hj3n26"": ""Family-Oriented Adventure"", ""/m/0ltv"": ""Auto racing""}",,100.0,3
+11397477,-1.0,0.0,0,2,"{""/m/0qdzd"": ""B-movie"", ""/m/03npn"": ""Horror"", ""/m/01585b"": ""Slasher"", ""/m/02b5_l"": ""Teen""}",23894000.0,97.0,1
+28887962,0.012345679012345678,0.9999237892008191,41,40,"{""/m/07s9rl0"": ""Drama""}",,,2
+3567408,-0.2,0.9797958971132714,6,9,"{""/m/02hmvc"": ""Short Film""}",,6.0,3
+18624278,-0.3333333333333333,0.9428090415820634,2,4,"{""/m/02hmvc"": ""Short Film"", ""/m/0hqxf"": ""Family Film"", ""/m/0hcr"": ""Animation""}",,,3
+30559901,-0.3333333333333333,0.9428090415820634,2,4,"{""/m/05p553"": ""Comedy film""}",,144.0,3
+13891325,0.0,1.0,2,2,"{""/m/02h8pkk"": ""Family Drama"", ""/m/07s9rl0"": ""Drama"", ""/m/0hj3mxx"": ""Childhood Drama"", ""/m/03q4nz"": ""World cinema""}",,87.0,3
+26968111,-0.10344827586206896,0.9946348346107556,13,16,"{""/m/01jfsb"": ""Thriller"", ""/m/07s9rl0"": ""Drama"", ""/m/0jdm8"": ""Remake"", ""/m/03q4nz"": ""World cinema""}",14775615.0,106.0,2
+25754553,1.0,0.0,2,0,"{""/m/07s9rl0"": ""Drama""}",,,0
+29051421,-0.38461538461538464,0.9230769230769231,4,9,"{""/m/07s9rl0"": ""Drama""}",,,3
+23960424,1.0,0.0,1,0,"{""/m/03k9fj"": ""Adventure"", ""/m/01g6gs"": ""Black-and-white"", ""/m/0hj3myq"": ""Children's/Family""}",,65.0,0
+1138873,0.14285714285714285,0.989743318610787,4,3,"{""/m/068d7h"": ""Romantic drama"", ""/m/02l7c8"": ""Romance Film"", ""/m/02kdv5l"": ""Action"", ""/m/07s9rl0"": ""Drama"", ""/m/01g6gs"": ""Black-and-white""}",,105.0,3
+21032415,-0.25,0.9682458365518543,3,5,"{""/m/03btsm8"": ""Action/Adventure"", ""/m/0hfjk"": ""Western""}",1500000.0,95.0,3
+14242470,-0.7142857142857143,0.6998542122237653,1,6,"{""/m/01z4y"": ""Comedy""}",,90.0,3
+6942838,-0.2857142857142857,0.9583148474999099,20,36,"{""/m/01jfsb"": ""Thriller"", ""/m/0gw5n2f"": ""Japanese Movies"", ""/m/03npn"": ""Horror"", ""/m/03q4nz"": ""World cinema"", ""/m/0fdjb"": ""Supernatural""}",,106.0,2
+16958405,0.07692307692307693,0.9970370305242862,7,6,"{""/m/07s9rl0"": ""Drama"", ""/m/068d7h"": ""Romantic drama"", ""/m/02l7c8"": ""Romance Film"", ""/m/02h8pkk"": ""Family Drama"", ""/m/01j1n2"": ""Coming of age""}",,92.0,3
+633832,-0.08333333333333333,0.9965217285917831,11,13,"{""/m/01jfsb"": ""Thriller"", ""/m/0lsxr"": ""Crime Fiction"", ""/m/02n4kr"": ""Mystery"", ""/m/07s9rl0"": ""Drama"", ""/m/0c3351"": ""Suspense"", ""/m/02wtdps"": ""Crime Thriller""}",13904766.0,93.0,3
+8249465,-0.23809523809523808,0.9712418121129114,8,13,{},,,3
+2493307,-0.8947368421052632,0.4465937565388721,1,18,"{""/m/01jfsb"": ""Thriller"", ""/m/06n90"": ""Science Fiction"", ""/m/02kdv5l"": ""Action"", ""/m/03npn"": ""Horror"", ""/m/0fdjb"": ""Supernatural""}",5086909.0,95.0,1
+3384239,-0.2857142857142857,0.9583148474999098,5,9,"{""/m/01jfsb"": ""Thriller"", ""/m/03btsm8"": ""Action/Adventure"", ""/m/02kdv5l"": ""Action""}",,95.0,3
+4358039,-0.29411764705882354,0.9557692240748189,6,11,"{""/m/0hj3nbk"": ""Marriage Drama"", ""/m/07s9rl0"": ""Drama"", ""/m/03q4nz"": ""World cinema""}",92180.0,88.0,3
+1814089,-0.05263157894736842,0.9986139979479093,18,20,"{""/m/0hj3myq"": ""Children's/Family"", ""/m/0hqxf"": ""Family Film"", ""/m/0hj3mtj"": ""Animal Picture"", ""/m/06n90"": ""Science Fiction"", ""/m/01z4y"": ""Comedy""}",,104.0,2
+27753599,-0.5121951219512195,0.8588691152028785,10,31,"{""/m/01jfsb"": ""Thriller"", ""/m/03npn"": ""Horror""}",,,2
+6847340,-0.14285714285714285,0.989743318610787,3,4,"{""/m/06ppq"": ""Silent film"", ""/m/03npn"": ""Horror"", ""/m/0219x_"": ""Indie"", ""/m/06n90"": ""Science Fiction"", ""/m/01g6gs"": ""Black-and-white"", ""/m/02n4kr"": ""Mystery"", ""/m/0vgkd"": ""Black comedy""}",,89.0,3
+16345566,-0.42857142857142855,0.9035079029052513,6,15,"{""/m/02kdv5l"": ""Action"", ""/m/0ltv"": ""Auto racing""}",,101.0,3
+21869908,-0.42857142857142855,0.9035079029052513,2,5,"{""/m/07s9rl0"": ""Drama"", ""/m/01z4y"": ""Comedy""}",,56.0,3
+3581636,0.0,1.0,1,1,"{""/m/0lsxr"": ""Crime Fiction"", ""/m/07s9rl0"": ""Drama"", ""/m/0219x_"": ""Indie""}",,87.0,3
+23925754,-0.3333333333333333,0.9428090415820634,1,2,"{""/m/07s9rl0"": ""Drama"", ""/m/01z4y"": ""Comedy"", ""/m/03q4nz"": ""World cinema""}",,73.0,3
+3589259,0.5,0.8660254037844386,3,1,"{""/m/01jfsb"": ""Thriller"", ""/m/03npn"": ""Horror"", ""/m/09blyk"": ""Psychological thriller""}",,93.0,3
+5579906,0.13043478260869565,0.9914568913905546,13,10,"{""/m/03btsm8"": ""Action/Adventure"", ""/m/0hfjk"": ""Western"", ""/m/07s9rl0"": ""Drama""}",,100.0,3
+8377856,-0.4716981132075472,0.8817601090979563,14,39,"{""/m/02hmvc"": ""Short Film"", ""/m/0hcr"": ""Animation""}",,,2
+25065018,-0.7333333333333333,0.6798692684790381,2,13,"{""/m/02l7c8"": ""Romance Film""}",,,3
+29393556,-1.0,0.0,0,2,"{""/m/07s9rl0"": ""Drama""}",,125.0,1
+491757,-0.5952380952380952,0.8035493824136288,17,67,"{""/m/06n90"": ""Science Fiction"", ""/m/03npn"": ""Horror"", ""/m/03k9fj"": ""Adventure"", ""/m/0hj3m_q"": ""Creature Film"", ""/m/03btsm8"": ""Action/Adventure"", ""/m/0jb4p32"": ""Zombie Film"", ""/m/02kdv5l"": ""Action""}",55987321.0,104.0,2
+350584,-0.11764705882352941,0.9930554715373018,15,19,"{""/m/01jfsb"": ""Thriller"", ""/m/02wtdps"": ""Crime Thriller"", ""/m/09blyk"": ""Psychological thriller"", ""/m/03q4nz"": ""World cinema""}",,106.0,2
+1592736,-0.5,0.8660254037844386,2,6,"{""/m/02hmvc"": ""Short Film""}",,8.75,3
+25888701,0.0,1.0,1,1,"{""/m/0gw5n2f"": ""Japanese Movies""}",,100.0,3
+4543480,0.5,0.8660254037844386,3,1,"{""/m/02hmvc"": ""Short Film"", ""/m/07s9rl0"": ""Drama""}",,40.0,3
+1238102,-0.5686274509803921,0.822595175035413,11,40,"{""/m/0lsxr"": ""Crime Fiction"", ""/m/01jfsb"": ""Thriller"", ""/m/07s9rl0"": ""Drama"", ""/m/0hj3n01"": ""Crime Drama""}",2019469.0,98.0,2
+133688,-0.3181818181818182,0.9480297097551913,15,29,"{""/m/068d7h"": ""Romantic drama"", ""/m/02l7c8"": ""Romance Film"", ""/m/0hj3n34"": ""Feminist Film"", ""/m/07s9rl0"": ""Drama"", ""/m/04xvlr"": ""Period piece""}",40157856.0,114.0,2
+33757322,1.0,0.0,5,0,"{""/m/06n90"": ""Science Fiction"", ""/m/03k9fj"": ""Adventure"", ""/m/01zhp"": ""Computer Animation"", ""/m/0hcr"": ""Animation"", ""/m/01z4y"": ""Comedy"", ""/m/0hqxf"": ""Family Film""}",,,0
+9522001,0.4,0.9165151389911679,7,3,"{""/m/02l7c8"": ""Romance Film"", ""/m/07s9rl0"": ""Drama""}",,,3
+335298,-0.030303030303030304,0.9995407577254934,16,17,"{""/m/03k9fj"": ""Adventure"", ""/m/0hj3myq"": ""Children's/Family"", ""/m/0hcr"": ""Animation"", ""/m/01hmnh"": ""Fantasy"", ""/m/0hj3myc"": ""Children's Fantasy"", ""/m/0hqxf"": ""Family Film"", ""/m/0hj3n2s"": ""Fantasy Comedy"", ""/m/0hj3n26"": ""Family-Oriented Adventure"", ""/m/01z4y"": ""Comedy""}",485015179.0,82.0,2
+74868,-0.5454545454545454,0.8381404052084445,5,17,"{""/m/0hj3n0w"": ""Ensemble Film"", ""/m/0clz1b"": ""Slice of life story"", ""/m/09n5t_"": ""Americana"", ""/m/01g6gs"": ""Black-and-white"", ""/m/04xvlr"": ""Period piece"", ""/m/01j1n2"": ""Coming of age"", ""/m/060__y"": ""Film adaptation"", ""/m/07s9rl0"": ""Drama"", ""/m/03pgfj"": ""New Hollywood""}",29133000.0,126.0,3
+13951439,0.25,0.9682458365518543,10,6,"{""/m/06cvj"": ""Romantic comedy"", ""/m/03q4nz"": ""World cinema"", ""/m/04t36"": ""Musical"", ""/m/01j1n2"": ""Coming of age"", ""/m/01z4y"": ""Comedy"", ""/m/07s9rl0"": ""Drama"", ""/m/068d7h"": ""Romantic drama"", ""/m/02l7c8"": ""Romance Film"", ""/m/02b5_l"": ""Teen""}",,150.0,3
+4836072,0.08571428571428572,0.9963197585235826,19,16,"{""/m/04xvh5"": ""Costume drama"", ""/m/0520lz"": ""Roadshow theatrical release"", ""/m/04t36"": ""Musical"", ""/m/07s9rl0"": ""Drama"", ""/m/01z4y"": ""Comedy"", ""/m/02l7c8"": ""Romance Film"", ""/m/0hqxf"": ""Family Film""}",72000000.0,172.0,2
+12250339,0.25,0.9682458365518543,10,6,"{""/m/0hj3n07"": ""Culture & Society"", ""/m/017fp"": ""Biography"", ""/m/0hj3n8h"": ""Interpersonal Relationships"", ""/m/075fzd"": ""Social issues"", ""/m/0jtdp"": ""Documentary""}",,,3
+4575990,-0.3333333333333333,0.9428090415820634,1,2,"{""/m/017fp"": ""Biography"", ""/m/03q4nz"": ""World cinema"", ""/m/04xvlr"": ""Period piece"", ""/m/07s9rl0"": ""Drama"", ""/m/068d7h"": ""Romantic drama"", ""/m/02l7c8"": ""Romance Film""}",,92.0,3
+864614,0.09090909090909091,0.9958591954639383,24,20,"{""/m/06cvj"": ""Romantic comedy"", ""/m/01lrrt"": ""Melodrama"", ""/m/03q4nz"": ""World cinema"", ""/m/01t_vv"": ""Comedy-drama"", ""/m/01z4y"": ""Comedy"", ""/m/02l7c8"": ""Romance Film""}",,150.0,2
+3493076,0.34782608695652173,0.9375590718629487,31,15,"{""/m/04xvh5"": ""Costume drama"", ""/m/04t36"": ""Musical"", ""/m/0520lz"": ""Roadshow theatrical release"", ""/m/02l7c8"": ""Romance Film""}",31102578.0,178.0,2
+19833487,0.0,1.0,1,1,"{""/m/0hfjk"": ""Western"", ""/m/02kdv5l"": ""Action"", ""/m/02l7c8"": ""Romance Film""}",,,3
+27108361,1.0,0.0,2,0,"{""/m/07s9rl0"": ""Drama""}",,115.0,0
+77223,-0.47619047619047616,0.8793421577437804,11,31,"{""/m/01jfsb"": ""Thriller"", ""/m/02n4kr"": ""Mystery"", ""/m/09blyk"": ""Psychological thriller"", ""/m/02wtdps"": ""Crime Thriller""}",6000000.0,105.0,2
+1195757,-1.0,0.0,0,2,"{""/m/0hj3n07"": ""Culture & Society"", ""/m/03g3w"": ""History"", ""/m/01g6gs"": ""Black-and-white"", ""/m/0hj3n9r"": ""Law & Crime"", ""/m/075fzd"": ""Social issues"", ""/m/0jtdp"": ""Documentary""}",,84.0,1
+20580166,0.05555555555555555,0.9984555975339682,19,17,"{""/m/02l7c8"": ""Romance Film"", ""/m/07s9rl0"": ""Drama"", ""/m/082gq"": ""War film""}",,78.0,2
+26499171,0.16666666666666666,0.9860132971832694,7,5,"{""/m/07s9rl0"": ""Drama"", ""/m/0219x_"": ""Indie""}",,80.0,3
+4022937,0.6666666666666666,0.7453559924999298,5,1,"{""/m/01hmnh"": ""Fantasy"", ""/m/04xvlr"": ""Period piece"", ""/m/09n5t_"": ""Americana"", ""/m/07s9rl0"": ""Drama"", ""/m/0bxg3"": ""Fairy tale""}",,103.0,3
+12279512,0.0,1.0,9,9,"{""/m/06cvj"": ""Romantic comedy"", ""/m/02l7c8"": ""Romance Film"", ""/m/01z4y"": ""Comedy""}",2250000.0,98.0,3
+23805085,-0.07692307692307693,0.9970370305242863,12,14,"{""/m/01jfsb"": ""Thriller"", ""/m/02n4kr"": ""Mystery""}",,99.0,3
+7520304,0.6,0.8,4,1,"{""/m/0hn10"": ""LGBT"", ""/m/03q4nz"": ""World cinema"", ""/m/0424mc"": ""Experimental film"", ""/m/07s9rl0"": ""Drama"", ""/m/068d7h"": ""Romantic drama"", ""/m/0vgkd"": ""Black comedy"", ""/m/0k345"": ""Avant-garde""}",,96.0,3
+4592959,-0.4588235294117647,0.8885274159293745,23,62,"{""/m/082gq"": ""War film"", ""/m/01g6gs"": ""Black-and-white"", ""/m/07s9rl0"": ""Drama"", ""/m/060__y"": ""Film adaptation"", ""/m/087lqx"": ""Pre-Code"", ""/m/02kdv5l"": ""Action""}",,145.0,2
+3008149,0.5,0.8660254037844386,3,1,"{""/m/0219x_"": ""Indie"", ""/m/04228s"": ""Road movie"", ""/m/06qm3"": ""Screwball comedy"", ""/m/03btsm8"": ""Action/Adventure"", ""/m/01z4y"": ""Comedy"", ""/m/03v6qx"": ""Stoner film"", ""/m/02kdv5l"": ""Action"", ""/m/03k9fj"": ""Adventure""}",,85.0,3
+34516980,0.3333333333333333,0.9428090415820634,2,1,"{""/m/02l7c8"": ""Romance Film"", ""/m/03k9fj"": ""Adventure"", ""/m/0hcr"": ""Animation""}",,,3
+18459346,-0.18181818181818182,0.9833321660356336,27,39,"{""/m/02l7c8"": ""Romance Film"", ""/m/02kdv5l"": ""Action"", ""/m/07s9rl0"": ""Drama""}",,185.0,2
+24128069,0.3333333333333333,0.9428090415820634,2,1,"{""/m/07s9rl0"": ""Drama"", ""/m/03q4nz"": ""World cinema""}",,132.0,3
+24480838,0.10638297872340426,0.9943252294083337,26,21,"{""/m/01jfsb"": ""Thriller"", ""/m/03npn"": ""Horror"", ""/m/09blyk"": ""Psychological thriller"", ""/m/02n4kr"": ""Mystery"", ""/m/07s9rl0"": ""Drama"", ""/m/0c3351"": ""Suspense""}",329398046.0,103.0,2
+28871413,-0.2,0.9797958971132713,2,3,"{""/m/07s9rl0"": ""Drama""}",1150000.0,111.0,3
+28882106,-1.0,0.0,0,5,"{""/m/07s9rl0"": ""Drama""}",,,1
+15340311,-0.047619047619047616,0.9988655696858585,10,11,"{""/m/07s9rl0"": ""Drama"", ""/m/082gq"": ""War film""}",,105.0,3
+18728031,0.058823529411764705,0.9982683969692436,9,8,"{""/m/07s9rl0"": ""Drama"", ""/m/0hj3myc"": ""Children's Fantasy"", ""/m/03q4nz"": ""World cinema"", ""/m/0hj3myq"": ""Children's/Family""}",,92.0,3
+9652303,-0.2,0.9797958971132713,2,3,"{""/m/07s9rl0"": ""Drama"", ""/m/01lrrt"": ""Melodrama"", ""/m/05swd"": ""Propaganda film"", ""/m/01g6gs"": ""Black-and-white""}",,61.0,3
+77598,-0.1111111111111111,0.9938079899999066,16,20,"{""/m/06cvj"": ""Romantic comedy"", ""/m/0hj3n5y"": ""Heaven-Can-Wait Fantasies"", ""/m/06qm3"": ""Screwball comedy"", ""/m/01g6gs"": ""Black-and-white"", ""/m/01z02hx"": ""Sports"", ""/m/0hj3n62"": ""Heavenly Comedy"", ""/m/01hmnh"": ""Fantasy"", ""/m/01z4y"": ""Comedy"", ""/m/02l7c8"": ""Romance Film""}",,94.0,2
+490800,-0.1111111111111111,0.9938079899999066,4,5,"{""/m/06n90"": ""Science Fiction"", ""/m/0gw5n2f"": ""Japanese Movies"", ""/m/03k9fj"": ""Adventure"", ""/m/03q4nz"": ""World cinema"", ""/m/0hcr"": ""Animation"", ""/m/0jxy"": ""Anime"", ""/m/07s9rl0"": ""Drama"", ""/m/01hmnh"": ""Fantasy"", ""/m/02kdv5l"": ""Action""}",,114.0,3
+4345210,0.09090909090909091,0.9958591954639383,6,5,"{""/m/02l7c8"": ""Romance Film"", ""/m/01t_vv"": ""Comedy-drama""}",,87.0,3
+35546738,-0.2,0.9797958971132713,2,3,"{""/m/0jtdp"": ""Documentary""}",,,3
+7518798,0.6666666666666666,0.7453559924999298,5,1,"{""/m/06nbt"": ""Satire"", ""/m/07s9rl0"": ""Drama""}",,132.0,3
+20773812,0.2857142857142857,0.9583148474999097,9,5,"{""/m/03q4nz"": ""World cinema"", ""/m/0220p9g"": ""Musical comedy"", ""/m/04t36"": ""Musical"", ""/m/07s9rl0"": ""Drama"", ""/m/068d7h"": ""Romantic drama"", ""/m/02l7c8"": ""Romance Film"", ""/m/01chg"": ""Bollywood""}",,128.0,3
+4499062,-0.6,0.8000000000000002,9,36,"{""/m/01q03"": ""Cult"", ""/m/0jb4p32"": ""Zombie Film"", ""/m/06n90"": ""Science Fiction"", ""/m/03npn"": ""Horror"", ""/m/0219x_"": ""Indie""}",,93.0,2
+730575,-1.0,0.0,0,3,"{""/m/01z4y"": ""Comedy""}",,99.0,1
+11488122,-0.25,0.9682458365518543,3,5,"{""/m/01z4y"": ""Comedy""}",,104.0,3
+4883547,-0.2289156626506024,0.9734462591192363,32,51,"{""/m/07s9rl0"": ""Drama"", ""/m/03k9fj"": ""Adventure"", ""/m/03q4nz"": ""World cinema"", ""/m/082gq"": ""War film""}",,145.0,2
+3820085,-0.25925925925925924,0.9658077637337258,10,17,"{""/m/0hj3myq"": ""Children's/Family"", ""/m/01hmnh"": ""Fantasy"", ""/m/0hj3myc"": ""Children's Fantasy"", ""/m/0hcr"": ""Animation""}",5958456.0,86.0,3
+31705653,-0.3333333333333333,0.9428090415820634,1,2,"{""/m/01z02hx"": ""Sports"", ""/m/07s9rl0"": ""Drama"", ""/m/01cgz"": ""Boxing""}",,91.0,3
+10628777,0.3684210526315789,0.9296590385608259,13,6,"{""/m/07s9rl0"": ""Drama""}",,,3
+27445334,-0.375,0.9270248108869579,5,11,"{""/m/03npn"": ""Horror"", ""/m/01z4y"": ""Comedy"", ""/m/03q4nz"": ""World cinema"", ""/m/0gw5qqq"": ""Chinese Movies""}",,90.0,3
+26549866,-0.4,0.9165151389911679,6,14,"{""/m/07s9rl0"": ""Drama""}",,63.0,3
+11048780,1.0,0.0,3,0,"{""/m/068d7h"": ""Romantic drama"", ""/m/02l7c8"": ""Romance Film"", ""/m/07s9rl0"": ""Drama"", ""/m/0hj3n84"": ""Inspirational Drama"", ""/m/015w9s"": ""Television movie""}",,85.0,0
+7153927,-0.2,0.9797958971132712,10,15,"{""/m/03npn"": ""Horror""}",,82.0,3
+28252120,1.0,0.0,2,0,"{""/m/0lsxr"": ""Crime Fiction"", ""/m/02kdv5l"": ""Action"", ""/m/07s9rl0"": ""Drama""}",,88.0,0
+4246026,0.0,1.0,1,1,"{""/m/04t36"": ""Musical"", ""/m/01z4y"": ""Comedy"", ""/m/0220p9g"": ""Musical comedy""}",780000.0,100.0,3
+37283373,0.3333333333333333,0.9428090415820634,2,1,"{""/m/01drsx"": ""Disaster""}",,,3
+17146332,-1.0,0.0,0,3,"{""/m/01jfsb"": ""Thriller"", ""/m/07s9rl0"": ""Drama"", ""/m/01g6gs"": ""Black-and-white""}",,62.0,1
+583932,-0.2777777777777778,0.9606453592105879,13,23,"{""/m/01jfsb"": ""Thriller"", ""/m/0cq22f9"": ""Action Thrillers"", ""/m/03btsm8"": ""Action/Adventure"", ""/m/0hj3n4h"": ""Glamorized Spy Film"", ""/m/02kdv5l"": ""Action"", ""/m/0bkbm"": ""Spy""}",152400000.0,131.0,2
+36322034,0.6,0.8000000000000002,4,1,"{""/m/02hmvc"": ""Short Film""}",,27.0,3
+3952475,-0.030303030303030304,0.9995407577254934,16,17,"{""/m/01z4y"": ""Comedy""}",21202099.0,91.0,2
+3136201,-0.2,0.9797958971132714,6,9,"{""/m/082gq"": ""War film"", ""/m/06l3bl"": ""Epic"", ""/m/03btsm8"": ""Action/Adventure"", ""/m/05swd"": ""Propaganda film"", ""/m/0hj3mws"": ""Biopic [feature]"", ""/m/07s9rl0"": ""Drama"", ""/m/03bxz7"": ""Biographical film"", ""/m/0hj3n6f"": ""Historical Epic"", ""/m/0hj3mz0"": ""Combat Films""}",,163.0,3
+25740208,-0.23076923076923078,0.9730085108210399,5,8,"{""/m/02l7c8"": ""Romance Film"", ""/m/02kdv5l"": ""Action"", ""/m/07s9rl0"": ""Drama""}",,,3
+3694594,-0.24324324324324326,0.9699653213473708,14,23,"{""/m/0gf28"": ""Parody"", ""/m/01z4y"": ""Comedy""}",,90.0,2
+4712667,-0.2,0.9797958971132713,2,3,"{""/m/07s9rl0"": ""Drama"", ""/m/03npn"": ""Horror"", ""/m/0fdjb"": ""Supernatural""}",,98.0,3
+506119,0.0,1.0,3,3,"{""/m/06cvj"": ""Romantic comedy"", ""/m/0lsxr"": ""Crime Fiction"", ""/m/0219x_"": ""Indie"", ""/m/04btyz"": ""Heist"", ""/m/060__y"": ""Film adaptation"", ""/m/03btsm8"": ""Action/Adventure"", ""/m/01jfsb"": ""Thriller"", ""/m/01z4y"": ""Comedy"", ""/m/02wtdps"": ""Crime Thriller"", ""/m/07s9rl0"": ""Drama"", ""/m/068d7h"": ""Romantic drama"", ""/m/02l7c8"": ""Romance Film"", ""/m/02kdv5l"": ""Action""}",77745568.0,122.0,3
+23195993,-0.42857142857142855,0.9035079029052513,4,10,"{""/m/068d7h"": ""Romantic drama"", ""/m/02l7c8"": ""Romance Film"", ""/m/07s9rl0"": ""Drama"", ""/m/060__y"": ""Film adaptation""}",1497222.0,102.0,3
+2711162,-0.375,0.9270248108869579,5,11,"{""/m/0lsxr"": ""Crime Fiction"", ""/m/07s9rl0"": ""Drama"", ""/m/02xh1"": ""Film noir""}",,100.0,3
+24485822,-0.14285714285714285,0.989743318610787,3,4,"{""/m/05p553"": ""Comedy film""}",,,3
+6317956,0.0,1.0,2,2,"{""/m/0hqxf"": ""Family Film"", ""/m/0bj8m2"": ""Children's"", ""/m/07s9rl0"": ""Drama"", ""/m/03k9fj"": ""Adventure"", ""/m/02h8pkk"": ""Family Drama""}",21006361.0,108.0,3
+6304083,-0.29411764705882354,0.9557692240748189,12,22,"{""/m/02hmvc"": ""Short Film"", ""/m/05p553"": ""Comedy film""}",,32.0,2
+8905156,0.0,1.0,14,14,"{""/m/01jfsb"": ""Thriller"", ""/m/03k9fj"": ""Adventure"", ""/m/01g6gs"": ""Black-and-white"", ""/m/04t36"": ""Musical"", ""/m/07s9rl0"": ""Drama"", ""/m/02l7c8"": ""Romance Film"", ""/m/02kdv5l"": ""Action""}",,80.0,2
+5263902,-0.14285714285714285,0.989743318610787,3,4,"{""/m/03btsm8"": ""Action/Adventure"", ""/m/0hfjk"": ""Western""}",,94.0,3
+10091427,-1.0,0.0,0,2,"{""/m/03k9fj"": ""Adventure"", ""/m/04pbhw"": ""Superhero movie"", ""/m/01g6gs"": ""Black-and-white"", ""/m/0949yv"": ""Movie serial"", ""/m/02hmvc"": ""Short Film"", ""/m/02kdv5l"": ""Action""}",,258.0,1
+27117416,-0.23404255319148937,0.9722263539400736,18,29,"{""/m/0lsxr"": ""Crime Fiction"", ""/m/02wtdps"": ""Crime Thriller"", ""/m/01jfsb"": ""Thriller"", ""/m/07s9rl0"": ""Drama""}",,92.0,2
+31967555,1.0,0.0,2,0,"{""/m/0lsxr"": ""Crime Fiction"", ""/m/02l7c8"": ""Romance Film"", ""/m/07s9rl0"": ""Drama""}",,115.0,0
+35119673,-0.3333333333333333,0.9428090415820634,1,2,"{""/m/06n90"": ""Science Fiction"", ""/m/04pbhw"": ""Superhero movie"", ""/m/0hcr"": ""Animation""}",,76.0,3
+70428,0.0,1.0,9,9,"{""/m/06cvj"": ""Romantic comedy"", ""/m/01t_vv"": ""Comedy-drama"", ""/m/02l7c8"": ""Romance Film"", ""/m/07s9rl0"": ""Drama"", ""/m/01z4y"": ""Comedy""}",3200000.0,129.0,3
+35990410,0.3333333333333333,0.9428090415820634,4,2,"{""/m/0hcr"": ""Animation""}",,,3
+10366326,0.058823529411764705,0.9982683969692436,9,8,"{""/m/06cvj"": ""Romantic comedy"", ""/m/02l7c8"": ""Romance Film"", ""/m/01z4y"": ""Comedy"", ""/m/04t36"": ""Musical""}",,72.0,3
+32927927,1.0,0.0,1,0,"{""/m/0lsxr"": ""Crime Fiction"", ""/m/017fp"": ""Biography"", ""/m/07s9rl0"": ""Drama""}",,87.0,0
+26400853,-1.0,0.0,0,4,"{""/m/01jfsb"": ""Thriller"", ""/m/02wtdps"": ""Crime Thriller"", ""/m/07s9rl0"": ""Drama""}",,98.0,1
+16334910,-0.05263157894736842,0.9986139979479093,9,10,"{""/m/0lsxr"": ""Crime Fiction"", ""/m/0hj3n07"": ""Culture & Society"", ""/m/0hj3n9r"": ""Law & Crime"", ""/m/0cshrf"": ""Political cinema"", ""/m/075fzd"": ""Social issues"", ""/m/0jtdp"": ""Documentary""}",,118.0,3
+3498675,-0.42857142857142855,0.9035079029052513,8,20,"{""/m/07s9rl0"": ""Drama"", ""/m/01chg"": ""Bollywood"", ""/m/03q4nz"": ""World cinema""}",,150.0,3
+8750776,-0.16666666666666666,0.9860132971832694,5,7,"{""/m/08322"": ""Wuxia"", ""/m/0gw5qqq"": ""Chinese Movies""}",,80.0,3
+15292916,-0.2,0.9797958971132713,2,3,"{""/m/0qdzd"": ""B-movie"", ""/m/03npn"": ""Horror"", ""/m/0hj3n5l"": ""Haunted House Film""}",,82.0,3
+66870,0.030303030303030304,0.9995407577254934,17,16,"{""/m/06cvj"": ""Romantic comedy"", ""/m/03p5xs"": ""Comedy of manners"", ""/m/07s9rl0"": ""Drama"", ""/m/01z4y"": ""Comedy"", ""/m/02l7c8"": ""Romance Film"", ""/m/03pgfj"": ""New Hollywood""}",38251425.0,94.0,2
+2456550,-0.125,0.9921567416492215,7,9,"{""/m/01jfsb"": ""Thriller"", ""/m/02n4kr"": ""Mystery"", ""/m/0hj3n4p"": ""Gothic Film"", ""/m/03npn"": ""Horror"", ""/m/01g6gs"": ""Black-and-white""}",,73.0,3
+32098611,1.0,0.0,1,0,"{""/m/07s9rl0"": ""Drama"", ""/m/03q4nz"": ""World cinema""}",,130.0,0
+8636654,-0.14285714285714285,0.9897433186107871,9,12,"{""/m/02l7c8"": ""Romance Film"", ""/m/07s9rl0"": ""Drama"", ""/m/01z4y"": ""Comedy""}",4642401.0,105.0,3
+5875034,-0.1724137931034483,0.9850246108334967,24,34,"{""/m/01jfsb"": ""Thriller"", ""/m/03btsm8"": ""Action/Adventure"", ""/m/02kdv5l"": ""Action"", ""/m/07s9rl0"": ""Drama"", ""/m/082gq"": ""War film""}",86579130.0,110.0,2
+18563580,-0.28888888888888886,0.9573626323794674,16,29,"{""/m/01chg"": ""Bollywood""}",,,2
+19685467,0.3333333333333333,0.9428090415820634,2,1,"{""/m/02hmvc"": ""Short Film"", ""/m/0hqxf"": ""Family Film"", ""/m/01z4y"": ""Comedy"", ""/m/01g6gs"": ""Black-and-white""}",,10.0,3
+33990019,-0.3333333333333333,0.9428090415820634,1,2,"{""/m/05p553"": ""Comedy film""}",,,3
+12558999,-0.3333333333333333,0.9428090415820634,4,8,"{""/m/04t36"": ""Musical"", ""/m/07s9rl0"": ""Drama"", ""/m/01g6gs"": ""Black-and-white""}",,90.0,3
+33280938,-0.09090909090909091,0.9958591954639383,5,6,"{""/m/0hfjk"": ""Western"", ""/m/02l7c8"": ""Romance Film"", ""/m/02kdv5l"": ""Action"", ""/m/07s9rl0"": ""Drama"", ""/m/05p553"": ""Comedy film""}",,87.0,3
+29079027,-0.16666666666666666,0.9860132971832694,5,7,"{""/m/0hqxf"": ""Family Film"", ""/m/01hmnh"": ""Fantasy"", ""/m/03k9fj"": ""Adventure""}",,,3
+2456030,-0.3333333333333333,0.9428090415820634,1,2,"{""/m/02hmvc"": ""Short Film"", ""/m/0jb4p32"": ""Zombie Film"", ""/m/03npn"": ""Horror""}",,20.0,3
+4485402,-0.08333333333333333,0.9965217285917831,11,13,"{""/m/06ppq"": ""Silent film"", ""/m/07s9rl0"": ""Drama"", ""/m/0219x_"": ""Indie"", ""/m/01g6gs"": ""Black-and-white""}",,71.0,3
+2684671,-1.0,0.0,0,2,"{""/m/07s9rl0"": ""Drama"", ""/m/01z4y"": ""Comedy"", ""/m/03q4nz"": ""World cinema""}",,106.0,1
+9074501,0.0,1.0,2,2,"{""/m/06n90"": ""Science Fiction"", ""/m/03q4nz"": ""World cinema"", ""/m/06qln"": ""Stop motion"", ""/m/0hcr"": ""Animation"", ""/m/01hmnh"": ""Fantasy"", ""/m/07s9rl0"": ""Drama"", ""/m/04rlf"": ""Music"", ""/m/02l7c8"": ""Romance Film""}",,99.0,3
+26716752,-0.6666666666666666,0.7453559924999298,1,5,"{""/m/01jfsb"": ""Thriller"", ""/m/0gw5n2f"": ""Japanese Movies"", ""/m/02l7c8"": ""Romance Film"", ""/m/07s9rl0"": ""Drama"", ""/m/03q4nz"": ""World cinema""}",,80.0,3
+34907074,-0.3333333333333333,0.9428090415820634,1,2,"{""/m/01jfsb"": ""Thriller"", ""/m/0lsxr"": ""Crime Fiction"", ""/m/07s9rl0"": ""Drama""}",,,3
+11190234,-0.058823529411764705,0.9982683969692436,8,9,"{""/m/0lsxr"": ""Crime Fiction"", ""/m/04t36"": ""Musical"", ""/m/07s9rl0"": ""Drama"", ""/m/03q4nz"": ""World cinema""}",,119.0,3
+4685642,0.0,1.0,5,5,"{""/m/0hqxf"": ""Family Film"", ""/m/01hmnh"": ""Fantasy"", ""/m/06n90"": ""Science Fiction""}",,60.0,3
+7174075,0.2,0.9797958971132713,3,2,"{""/m/04t36"": ""Musical""}",,,3
+9497657,-0.25,0.9682458365518543,9,15,"{""/m/02hmvc"": ""Short Film"", ""/m/0hqxf"": ""Family Film"", ""/m/01z4y"": ""Comedy"", ""/m/0hcr"": ""Animation""}",,,3
+19918475,0.15789473684210525,0.9874559494365115,11,8,"{""/m/02l7c8"": ""Romance Film"", ""/m/07s9rl0"": ""Drama""}",,,3
+168554,-0.5909090909090909,0.8067381522408565,9,35,"{""/m/01jfsb"": ""Thriller"", ""/m/0lsxr"": ""Crime Fiction"", ""/m/03k9fj"": ""Adventure"", ""/m/0cq22f9"": ""Action Thrillers"", ""/m/03btsm8"": ""Action/Adventure"", ""/m/07s9rl0"": ""Drama"", ""/m/0hj3n1c"": ""Escape Film"", ""/m/02kdv5l"": ""Action""}",8000000.0,112.0,2
+6217649,0.38461538461538464,0.9230769230769231,9,4,"{""/m/03q4nz"": ""World cinema"", ""/m/04t36"": ""Musical"", ""/m/07s9rl0"": ""Drama"", ""/m/068d7h"": ""Romantic drama"", ""/m/02l7c8"": ""Romance Film"", ""/m/01chg"": ""Bollywood""}",,207.0,3
+14143414,-0.7142857142857143,0.6998542122237653,1,6,"{""/m/0vjs6"": ""Detective"", ""/m/03k9fj"": ""Adventure"", ""/m/01g6gs"": ""Black-and-white""}",,,3
+3759173,0.2777777777777778,0.960645359210588,23,13,"{""/m/03btsm8"": ""Action/Adventure"", ""/m/02kdv5l"": ""Action"", ""/m/04t2t"": ""Martial Arts Film"", ""/m/03q4nz"": ""World cinema""}",,120.0,2
+16697151,-1.0,0.0,0,9,"{""/m/01jfsb"": ""Thriller"", ""/m/07s9rl0"": ""Drama"", ""/m/0gw5qqq"": ""Chinese Movies"", ""/m/03q4nz"": ""World cinema""}",,94.0,1
+27281389,0.42857142857142855,0.9035079029052513,5,2,"{""/m/07s9rl0"": ""Drama""}",,162.0,3
+4731904,-0.18181818181818182,0.9833321660356332,9,13,"{""/m/07s9rl0"": ""Drama"", ""/m/068d7h"": ""Romantic drama"", ""/m/02l7c8"": ""Romance Film"", ""/m/01j1n2"": ""Coming of age"", ""/m/02b5_l"": ""Teen""}",15453274.0,99.0,3
+26561992,-0.25,0.9682458365518543,3,5,"{""/m/07s9rl0"": ""Drama""}",,87.0,3
+16744198,-0.5,0.8660254037844386,3,9,"{""/m/04rlf"": ""Music"", ""/m/07s9rl0"": ""Drama""}",,112.0,3
+177735,0.0,1.0,1,1,"{""/m/02l7c8"": ""Romance Film"", ""/m/01lrrt"": ""Melodrama"", ""/m/07s9rl0"": ""Drama"", ""/m/01g6gs"": ""Black-and-white""}",,65.0,3
+26536541,-0.05555555555555555,0.9984555975339682,17,19,"{""/m/03npn"": ""Horror""}",,88.0,2
+31762933,0.0,1.0,2,2,"{""/m/07s9rl0"": ""Drama""}",,,3
+2156510,-0.4117647058823529,0.9112901991076274,5,12,"{""/m/0lsxr"": ""Crime Fiction"", ""/m/0gf28"": ""Parody"", ""/m/01z4y"": ""Comedy""}",20109115.0,94.0,3
+12212399,-0.4444444444444444,0.8958064164776166,5,13,"{""/m/01z4y"": ""Comedy"", ""/m/0hj3n6r"": ""Holiday Film"", ""/m/0hj3myq"": ""Children's/Family""}",,70.0,3
+4142291,-0.6666666666666666,0.7453559924999298,1,5,"{""/m/0gf28"": ""Parody"", ""/m/06n90"": ""Science Fiction"", ""/m/0219x_"": ""Indie"", ""/m/02hmvc"": ""Short Film"", ""/m/06nbt"": ""Satire"", ""/m/01z4y"": ""Comedy""}",,12.0,3
+21508247,-0.24,0.9707728879609278,19,31,"{""/m/01jfsb"": ""Thriller"", ""/m/0lsxr"": ""Crime Fiction"", ""/m/07s9rl0"": ""Drama"", ""/m/03q4nz"": ""World cinema""}",,136.0,2
+29101425,-0.16666666666666666,0.9860132971832694,5,7,"{""/m/03g3w"": ""History"", ""/m/07s9rl0"": ""Drama"", ""/m/082gq"": ""War film""}",9622846.0,145.0,3
+24158175,-0.1111111111111111,0.9938079899999066,8,10,"{""/m/0hfjk"": ""Western""}",,99.0,3
+24188674,0.03225806451612903,0.9994795732148174,16,15,"{""/m/07s9rl0"": ""Drama""}",9996178.0,123.0,2
+161915,-0.2,0.9797958971132713,2,3,"{""/m/02h8pkk"": ""Family Drama"", ""/m/07s9rl0"": ""Drama""}",,92.0,3
+652432,-0.058823529411764705,0.9982683969692436,16,18,"{""/m/03q4nz"": ""World cinema"", ""/m/03btsm8"": ""Action/Adventure"", ""/m/04t2t"": ""Martial Arts Film"", ""/m/01z4y"": ""Comedy"", ""/m/02kdv5l"": ""Action"", ""/m/0gw5qqq"": ""Chinese Movies""}",,106.0,2
+5604985,0.0,1.0,1,1,"{""/m/06ppq"": ""Silent film"", ""/m/0219x_"": ""Indie"", ""/m/0hj3mtj"": ""Animal Picture"", ""/m/01g6gs"": ""Black-and-white"", ""/m/02hmvc"": ""Short Film"", ""/m/01z4y"": ""Comedy"", ""/m/09q17"": ""Slapstick""}",,21.0,3
+28838608,1.0,0.0,1,0,"{""/m/04t36"": ""Musical"", ""/m/01z4y"": ""Comedy""}",,102.0,0
+32466495,0.3333333333333333,0.9428090415820634,4,2,"{""/m/02hmvc"": ""Short Film""}",,7.0,3
+3130659,0.125,0.9921567416492215,9,7,"{""/m/04xvh5"": ""Costume drama"", ""/m/07s9rl0"": ""Drama"", ""/m/0hj3n26"": ""Family-Oriented Adventure"", ""/m/0hj3myq"": ""Children's/Family""}",,90.0,3
+20329270,1.0,0.0,2,0,"{""/m/0cshrf"": ""Political cinema"", ""/m/03g3w"": ""History"", ""/m/03q4nz"": ""World cinema"", ""/m/0jtdp"": ""Documentary""}",,118.0,0
+26449950,-0.5789473684210527,0.8153649149910351,4,15,"{""/m/0lsxr"": ""Crime Fiction"", ""/m/07s9rl0"": ""Drama"", ""/m/01z4y"": ""Comedy""}",,138.0,3
+4210812,0.14285714285714285,0.989743318610787,4,3,"{""/m/02hmvc"": ""Short Film"", ""/m/06ppq"": ""Silent film"", ""/m/01hmnh"": ""Fantasy"", ""/m/0219x_"": ""Indie"", ""/m/01g6gs"": ""Black-and-white""}",,13.0,3
+1597802,-0.44,0.8979977728257459,14,36,"{""/m/0lsxr"": ""Crime Fiction"", ""/m/01jfsb"": ""Thriller"", ""/m/0gw5w78"": ""Gangster Film"", ""/m/0219x_"": ""Indie"", ""/m/0hj3n01"": ""Crime Drama"", ""/m/02n4kr"": ""Mystery"", ""/m/07s9rl0"": ""Drama"", ""/m/02wtdps"": ""Crime Thriller""}",490964.0,102.0,2
+22209229,0.3333333333333333,0.9428090415820634,2,1,"{""/m/02n4kr"": ""Mystery"", ""/m/05p553"": ""Comedy film""}",,,3
+1405743,-0.7142857142857143,0.6998542122237653,1,6,"{""/m/07s9rl0"": ""Drama""}",618847.0,96.0,3
+4861305,-0.41935483870967744,0.9078224051271154,9,22,"{""/m/07s9rl0"": ""Drama"", ""/m/02h8pkk"": ""Family Drama"", ""/m/01j1n2"": ""Coming of age"", ""/m/0hj3mxx"": ""Childhood Drama"", ""/m/03q4nz"": ""World cinema""}",,109.0,2
+5720418,-0.4117647058823529,0.9112901991076274,5,12,"{""/m/0lsxr"": ""Crime Fiction"", ""/m/01jfsb"": ""Thriller"", ""/m/06n90"": ""Science Fiction"", ""/m/03npn"": ""Horror"", ""/m/01g6gs"": ""Black-and-white""}",,157.0,3
+6426786,-0.23076923076923078,0.9730085108210399,5,8,"{""/m/08322"": ""Wuxia"", ""/m/0hj3n2k"": ""Fantasy Adventure"", ""/m/03k9fj"": ""Adventure"", ""/m/03q4nz"": ""World cinema"", ""/m/0gw5qqq"": ""Chinese Movies"", ""/m/03btsm8"": ""Action/Adventure"", ""/m/04t2t"": ""Martial Arts Film"", ""/m/01hmnh"": ""Fantasy"", ""/m/03rzvv"": ""Romantic fantasy"", ""/m/0520_cy"": ""Sword and sorcery films""}",,90.0,3
+35412577,1.0,0.0,3,0,"{""/m/07s9rl0"": ""Drama""}",,,0
+29616483,0.25,0.9682458365518543,5,3,"{""/m/02l7c8"": ""Romance Film"", ""/m/07s9rl0"": ""Drama""}",,,3
+1157158,-0.5625,0.8267972847076845,7,25,"{""/m/0gf28"": ""Parody"", ""/m/0vgkd"": ""Black comedy"", ""/m/06nbt"": ""Satire"", ""/m/01z4y"": ""Comedy""}",8382938.0,109.0,2
+33940717,0.25,0.9682458365518543,5,3,"{""/m/05p553"": ""Comedy film"", ""/m/04t36"": ""Musical"", ""/m/0219x_"": ""Indie""}",,124.0,3
+19025779,-0.2,0.9797958971132713,18,27,"{""/m/0gf28"": ""Parody"", ""/m/06ppq"": ""Silent film"", ""/m/01g6gs"": ""Black-and-white""}",,135.0,2
+33468851,-0.7142857142857143,0.6998542122237652,1,6,"{""/m/07s9rl0"": ""Drama"", ""/m/01z4y"": ""Comedy""}",19774455.0,111.0,3
+6212570,0.0,1.0,2,2,"{""/m/0qdzd"": ""B-movie"", ""/m/04pbhw"": ""Superhero movie"", ""/m/03npn"": ""Horror"", ""/m/01q03"": ""Cult"", ""/m/06nbt"": ""Satire"", ""/m/01z4y"": ""Comedy"", ""/m/0vgkd"": ""Black comedy"", ""/m/02kdv5l"": ""Action""}",,99.0,3
+9756837,-0.17073170731707318,0.9853175549621539,17,24,"{""/m/068d7h"": ""Romantic drama"", ""/m/02l7c8"": ""Romance Film"", ""/m/07s9rl0"": ""Drama"", ""/m/03q4nz"": ""World cinema"", ""/m/01g6gs"": ""Black-and-white""}",,100.0,2
+9232950,-0.2,0.9797958971132713,2,3,"{""/m/01jfsb"": ""Thriller"", ""/m/03btsm8"": ""Action/Adventure"", ""/m/07s9rl0"": ""Drama"", ""/m/0c3351"": ""Suspense"", ""/m/02qfv5d"": ""Political thriller"", ""/m/02kdv5l"": ""Action"", ""/m/03mqtr"": ""Political drama""}",,89.0,3
+10660190,-0.42857142857142855,0.9035079029052513,4,10,"{""/m/03btsm8"": ""Action/Adventure"", ""/m/01z4y"": ""Comedy"", ""/m/03q4nz"": ""World cinema""}",,150.0,3
+29881311,-1.0,0.0,0,3,"{""/m/02hmvc"": ""Short Film""}",,40.0,1
+20077388,0.5,0.8660254037844386,6,2,"{""/m/0hn10"": ""LGBT"", ""/m/0219x_"": ""Indie"", ""/m/01hw54"": ""Feature film"", ""/m/04tkhfk"": ""Gay Themed"", ""/m/0d63kt"": ""Gay"", ""/m/0bc42t_"": ""Gay Interest"", ""/m/07s9rl0"": ""Drama"", ""/m/060__y"": ""Film adaptation"", ""/m/068d7h"": ""Romantic drama"", ""/m/02l7c8"": ""Romance Film""}",,80.0,3
+1271694,-0.3548387096774194,0.9349275320122219,10,21,"{""/m/0gf28"": ""Parody"", ""/m/0219x_"": ""Indie"", ""/m/01q03"": ""Cult"", ""/m/06nbt"": ""Satire"", ""/m/01z4y"": ""Comedy"", ""/m/0vgkd"": ""Black comedy"", ""/m/0hj3n0k"": ""Domestic Comedy""}",,86.0,2
+14261075,-0.1111111111111111,0.9938079899999066,4,5,"{""/m/01jfsb"": ""Thriller"", ""/m/03btsm8"": ""Action/Adventure"", ""/m/02kdv5l"": ""Action"", ""/m/01z4y"": ""Comedy""}",11263966.0,102.0,3
+9916550,-0.2,0.9797958971132713,2,3,"{""/m/03k9fj"": ""Adventure"", ""/m/01g6gs"": ""Black-and-white"", ""/m/03btsm8"": ""Action/Adventure"", ""/m/0hfjk"": ""Western"", ""/m/0hj3mvm"": ""B-Western"", ""/m/02kdv5l"": ""Action""}",,217.0,3
+5264560,-0.10526315789473684,0.9944444014574308,17,21,"{""/m/0gf28"": ""Parody"", ""/m/01z02hx"": ""Sports"", ""/m/01z4y"": ""Comedy""}",145708642.0,93.0,2
+22682411,0.4,0.9165151389911681,7,3,"{""/m/02l7c8"": ""Romance Film""}",,,3
+23607760,0.6666666666666666,0.7453559924999298,5,1,"{""/m/02l7c8"": ""Romance Film"", ""/m/01t_vv"": ""Comedy-drama""}",,,3
+3569886,-0.2,0.9797958971132713,8,12,"{""/m/0lsxr"": ""Crime Fiction"", ""/m/01jfsb"": ""Thriller"", ""/m/09blyk"": ""Psychological thriller"", ""/m/02n4kr"": ""Mystery"", ""/m/07s9rl0"": ""Drama"", ""/m/0c3351"": ""Suspense"", ""/m/060__y"": ""Film adaptation"", ""/m/02wtdps"": ""Crime Thriller"", ""/m/01585b"": ""Slasher""}",5009305.0,132.0,3
+33047576,0.0,1.0,2,2,"{""/m/07s9rl0"": ""Drama""}",,,3
+3012123,-0.3333333333333333,0.9428090415820634,2,4,"{""/m/0hj3n4p"": ""Gothic Film"", ""/m/03npn"": ""Horror"", ""/m/0hj3m_q"": ""Creature Film"", ""/m/0219x_"": ""Indie""}",,96.0,3
+3208776,-0.6666666666666666,0.7453559924999298,1,5,"{""/m/02hmvc"": ""Short Film""}",,18.0,3
+32340407,-0.1836734693877551,0.9829873125544731,20,29,"{""/m/03k9fj"": ""Adventure""}",7300000.0,75.0,2
+13643392,-0.5,0.8660254037844386,2,6,"{""/m/0vjs6"": ""Detective"", ""/m/01g6gs"": ""Black-and-white""}",,94.0,3
+11251743,-0.09090909090909091,0.9958591954639383,20,24,"{""/m/02hmvc"": ""Short Film"", ""/m/01hmnh"": ""Fantasy"", ""/m/0hcr"": ""Animation""}",,,2
+1166518,0.0,1.0,2,2,"{""/m/07s9rl0"": ""Drama"", ""/m/0hj3n0w"": ""Ensemble Film"", ""/m/02gk5"": ""Dogme 95"", ""/m/0219x_"": ""Indie"", ""/m/03q4nz"": ""World cinema""}",,109.0,3
+9644100,0.0,1.0,3,3,"{""/m/04t36"": ""Musical"", ""/m/01hmnh"": ""Fantasy"", ""/m/0hqxf"": ""Family Film""}",,85.0,3
+4019049,-0.3333333333333333,0.9428090415820634,1,2,"{""/m/01z4y"": ""Comedy"", ""/m/01g6gs"": ""Black-and-white"", ""/m/09q17"": ""Slapstick""}",,,3
+6975303,0.13043478260869565,0.9914568913905547,13,10,"{""/m/01jfsb"": ""Thriller"", ""/m/0lsxr"": ""Crime Fiction"", ""/m/07s9rl0"": ""Drama"", ""/m/0219x_"": ""Indie"", ""/m/01z4y"": ""Comedy""}",,89.0,3
+479589,0.0,1.0,1,1,"{""/m/07s9rl0"": ""Drama"", ""/m/0hqxf"": ""Family Film"", ""/m/02h8pkk"": ""Family Drama"", ""/m/01t_vv"": ""Comedy-drama"", ""/m/01z4y"": ""Comedy""}",,110.0,3
+20692099,0.043478260869565216,0.9990543733109614,12,11,"{""/m/07s9rl0"": ""Drama""}",,,3
+2367161,0.0,1.0,4,4,"{""/m/0lsxr"": ""Crime Fiction"", ""/m/04btyz"": ""Heist"", ""/m/0jdm8"": ""Remake"", ""/m/07s9rl0"": ""Drama"", ""/m/01z4y"": ""Comedy"", ""/m/02wtdps"": ""Crime Thriller"", ""/m/068d7h"": ""Romantic drama"", ""/m/02l7c8"": ""Romance Film""}",124305181.0,120.0,3
+5924049,-0.7142857142857143,0.6998542122237652,4,24,"{""/m/0qdzd"": ""B-movie"", ""/m/0219x_"": ""Indie"", ""/m/09blyk"": ""Psychological thriller"", ""/m/03npn"": ""Horror"", ""/m/01585b"": ""Slasher"", ""/m/02b5_l"": ""Teen""}",,91.0,3
+22634826,0.2571428571428571,0.966373401445015,22,13,"{""/m/02kdv5l"": ""Action"", ""/m/0gw5n2f"": ""Japanese Movies""}",,66.0,2
+12596008,-0.3333333333333333,0.9428090415820634,2,4,"{""/m/07s9rl0"": ""Drama"", ""/m/04t36"": ""Musical"", ""/m/03npn"": ""Horror"", ""/m/01z4y"": ""Comedy""}",,102.0,3
+34196805,1.0,0.0,1,0,"{""/m/0lsxr"": ""Crime Fiction"", ""/m/06n90"": ""Science Fiction"", ""/m/07s9rl0"": ""Drama""}",,63.0,0
+18964317,0.45454545454545453,0.8907235428302466,8,3,"{""/m/04t36"": ""Musical"", ""/m/01chg"": ""Bollywood"", ""/m/03q4nz"": ""World cinema""}",,133.0,3
+4448175,-0.3333333333333333,0.9428090415820634,2,4,"{""/m/02hmvc"": ""Short Film"", ""/m/0219x_"": ""Indie"", ""/m/02b5_l"": ""Teen"", ""/m/01z4y"": ""Comedy""}",,84.0,3
+15357779,-0.2727272727272727,0.9620913858416692,8,14,"{""/m/01jfsb"": ""Thriller"", ""/m/02kdv5l"": ""Action"", ""/m/082gq"": ""War film"", ""/m/01g6gs"": ""Black-and-white"", ""/m/0bkbm"": ""Spy""}",,95.0,3
+33679627,0.6,0.8,4,1,"{""/m/02p0szs"": ""Historical fiction"", ""/m/07s9rl0"": ""Drama"", ""/m/0jtdp"": ""Documentary""}",,88.0,3
+24949170,1.0,0.0,2,0,"{""/m/07s9rl0"": ""Drama""}",,85.0,0
+3466113,0.14285714285714285,0.989743318610787,12,9,"{""/m/03btsm8"": ""Action/Adventure"", ""/m/0hfjk"": ""Western"", ""/m/0hj3mxk"": ""Cavalry Film"", ""/m/01g6gs"": ""Black-and-white"", ""/m/082gq"": ""War film""}",,128.0,3
+12857448,-0.3333333333333333,0.9428090415820634,2,4,"{""/m/0hcr"": ""Animation""}",,66.0,3
+10224734,1.0,0.0,1,0,"{""/m/07s9rl0"": ""Drama""}",,87.0,0
+33594947,-0.13333333333333333,0.9910712498212336,13,17,"{""/m/06nbt"": ""Satire"", ""/m/01z4y"": ""Comedy""}",93451706.0,85.0,2
+966552,0.16666666666666666,0.9860132971832694,7,5,"{""/m/03btsm8"": ""Action/Adventure"", ""/m/02kdv5l"": ""Action"", ""/m/04t2t"": ""Martial Arts Film"", ""/m/07s9rl0"": ""Drama"", ""/m/03k9fj"": ""Adventure""}",32500000.0,115.0,3
+5241676,0.45454545454545453,0.8907235428302466,8,3,"{""/m/06n90"": ""Science Fiction"", ""/m/0219x_"": ""Indie"", ""/m/094ddt"": ""Doomsday film"", ""/m/03btsm8"": ""Action/Adventure"", ""/m/01drsx"": ""Disaster"", ""/m/02kdv5l"": ""Action"", ""/m/03k9fj"": ""Adventure""}",,101.0,3
+15639202,-0.48717948717948717,0.8733018649193027,10,29,"{""/m/06qm3"": ""Screwball comedy"", ""/m/01z4y"": ""Comedy"", ""/m/04t36"": ""Musical"", ""/m/0220p9g"": ""Musical comedy""}",,72.0,2
+19905844,0.0,1.0,1,1,"{""/m/06qln"": ""Stop motion"", ""/m/02hmvc"": ""Short Film"", ""/m/0hcr"": ""Animation""}",,6.0,3
+1663320,0.10344827586206896,0.9946348346107556,16,13,"{""/m/02l7c8"": ""Romance Film"", ""/m/01hmnh"": ""Fantasy"", ""/m/01z4y"": ""Comedy""}",38077373.0,103.0,2
+1303197,0.3103448275862069,0.950624051868291,19,10,"{""/m/068d7h"": ""Romantic drama"", ""/m/04t36"": ""Musical"", ""/m/07s9rl0"": ""Drama"", ""/m/02l7c8"": ""Romance Film"", ""/m/015w9s"": ""Television movie""}",,90.0,2
+4512681,-0.6363636363636364,0.77138921583987,2,9,"{""/m/01z02hx"": ""Sports"", ""/m/09q17"": ""Slapstick"", ""/m/01z4y"": ""Comedy"", ""/m/0219x_"": ""Indie""}",,91.0,3
+23975295,-1.0,0.0,0,7,"{""/m/01jfsb"": ""Thriller"", ""/m/0lsxr"": ""Crime Fiction"", ""/m/03npn"": ""Horror"", ""/m/05p553"": ""Comedy film"", ""/m/02n4kr"": ""Mystery"", ""/m/07s9rl0"": ""Drama"", ""/m/02wtdps"": ""Crime Thriller""}",,71.0,1
+2467280,-0.4883720930232558,0.8726354901997078,11,32,"{""/m/0gf28"": ""Parody"", ""/m/01z4y"": ""Comedy"", ""/m/09q17"": ""Slapstick""}",,86.0,2
+7090669,0.0,1.0,2,2,"{""/m/0lsxr"": ""Crime Fiction"", ""/m/02wtdps"": ""Crime Thriller"", ""/m/01jfsb"": ""Thriller""}",,110.0,3
+10432695,0.6,0.8000000000000002,4,1,"{""/m/03npn"": ""Horror"", ""/m/0c3351"": ""Suspense"", ""/m/01g6gs"": ""Black-and-white""}",,63.0,3
+6435145,0.17647058823529413,0.9843059135695006,10,7,"{""/m/01jfsb"": ""Thriller"", ""/m/028v3"": ""Detective fiction"", ""/m/01g6gs"": ""Black-and-white"", ""/m/02n4kr"": ""Mystery"", ""/m/07s9rl0"": ""Drama"", ""/m/060__y"": ""Film adaptation"", ""/m/02wtdps"": ""Crime Thriller""}",,81.0,3
+2648856,-0.23809523809523808,0.9712418121129114,16,26,"{""/m/068d7h"": ""Romantic drama"", ""/m/02l7c8"": ""Romance Film"", ""/m/07s9rl0"": ""Drama"", ""/m/01g6gs"": ""Black-and-white"", ""/m/04xvh5"": ""Costume drama""}",,97.0,2
+2338993,-0.3,0.9539392014169457,14,26,"{""/m/0bbc17"": ""Gross out"", ""/m/0gsy3b"": ""Sex comedy"", ""/m/01jw2w"": ""Gross-out film"", ""/m/01z4y"": ""Comedy"", ""/m/09q17"": ""Slapstick""}",45109561.0,83.0,2
+14640745,0.0,1.0,3,3,"{""/m/02hmvc"": ""Short Film"", ""/m/01z4y"": ""Comedy"", ""/m/01g6gs"": ""Black-and-white""}",,,3
+31205051,-0.3333333333333333,0.9428090415820634,1,2,"{""/m/07s9rl0"": ""Drama""}",263635.0,111.0,3
+17753400,-0.23809523809523808,0.9712418121129114,8,13,"{""/m/0hcr"": ""Animation""}",,,3
+6937139,-0.1111111111111111,0.9938079899999065,12,15,"{""/m/01z02hx"": ""Sports"", ""/m/03btsm8"": ""Action/Adventure"", ""/m/02kdv5l"": ""Action"", ""/m/01z4y"": ""Comedy"", ""/m/09q17"": ""Slapstick""}",14334401.0,87.0,3
+622993,0.45454545454545453,0.8907235428302466,8,3,"{""/m/04xvlr"": ""Period piece"", ""/m/07s9rl0"": ""Drama"", ""/m/0219x_"": ""Indie"", ""/m/060__y"": ""Film adaptation""}",5471088.0,110.0,3
+699336,-0.5,0.8660254037844386,1,3,"{""/m/06cvj"": ""Romantic comedy"", ""/m/02l7c8"": ""Romance Film"", ""/m/01z4y"": ""Comedy"", ""/m/0hj3n0k"": ""Domestic Comedy""}",138510230.0,103.0,3
+21634467,-0.14285714285714285,0.989743318610787,9,12,"{""/m/01jfsb"": ""Thriller"", ""/m/0lsxr"": ""Crime Fiction"", ""/m/07s9rl0"": ""Drama""}",,115.0,3
+29446866,-0.4482758620689655,0.8938952687459119,16,42,"{""/m/01jfsb"": ""Thriller"", ""/m/0lsxr"": ""Crime Fiction"", ""/m/06n90"": ""Science Fiction"", ""/m/02kdv5l"": ""Action""}",173930596.0,109.0,2
+32199706,-0.25,0.9682458365518543,3,5,"{""/m/07s9rl0"": ""Drama""}",,,3
+14143347,0.6666666666666666,0.7453559924999298,5,1,"{""/m/03k9fj"": ""Adventure"", ""/m/01g6gs"": ""Black-and-white""}",,,3
+28208601,1.0,0.0,5,0,"{""/m/02hmvc"": ""Short Film"", ""/m/04rlf"": ""Music"", ""/m/0hcr"": ""Animation""}",,,0
+26600812,0.0,1.0,4,4,"{""/m/07s9rl0"": ""Drama"", ""/m/01z4y"": ""Comedy""}",,,3
+3229585,-0.3333333333333333,0.9428090415820634,13,26,"{""/m/01jfsb"": ""Thriller"", ""/m/03btsm8"": ""Action/Adventure"", ""/m/06n90"": ""Science Fiction"", ""/m/02kdv5l"": ""Action""}",,100.0,2
+15462142,0.1111111111111111,0.9938079899999066,5,4,"{""/m/01jfsb"": ""Thriller"", ""/m/03npn"": ""Horror""}",,,3
+31156702,-0.047619047619047616,0.9988655696858585,10,11,"{""/m/02kdv5l"": ""Action"", ""/m/07s9rl0"": ""Drama""}",,,3
+28386057,0.3333333333333333,0.9428090415820634,2,1,"{""/m/03btsm8"": ""Action/Adventure"", ""/m/0hfjk"": ""Western"", ""/m/015w9s"": ""Television movie""}",,100.0,3
+5435938,-1.0,0.0,0,1,"{""/m/0lsxr"": ""Crime Fiction""}",,,1
+31505539,0.0,1.0,3,3,"{""/m/01jfsb"": ""Thriller"", ""/m/02n4kr"": ""Mystery"", ""/m/07s9rl0"": ""Drama""}",,,3
+2206566,-0.2857142857142857,0.9583148474999097,5,9,"{""/m/02kdv5l"": ""Action"", ""/m/03k9fj"": ""Adventure""}",,75.0,3
+28764889,-1.0,0.0,0,1,"{""/m/0hj3l_y"": ""Action Comedy"", ""/m/02kdv5l"": ""Action"", ""/m/0556j8"": ""Buddy film""}",,,1
+13049849,0.3333333333333333,0.9428090415820634,2,1,"{""/m/07s9rl0"": ""Drama"", ""/m/0gw5qqq"": ""Chinese Movies""}",,88.0,3
+14896191,0.5,0.8660254037844386,3,1,"{""/m/04228s"": ""Road movie"", ""/m/07s9rl0"": ""Drama"", ""/m/03q4nz"": ""World cinema""}",,126.0,3
+180241,-0.23809523809523808,0.9712418121129114,16,26,"{""/m/0gw5n2f"": ""Japanese Movies"", ""/m/03k9fj"": ""Adventure"", ""/m/03q4nz"": ""World cinema"", ""/m/01g6gs"": ""Black-and-white"", ""/m/03btsm8"": ""Action/Adventure"", ""/m/04t2t"": ""Martial Arts Film"", ""/m/07s9rl0"": ""Drama"", ""/m/01z4y"": ""Comedy"", ""/m/02qqtlj"": ""Samurai cinema"", ""/m/02n4lw"": ""Art film""}",,96.0,2
+2390554,-1.0,0.0,0,3,"{""/m/02l7c8"": ""Romance Film"", ""/m/07s9rl0"": ""Drama"", ""/m/01g6gs"": ""Black-and-white""}",,66.0,1
+1482950,0.5,0.8660254037844386,3,1,"{""/m/082gq"": ""War film"", ""/m/07s9rl0"": ""Drama"", ""/m/060__y"": ""Film adaptation"", ""/m/068d7h"": ""Romantic drama"", ""/m/02l7c8"": ""Romance Film"", ""/m/02kdv5l"": ""Action""}",8000000.0,149.0,3
+31867162,0.21568627450980393,0.9764627135677438,31,20,"{""/m/07s9rl0"": ""Drama""}",,115.0,2
+30604129,-1.0,0.0,0,1,"{""/m/07s9rl0"": ""Drama""}",,94.0,1
+4092144,-0.6071428571428571,0.794592695045964,11,45,"{""/m/0lsxr"": ""Crime Fiction"", ""/m/0gw5n2f"": ""Japanese Movies"", ""/m/03q4nz"": ""World cinema"", ""/m/03btsm8"": ""Action/Adventure"", ""/m/04t2t"": ""Martial Arts Film"", ""/m/02kdv5l"": ""Action"", ""/m/0d1w9"": ""Prison"", ""/m/0gw5qqq"": ""Chinese Movies""}",2147778.0,90.0,2
+35119561,-0.42857142857142855,0.9035079029052512,2,5,"{""/m/02hmvc"": ""Short Film"", ""/m/0hqxf"": ""Family Film"", ""/m/0hcr"": ""Animation""}",,7.0,3
+3019565,-0.3333333333333333,0.9428090415820634,8,16,"{""/m/0hj3mx2"": ""British Empire Film"", ""/m/04xvh5"": ""Costume drama"", ""/m/02p0szs"": ""Historical fiction"", ""/m/06l3bl"": ""Epic"", ""/m/07s9rl0"": ""Drama"", ""/m/082gq"": ""War film"", ""/m/0hj3n6f"": ""Historical Epic""}",,136.0,3
+8283136,-1.0,0.0,0,2,"{""/m/02kdv5l"": ""Action"", ""/m/03k9fj"": ""Adventure"", ""/m/01g6gs"": ""Black-and-white"", ""/m/0bkbm"": ""Spy""}",,,1
+545795,0.3191489361702128,0.9477045723965993,31,16,"{""/m/0hj3n0w"": ""Ensemble Film"", ""/m/03p5xs"": ""Comedy of manners"", ""/m/01t_vv"": ""Comedy-drama"", ""/m/04xvlr"": ""Period piece"", ""/m/07s9rl0"": ""Drama"", ""/m/01z4y"": ""Comedy""}",56342711.0,105.0,2
+22352229,0.2,0.9797958971132713,3,2,"{""/m/01z4y"": ""Comedy""}",,98.0,3
+34927590,-1.0,0.0,0,2,"{""/m/03btsm8"": ""Action/Adventure"", ""/m/02wtdps"": ""Crime Thriller"", ""/m/02kdv5l"": ""Action"", ""/m/01jfsb"": ""Thriller"", ""/m/03q4nz"": ""World cinema""}",,80.0,1
+26297867,-1.0,0.0,0,1,"{""/m/02l7c8"": ""Romance Film"", ""/m/05p553"": ""Comedy film""}",,126.0,1
+31229287,0.0,1.0,1,1,"{""/m/07s9rl0"": ""Drama""}",,96.0,3
+35785586,0.3333333333333333,0.9428090415820634,2,1,"{""/m/06ppq"": ""Silent film"", ""/m/07s9rl0"": ""Drama""}",,90.0,3
+8536802,-0.42857142857142855,0.9035079029052513,2,5,"{""/m/01jfsb"": ""Thriller"", ""/m/03btsm8"": ""Action/Adventure"", ""/m/0cq22f9"": ""Action Thrillers"", ""/m/02kdv5l"": ""Action""}",,90.0,3
+10331139,0.14285714285714285,0.989743318610787,4,3,"{""/m/01jfsb"": ""Thriller"", ""/m/02kdv5l"": ""Action"", ""/m/07s9rl0"": ""Drama""}",,91.0,3
+3334667,-0.7142857142857143,0.6998542122237652,1,6,"{""/m/07s9rl0"": ""Drama"", ""/m/01g6gs"": ""Black-and-white""}",,,3
+19497060,-0.14285714285714285,0.989743318610787,3,4,"{""/m/01z4y"": ""Comedy"", ""/m/01g6gs"": ""Black-and-white""}",,95.0,3
+19310258,0.14285714285714285,0.989743318610787,4,3,"{""/m/01jfsb"": ""Thriller"", ""/m/060__y"": ""Film adaptation"", ""/m/07s9rl0"": ""Drama"", ""/m/082gq"": ""War film""}",,82.0,3
+32204201,-0.2,0.9797958971132713,2,3,"{""/m/01z4y"": ""Comedy""}",,107.0,3
+24934813,1.0,0.0,1,0,"{""/m/07s9rl0"": ""Drama"", ""/m/0219x_"": ""Indie""}",,87.0,0
+32604160,-0.07692307692307693,0.9970370305242863,6,7,"{""/m/06cvj"": ""Romantic comedy""}",,,3
+6699130,0.0,1.0,2,2,"{""/m/01jfsb"": ""Thriller"", ""/m/0219x_"": ""Indie"", ""/m/03q4nz"": ""World cinema"", ""/m/07s9rl0"": ""Drama"", ""/m/01z4y"": ""Comedy"", ""/m/02wtdps"": ""Crime Thriller"", ""/m/0vgkd"": ""Black comedy""}",,90.0,3
+26470932,0.0,1.0,1,1,"{""/m/0jtdp"": ""Documentary""}",,53.0,3
+15139794,1.0,0.0,1,0,"{""/m/07s9rl0"": ""Drama"", ""/m/082gq"": ""War film""}",,120.0,0
+27665775,1.0,0.0,1,0,"{""/m/05p553"": ""Comedy film""}",,,0
+9266932,-0.4,0.9165151389911679,3,7,"{""/m/01drsx"": ""Disaster"", ""/m/01jfsb"": ""Thriller"", ""/m/06n90"": ""Science Fiction"", ""/m/03btsm8"": ""Action/Adventure""}",,88.0,3
+32380648,-0.42857142857142855,0.9035079029052512,2,5,"{""/m/0lsxr"": ""Crime Fiction"", ""/m/02wtdps"": ""Crime Thriller"", ""/m/01jfsb"": ""Thriller""}",,90.0,3
+16648109,0.5714285714285714,0.82065180664829,11,3,"{""/m/0hqxf"": ""Family Film"", ""/m/03k9fj"": ""Adventure"", ""/m/0hcr"": ""Animation""}",,54.0,3
+8940854,-0.25,0.9682458365518543,3,5,"{""/m/0vgkd"": ""Black comedy"", ""/m/0gsy3b"": ""Sex comedy"", ""/m/06nbt"": ""Satire"", ""/m/01z4y"": ""Comedy"", ""/m/03q4nz"": ""World cinema""}",,94.0,3
+31316750,-1.0,0.0,0,9,"{""/m/03npn"": ""Horror""}",,,1
+1001692,0.0,1.0,2,2,"{""/m/06cvj"": ""Romantic comedy"", ""/m/02l7c8"": ""Romance Film"", ""/m/0hj3mz5"": ""Comedy of Errors"", ""/m/01z4y"": ""Comedy""}",,92.0,3
+15105645,0.0,1.0,2,2,"{""/m/0hj3n07"": ""Culture & Society"", ""/m/017fp"": ""Biography"", ""/m/0219x_"": ""Indie"", ""/m/01z02hx"": ""Sports"", ""/m/075fzd"": ""Social issues"", ""/m/0jtdp"": ""Documentary""}",,100.0,3
+11975009,-1.0,0.0,0,1,"{""/m/0vgkd"": ""Black comedy"", ""/m/0gw5w78"": ""Gangster Film""}",,100.0,1
+31235673,0.25,0.9682458365518543,5,3,"{""/m/02kdv5l"": ""Action""}",,105.0,3
+12561001,-0.1111111111111111,0.9938079899999066,16,20,"{""/m/06n90"": ""Science Fiction"", ""/m/094ddt"": ""Doomsday film"", ""/m/015w9s"": ""Television movie"", ""/m/03btsm8"": ""Action/Adventure"", ""/m/01hmnh"": ""Fantasy"", ""/m/01z4y"": ""Comedy"", ""/m/0hqxf"": ""Family Film"", ""/m/02kdv5l"": ""Action"", ""/m/0hj3n26"": ""Family-Oriented Adventure"", ""/m/04pbhw"": ""Superhero movie""}",,67.0,2
+20658736,-0.11764705882352941,0.9930554715373018,15,19,"{""/m/07s9rl0"": ""Drama"", ""/m/03q4nz"": ""World cinema""}",,143.0,2
+289755,-0.4666666666666667,0.8844332774281067,12,33,"{""/m/0lsxr"": ""Crime Fiction"", ""/m/01jfsb"": ""Thriller"", ""/m/0cq22f9"": ""Action Thrillers"", ""/m/0556j8"": ""Buddy film"", ""/m/03q4nz"": ""World cinema"", ""/m/03btsm8"": ""Action/Adventure"", ""/m/02n4kr"": ""Mystery"", ""/m/07s9rl0"": ""Drama"", ""/m/02qfv5d"": ""Political thriller"", ""/m/02l7c8"": ""Romance Film"", ""/m/02kdv5l"": ""Action"", ""/m/0bkbm"": ""Spy""}",,125.0,2
+448814,0.23809523809523808,0.9712418121129114,13,8,"{""/m/0hj3myq"": ""Children's/Family"", ""/m/0bxg3"": ""Fairy tale"", ""/m/0hcr"": ""Animation"", ""/m/0bj8m2"": ""Children's"", ""/m/0hj3myc"": ""Children's Fantasy"", ""/m/0hj3mtv"": ""Animated Musical"", ""/m/04rlf"": ""Music"", ""/m/0hqxf"": ""Family Film""}",,77.0,3
+3253340,0.3333333333333333,0.9428090415820634,4,2,"{""/m/0gw5n2f"": ""Japanese Movies"", ""/m/0cq22z7"": ""Sci-Fi Horror"", ""/m/03npn"": ""Horror"", ""/m/06n90"": ""Science Fiction"", ""/m/03k9fj"": ""Adventure""}",,,3
+10071292,-0.42857142857142855,0.9035079029052513,4,10,"{""/m/0lsxr"": ""Crime Fiction"", ""/m/01jfsb"": ""Thriller"", ""/m/09blyk"": ""Psychological thriller"", ""/m/02n4kr"": ""Mystery"", ""/m/0c3351"": ""Suspense"", ""/m/060__y"": ""Film adaptation"", ""/m/02wtdps"": ""Crime Thriller""}",105178561.0,104.0,3
+17570326,-1.0,0.0,0,1,"{""/m/04q6sch"": ""Comedy horror"", ""/m/03npn"": ""Horror"", ""/m/01z4y"": ""Comedy""}",,81.0,1
+10479762,0.0,1.0,2,2,"{""/m/07s9rl0"": ""Drama"", ""/m/0hj3n0w"": ""Ensemble Film"", ""/m/06lbpz"": ""Social problem film"", ""/m/0219x_"": ""Indie"", ""/m/03mqtr"": ""Political drama""}",,132.0,3
+14399659,-1.0,0.0,0,1,"{""/m/01jfsb"": ""Thriller"", ""/m/03btsm8"": ""Action/Adventure"", ""/m/0gw5n2f"": ""Japanese Movies"", ""/m/03q4nz"": ""World cinema"", ""/m/0cq22f9"": ""Action Thrillers"", ""/m/07s9rl0"": ""Drama"", ""/m/02kdv5l"": ""Action""}",,133.0,1
+12835554,0.29411764705882354,0.9557692240748189,11,6,"{""/m/07s9rl0"": ""Drama"", ""/m/04t36"": ""Musical"", ""/m/03npn"": ""Horror"", ""/m/01chg"": ""Bollywood"", ""/m/03q4nz"": ""World cinema""}",,133.0,3
+5562511,0.2727272727272727,0.9620913858416693,7,4,{},,,3
+12378414,-0.3333333333333333,0.9428090415820634,3,6,"{""/m/06cvj"": ""Romantic comedy""}",,,3
+5725237,0.0,1.0,3,3,"{""/m/0253g1"": ""Epic Western"", ""/m/04cb4x"": ""Revisionist Western"", ""/m/0hfjk"": ""Western""}",,184.0,3
+4451435,-0.14285714285714285,0.989743318610787,9,12,"{""/m/01jfsb"": ""Thriller"", ""/m/0lsxr"": ""Crime Fiction"", ""/m/03npn"": ""Horror"", ""/m/04xvh5"": ""Costume drama"", ""/m/02n4kr"": ""Mystery"", ""/m/04xvlr"": ""Period piece"", ""/m/07s9rl0"": ""Drama"", ""/m/060__y"": ""Film adaptation"", ""/m/02wtdps"": ""Crime Thriller"", ""/m/03bxz7"": ""Biographical film"", ""/m/01585b"": ""Slasher"", ""/m/0hj3m_c"": ""Costume Horror""}",74558115.0,121.0,3
+169202,0.2727272727272727,0.9620913858416693,7,4,"{""/m/03g3w"": ""History"", ""/m/0424mc"": ""Experimental film"", ""/m/02n4kr"": ""Mystery"", ""/m/01hmnh"": ""Fantasy"", ""/m/07s9rl0"": ""Drama"", ""/m/0k345"": ""Avant-garde"", ""/m/0hj3n1j"": ""Essay Film""}",6685748.0,90.0,3
+2377695,0.08333333333333333,0.9965217285917831,13,11,"{""/m/04t36"": ""Musical"", ""/m/01z4y"": ""Comedy"", ""/m/0220p9g"": ""Musical comedy""}",,106.0,3
+3837132,-1.0,0.0,0,6,"{""/m/02n4kr"": ""Mystery"", ""/m/01z4y"": ""Comedy"", ""/m/0bkbm"": ""Spy""}",,82.0,1
+11288620,-0.3076923076923077,0.9514859136040755,9,17,"{""/m/01jfsb"": ""Thriller"", ""/m/0lsxr"": ""Crime Fiction"", ""/m/09blyk"": ""Psychological thriller"", ""/m/02n4kr"": ""Mystery"", ""/m/07s9rl0"": ""Drama"", ""/m/02wtdps"": ""Crime Thriller"", ""/m/02kdv5l"": ""Action""}",76747202.0,100.0,3
+26064019,-0.2,0.9797958971132713,2,3,"{""/m/01jfsb"": ""Thriller"", ""/m/04q6sch"": ""Comedy horror"", ""/m/03npn"": ""Horror"", ""/m/0gw5qqq"": ""Chinese Movies""}",,90.0,3
+14359104,-0.1111111111111111,0.9938079899999066,4,5,"{""/m/07s9rl0"": ""Drama"", ""/m/03q4nz"": ""World cinema""}",,118.0,3
+12036077,-0.3333333333333333,0.9428090415820634,2,4,"{""/m/06ppq"": ""Silent film"", ""/m/0219x_"": ""Indie"", ""/m/0hcr"": ""Animation"", ""/m/02hmvc"": ""Short Film"", ""/m/01hmnh"": ""Fantasy"", ""/m/01z4y"": ""Comedy""}",,8.0,3
+7351154,0.2,0.9797958971132713,6,4,"{""/m/0hcr"": ""Animation""}",,45.0,3
+2112205,0.0,1.0,10,10,"{""/m/07s9rl0"": ""Drama"", ""/m/082gq"": ""War film""}",,86.0,3
+2617386,0.14285714285714285,0.9897433186107871,16,12,"{""/m/0hqxf"": ""Family Film"", ""/m/03k9fj"": ""Adventure"", ""/m/0hcr"": ""Animation""}",,70.0,2
+16066384,1.0,0.0,6,0,"{""/m/02kdv5l"": ""Action"", ""/m/0gw5qqq"": ""Chinese Movies""}",,87.0,0
+3237559,-0.32432432432432434,0.945945945945946,25,49,"{""/m/01q03"": ""Cult"", ""/m/03npn"": ""Horror"", ""/m/01585b"": ""Slasher"", ""/m/02b5_l"": ""Teen"", ""/m/0b7z1vt"": ""Road-Horror""}",51764406.0,90.0,2
+41528,0.24324324324324326,0.9699653213473708,23,14,"{""/m/01j1n2"": ""Coming of age"", ""/m/05p553"": ""Comedy film"", ""/m/07s9rl0"": ""Drama"", ""/m/082gq"": ""War film"", ""/m/068d7h"": ""Romantic drama"", ""/m/02l7c8"": ""Romance Film""}",677387716.0,136.0,2
+16029506,0.2,0.9797958971132713,3,2,"{""/m/03npn"": ""Horror"", ""/m/0219x_"": ""Indie"", ""/m/09blyk"": ""Psychological thriller""}",,80.0,3
+19817505,-0.2857142857142857,0.9583148474999099,10,18,"{""/m/0hn10"": ""LGBT"", ""/m/04t2t"": ""Martial Arts Film"", ""/m/0gw5qqq"": ""Chinese Movies""}",,87.0,3
+32777635,0.0,1.0,3,3,"{""/m/07s9rl0"": ""Drama""}",,97.0,3
+6233638,-0.35,0.9367496997597599,13,27,"{""/m/01jfsb"": ""Thriller"", ""/m/0lsxr"": ""Crime Fiction"", ""/m/0gw5n2f"": ""Japanese Movies"", ""/m/0hj3n01"": ""Crime Drama"", ""/m/07s9rl0"": ""Drama"", ""/m/0c3351"": ""Suspense"", ""/m/02wtdps"": ""Crime Thriller""}",16311763.0,121.0,2
+5454380,-0.2,0.9797958971132713,2,3,"{""/m/06cvj"": ""Romantic comedy"", ""/m/02l7c8"": ""Romance Film"", ""/m/06qm3"": ""Screwball comedy"", ""/m/01z4y"": ""Comedy""}",,108.0,3
+9789564,0.0,1.0,2,2,"{""/m/07s9rl0"": ""Drama"", ""/m/03q4nz"": ""World cinema""}",,140.0,3
+326242,0.07692307692307693,0.9970370305242862,35,30,"{""/m/0jxy"": ""Anime"", ""/m/0gw5n2f"": ""Japanese Movies""}",,,2
+19502933,1.0,0.0,3,0,"{""/m/0hqxf"": ""Family Film"", ""/m/03k9fj"": ""Adventure""}",,91.0,0
+20571157,-0.8333333333333334,0.5527707983925667,1,11,"{""/m/02hmvc"": ""Short Film""}",,8.0,1
+25345231,-0.10344827586206896,0.9946348346107556,13,16,"{""/m/0lsxr"": ""Crime Fiction"", ""/m/01jfsb"": ""Thriller"", ""/m/07s9rl0"": ""Drama""}",,,2
+34599946,-0.2,0.9797958971132714,8,12,"{""/m/02hmvc"": ""Short Film"", ""/m/06ppq"": ""Silent film"", ""/m/01hmnh"": ""Fantasy""}",,3.0,3
+27197943,-1.0,0.0,0,3,"{""/m/05p553"": ""Comedy film""}",,90.0,1
+18000201,-0.6,0.8000000000000002,1,4,"{""/m/02l7c8"": ""Romance Film"", ""/m/01z4y"": ""Comedy"", ""/m/01g6gs"": ""Black-and-white""}",,66.0,3
+31496522,0.3333333333333333,0.9428090415820634,2,1,"{""/m/0lsxr"": ""Crime Fiction"", ""/m/05p553"": ""Comedy film"", ""/m/07s9rl0"": ""Drama""}",,116.0,3
+34307355,-0.1111111111111111,0.9938079899999066,4,5,{},,160.0,3
+34270681,0.0,1.0,1,1,"{""/m/0lsxr"": ""Crime Fiction"", ""/m/02n4kr"": ""Mystery"", ""/m/02kdv5l"": ""Action"", ""/m/01jfsb"": ""Thriller"", ""/m/03k9fj"": ""Adventure""}",,69.0,3
+13639421,-1.0,0.0,0,6,"{""/m/07s9rl0"": ""Drama"", ""/m/082gq"": ""War film""}",,,1
+9573648,0.3333333333333333,0.9428090415820634,4,2,"{""/m/02kdv5l"": ""Action""}",,,3
+1012964,0.0,1.0,3,3,"{""/m/06n90"": ""Science Fiction""}",,,3
+6499360,0.0,1.0,6,6,"{""/m/04t36"": ""Musical"", ""/m/07s9rl0"": ""Drama"", ""/m/01chg"": ""Bollywood"", ""/m/03q4nz"": ""World cinema""}",,139.0,3
+10950017,0.0,1.0,4,4,"{""/m/01g6gs"": ""Black-and-white""}",,105.0,3
+8004497,0.0,1.0,5,5,"{""/m/02hmvc"": ""Short Film"", ""/m/01z4y"": ""Comedy"", ""/m/01g6gs"": ""Black-and-white"", ""/m/09q17"": ""Slapstick""}",,,3
+25260811,-0.7777777777777778,0.628539361054709,3,24,"{""/m/01jfsb"": ""Thriller"", ""/m/02wtdps"": ""Crime Thriller"", ""/m/0lsxr"": ""Crime Fiction"", ""/m/02kdv5l"": ""Action"", ""/m/07s9rl0"": ""Drama""}",,80.0,3
+19288672,0.0,1.0,3,3,"{""/m/06ppq"": ""Silent film"", ""/m/01g6gs"": ""Black-and-white""}",,,3
+4343515,-0.05263157894736842,0.9986139979479093,9,10,"{""/m/0lsxr"": ""Crime Fiction"", ""/m/0qdzd"": ""B-movie"", ""/m/03npn"": ""Horror"", ""/m/01585b"": ""Slasher"", ""/m/09blyk"": ""Psychological thriller""}",,85.0,3
+10640523,-0.2,0.9797958971132713,2,3,"{""/m/01jfsb"": ""Thriller"", ""/m/07s9rl0"": ""Drama"", ""/m/01chg"": ""Bollywood"", ""/m/03q4nz"": ""World cinema""}",,150.0,3
+1336117,-0.5,0.8660254037844386,5,15,"{""/m/06n90"": ""Science Fiction"", ""/m/03npn"": ""Horror"", ""/m/01q03"": ""Cult"", ""/m/01z4y"": ""Comedy"", ""/m/0jb4p32"": ""Zombie Film"", ""/m/0d1w9"": ""Prison"", ""/m/0hj3n7f"": ""Horror Comedy""}",,96.0,3
+13361675,0.0,1.0,8,8,"{""/m/06cvj"": ""Romantic comedy"", ""/m/02l7c8"": ""Romance Film"", ""/m/07s9rl0"": ""Drama"", ""/m/01z4y"": ""Comedy""}",50007546.0,114.0,3
+18862965,0.0,1.0,3,3,"{""/m/01z4y"": ""Comedy"", ""/m/03q4nz"": ""World cinema""}",,145.0,3
+4537597,0.625,0.7806247497997998,13,3,"{""/m/06n90"": ""Science Fiction""}",,95.0,3
+35014318,-0.3333333333333333,0.9428090415820634,2,4,"{""/m/0jtdp"": ""Documentary""}",,45.0,3
+8141252,-0.41935483870967744,0.9078224051271154,9,22,"{""/m/01jfsb"": ""Thriller"", ""/m/03btsm8"": ""Action/Adventure"", ""/m/0gw5w78"": ""Gangster Film"", ""/m/0cq22f9"": ""Action Thrillers"", ""/m/07s9rl0"": ""Drama"", ""/m/0c3351"": ""Suspense"", ""/m/02wtdps"": ""Crime Thriller"", ""/m/02kdv5l"": ""Action""}",35856053.0,122.0,2
+25225244,-0.16279069767441862,0.9866606249114617,18,25,"{""/m/06cvj"": ""Romantic comedy"", ""/m/04xvlr"": ""Period piece"", ""/m/01j1n2"": ""Coming of age"", ""/m/01z4y"": ""Comedy"", ""/m/07s9rl0"": ""Drama"", ""/m/068d7h"": ""Romantic drama"", ""/m/02l7c8"": ""Romance Film""}",1755212.0,90.0,2
+6768398,0.5,0.8660254037844386,3,1,"{""/m/03q4nz"": ""World cinema"", ""/m/04t36"": ""Musical"", ""/m/07s9rl0"": ""Drama"", ""/m/068d7h"": ""Romantic drama"", ""/m/02l7c8"": ""Romance Film"", ""/m/01chg"": ""Bollywood""}",,150.0,3
+32281762,0.29411764705882354,0.9557692240748189,11,6,"{""/m/07s9rl0"": ""Drama""}",,,3
+32975370,-0.3333333333333333,0.9428090415820634,1,2,"{""/m/01jfsb"": ""Thriller"", ""/m/02kdv5l"": ""Action""}",,145.0,3
+23617312,-0.3548387096774194,0.9349275320122219,10,21,"{""/m/03npn"": ""Horror"", ""/m/01585b"": ""Slasher""}",,77.0,2
+31466628,0.0,1.0,1,1,{},,,3
+8355881,-0.05263157894736842,0.9986139979479093,9,10,"{""/m/0lsxr"": ""Crime Fiction"", ""/m/0gw5w78"": ""Gangster Film"", ""/m/03q4nz"": ""World cinema"", ""/m/04t36"": ""Musical"", ""/m/07s9rl0"": ""Drama"", ""/m/01chg"": ""Bollywood""}",,145.0,3
+11604193,-0.14285714285714285,0.989743318610787,3,4,"{""/m/02l7c8"": ""Romance Film"", ""/m/07s9rl0"": ""Drama"", ""/m/01z4y"": ""Comedy"", ""/m/01g6gs"": ""Black-and-white""}",,83.0,3
+24551073,0.07692307692307693,0.9970370305242862,7,6,"{""/m/06cvj"": ""Romantic comedy"", ""/m/068d7h"": ""Romantic drama"", ""/m/02l7c8"": ""Romance Film"", ""/m/07s9rl0"": ""Drama"", ""/m/01z4y"": ""Comedy""}",8141292.0,101.0,3
+23681959,-1.0,0.0,0,1,"{""/m/01jfsb"": ""Thriller"", ""/m/06n90"": ""Science Fiction"", ""/m/0219x_"": ""Indie"", ""/m/03btsm8"": ""Action/Adventure"", ""/m/07s9rl0"": ""Drama"", ""/m/02qfv5d"": ""Political thriller"", ""/m/02kdv5l"": ""Action""}",,99.0,1
+7209996,0.7777777777777778,0.6285393610547089,8,1,"{""/m/04t36"": ""Musical"", ""/m/02p0szs"": ""Historical fiction"", ""/m/07s9rl0"": ""Drama"", ""/m/0hqxf"": ""Family Film""}",,,3
+6057074,0.07692307692307693,0.9970370305242864,7,6,"{""/m/02n4kr"": ""Mystery"", ""/m/07s9rl0"": ""Drama"", ""/m/01g6gs"": ""Black-and-white""}",,100.0,3
+2645157,-0.37037037037037035,0.9288841632581076,17,37,"{""/m/0hn10"": ""LGBT"", ""/m/03npn"": ""Horror"", ""/m/01585b"": ""Slasher""}",,83.0,2
+17243817,-0.4936708860759494,0.8696488120160845,20,59,"{""/m/01jfsb"": ""Thriller"", ""/m/03npn"": ""Horror"", ""/m/0219x_"": ""Indie"", ""/m/09blyk"": ""Psychological thriller"", ""/m/07s9rl0"": ""Drama"", ""/m/0c3351"": ""Suspense"", ""/m/02b5_l"": ""Teen""}",,88.0,2
+7052375,0.1,0.9949874371066201,22,18,"{""/m/02l7c8"": ""Romance Film"", ""/m/02kdv5l"": ""Action"", ""/m/07s9rl0"": ""Drama"", ""/m/03k9fj"": ""Adventure""}",,104.0,2
+34246375,-1.0,0.0,0,2,"{""/m/05p553"": ""Comedy film"", ""/m/082gq"": ""War film""}",,108.0,1
+31427508,0.0,1.0,1,1,"{""/m/01jfsb"": ""Thriller"", ""/m/0hqxf"": ""Family Film""}",,,3
+1056023,-0.45454545454545453,0.8907235428302467,6,16,"{""/m/0lsxr"": ""Crime Fiction"", ""/m/0556j8"": ""Buddy film"", ""/m/0hj3l_y"": ""Action Comedy"", ""/m/0399b7"": ""Buddy cop"", ""/m/03btsm8"": ""Action/Adventure"", ""/m/01z4y"": ""Comedy"", ""/m/02kdv5l"": ""Action""}",,95.0,3
+4471231,0.6,0.8000000000000002,4,1,"{""/m/06ppq"": ""Silent film"", ""/m/02kdv5l"": ""Action"", ""/m/0219x_"": ""Indie"", ""/m/01g6gs"": ""Black-and-white""}",,,3
+3523466,-0.3888888888888889,0.921284663987611,11,25,"{""/m/01t_vv"": ""Comedy-drama""}",,99.0,2
+1482557,0.14285714285714285,0.989743318610787,8,6,"{""/m/02p0szs"": ""Historical fiction"", ""/m/07s9rl0"": ""Drama"", ""/m/082gq"": ""War film""}",5200986.0,140.0,3
+31291851,-0.2727272727272727,0.9620913858416693,4,7,"{""/m/0lsxr"": ""Crime Fiction"", ""/m/07s9rl0"": ""Drama""}",,72.0,3
+29468540,0.0,1.0,7,7,"{""/m/01jfsb"": ""Thriller"", ""/m/02kdv5l"": ""Action""}",,135.0,3
+13184696,-0.7894736842105263,0.6137844099837158,2,17,"{""/m/02hmvc"": ""Short Film"", ""/m/06ppq"": ""Silent film"", ""/m/0219x_"": ""Indie"", ""/m/01g6gs"": ""Black-and-white""}",,9.0,3
+34744241,-0.06666666666666667,0.9977753031397176,7,8,"{""/m/02l7c8"": ""Romance Film""}",,,3
+19700296,-1.0,0.0,0,2,"{""/m/01jfsb"": ""Thriller"", ""/m/07s9rl0"": ""Drama"", ""/m/09blyk"": ""Psychological thriller"", ""/m/0bkbm"": ""Spy""}",,125.0,1
+10190365,0.2,0.9797958971132713,15,10,"{""/m/06cvj"": ""Romantic comedy"", ""/m/03q4nz"": ""World cinema"", ""/m/07s9rl0"": ""Drama"", ""/m/01z4y"": ""Comedy"", ""/m/068d7h"": ""Romantic drama"", ""/m/02l7c8"": ""Romance Film""}",,145.0,3
+26967746,-0.29411764705882354,0.9557692240748188,6,11,"{""/m/0hqxf"": ""Family Film"", ""/m/03k9fj"": ""Adventure"", ""/m/01z4y"": ""Comedy""}",,46.0,3
+29585621,0.125,0.9921567416492215,36,28,"{""/m/02hmvc"": ""Short Film""}",,32.0,2
+2430019,0.25,0.9682458365518543,5,3,"{""/m/01jfsb"": ""Thriller"", ""/m/0lsxr"": ""Crime Fiction"", ""/m/068d7h"": ""Romantic drama"", ""/m/0hj3n01"": ""Crime Drama"", ""/m/07s9rl0"": ""Drama"", ""/m/082gq"": ""War film"", ""/m/02wtdps"": ""Crime Thriller"", ""/m/02l7c8"": ""Romance Film"", ""/m/02kdv5l"": ""Action""}",,88.0,3
+14560623,0.6,0.8000000000000002,4,1,"{""/m/02l7c8"": ""Romance Film"", ""/m/07s9rl0"": ""Drama"", ""/m/02n4lw"": ""Art film"", ""/m/03q4nz"": ""World cinema""}",,79.0,3
+2788063,0.25,0.9682458365518543,5,3,"{""/m/02l7c8"": ""Romance Film"", ""/m/07s9rl0"": ""Drama"", ""/m/0219x_"": ""Indie""}",8914881.0,105.0,3
+34354688,1.0,0.0,1,0,"{""/m/0lsxr"": ""Crime Fiction"", ""/m/02n4kr"": ""Mystery"", ""/m/02kdv5l"": ""Action""}",,119.0,0
+7998725,1.0,0.0,6,0,"{""/m/06cvj"": ""Romantic comedy"", ""/m/0gw5qqq"": ""Chinese Movies"", ""/m/01z4y"": ""Comedy""}",,92.0,0
+9463843,0.3333333333333333,0.9428090415820634,2,1,"{""/m/0hj3n16"": ""Erotic Drama"", ""/m/07s9rl0"": ""Drama"", ""/m/02n4lw"": ""Art film"", ""/m/03q4nz"": ""World cinema"", ""/m/03k9fj"": ""Adventure""}",,100.0,3
+18991745,0.42857142857142855,0.9035079029052513,5,2,"{""/m/02hmvc"": ""Short Film"", ""/m/07s9rl0"": ""Drama""}",,10.0,3
+25092646,-0.47586206896551725,0.8795199209340613,38,107,"{""/m/02kdv5l"": ""Action"", ""/m/01z4y"": ""Comedy""}",3390043.0,90.0,2
+5335934,-0.3333333333333333,0.9428090415820634,1,2,"{""/m/02hmvc"": ""Short Film""}",,,3
+22235879,-1.0,0.0,0,3,"{""/m/03npn"": ""Horror""}",,90.0,1
+8974884,-0.3333333333333333,0.9428090415820634,1,2,"{""/m/03npn"": ""Horror"", ""/m/0qdzd"": ""B-movie"", ""/m/0fdjb"": ""Supernatural""}",,79.0,3
+6527956,0.0,1.0,2,2,"{""/m/0hj3n3n"": ""Film-Opera"", ""/m/07s9rl0"": ""Drama""}",,,3
+21426405,0.5,0.8660254037844386,3,1,"{""/m/06ppq"": ""Silent film"", ""/m/01z4y"": ""Comedy"", ""/m/01g6gs"": ""Black-and-white""}",,60.0,3
+3272326,0.2,0.9797958971132713,3,2,"{""/m/017fp"": ""Biography"", ""/m/07s9rl0"": ""Drama"", ""/m/03q4nz"": ""World cinema""}",6906235.0,120.0,3
+26166944,-0.3333333333333333,0.9428090415820634,2,4,"{""/m/07s9rl0"": ""Drama"", ""/m/082gq"": ""War film""}",,74.0,3
+11524153,-0.2,0.9797958971132713,6,9,"{""/m/01jfsb"": ""Thriller"", ""/m/01drsx"": ""Disaster"", ""/m/06n90"": ""Science Fiction"", ""/m/03btsm8"": ""Action/Adventure""}",,170.0,3
+34972884,0.0,1.0,1,1,"{""/m/02hmvc"": ""Short Film"", ""/m/07s9rl0"": ""Drama"", ""/m/03k9fj"": ""Adventure""}",,23.0,3
+1345561,0.6,0.8000000000000002,4,1,"{""/m/0gw5w78"": ""Gangster Film"", ""/m/068d7h"": ""Romantic drama"", ""/m/02l7c8"": ""Romance Film"", ""/m/07s9rl0"": ""Drama"", ""/m/01g6gs"": ""Black-and-white""}",951801.0,96.0,3
+10628527,-0.14285714285714285,0.989743318610787,3,4,"{""/m/04rlf"": ""Music"", ""/m/07s9rl0"": ""Drama"", ""/m/01z4y"": ""Comedy""}",,106.0,3
+9074158,0.0,1.0,9,9,{},,,3
+6079205,-0.5238095238095238,0.8518354199999199,5,16,"{""/m/02hmvc"": ""Short Film"", ""/m/0219x_"": ""Indie"", ""/m/082gq"": ""War film""}",,7.0,3
+12625574,0.0,1.0,3,3,"{""/m/0hj3n01"": ""Crime Drama"", ""/m/01g6gs"": ""Black-and-white"", ""/m/07s9rl0"": ""Drama"", ""/m/01z4y"": ""Comedy"", ""/m/01drsx"": ""Disaster"", ""/m/0g2k1"": ""Natural disaster""}",,82.0,3
+12364636,-0.38461538461538464,0.9230769230769231,4,9,"{""/m/03btsm8"": ""Action/Adventure"", ""/m/02wtdps"": ""Crime Thriller"", ""/m/02kdv5l"": ""Action"", ""/m/01jfsb"": ""Thriller"", ""/m/09blyk"": ""Psychological thriller""}",,90.0,3
+6832295,0.4,0.9165151389911679,7,3,"{""/m/02hmvc"": ""Short Film""}",,9.0,3
+2964301,0.3548387096774194,0.9349275320122218,21,10,"{""/m/04t36"": ""Musical"", ""/m/07s9rl0"": ""Drama"", ""/m/0gw5qqq"": ""Chinese Movies"", ""/m/03q4nz"": ""World cinema""}",14572229.0,116.0,2
+33108388,-0.5384615384615384,0.8426500884694863,3,10,"{""/m/0hqxf"": ""Family Film"", ""/m/02kdv5l"": ""Action"", ""/m/07s9rl0"": ""Drama"", ""/m/05p553"": ""Comedy film""}",,179.0,3
+13996230,1.0,0.0,1,0,"{""/m/0hj3n84"": ""Inspirational Drama"", ""/m/07s9rl0"": ""Drama"", ""/m/0219x_"": ""Indie""}",,98.0,0
+11161265,-0.07692307692307693,0.9970370305242863,6,7,"{""/m/0lsxr"": ""Crime Fiction"", ""/m/01jfsb"": ""Thriller"", ""/m/07s9rl0"": ""Drama"", ""/m/09blyk"": ""Psychological thriller"", ""/m/02wtdps"": ""Crime Thriller""}",,100.0,3
+7460481,-0.030303030303030304,0.9995407577254934,16,17,"{""/m/06n90"": ""Science Fiction"", ""/m/0hqxf"": ""Family Film"", ""/m/01hmnh"": ""Fantasy"", ""/m/04t36"": ""Musical"", ""/m/0hcr"": ""Animation""}",1964253.0,78.0,2
+12039019,-0.42857142857142855,0.9035079029052513,4,10,"{""/m/087lqx"": ""Pre-Code"", ""/m/07s9rl0"": ""Drama"", ""/m/01g6gs"": ""Black-and-white""}",1100000.0,87.0,3
+6504302,-0.3333333333333333,0.9428090415820634,5,10,"{""/m/07s9rl0"": ""Drama"", ""/m/02n4lw"": ""Art film"", ""/m/03q4nz"": ""World cinema"", ""/m/082gq"": ""War film""}",,110.0,3
+33228938,-0.07692307692307693,0.9970370305242863,6,7,"{""/m/02hmvc"": ""Short Film"", ""/m/0hcr"": ""Animation""}",,,3
+29498265,0.42857142857142855,0.9035079029052513,5,2,"{""/m/02kdv5l"": ""Action""}",,130.0,3
+476640,-0.14285714285714285,0.9897433186107871,9,12,"{""/m/01z02hx"": ""Sports"", ""/m/01z4y"": ""Comedy"", ""/m/09q17"": ""Slapstick""}",9255027.0,91.0,3
+54030,0.043478260869565216,0.9990543733109614,12,11,"{""/m/01jfsb"": ""Thriller"", ""/m/02n4kr"": ""Mystery"", ""/m/06n90"": ""Science Fiction"", ""/m/02l7c8"": ""Romance Film"", ""/m/09blyk"": ""Psychological thriller""}",203388341.0,136.0,3
+33984024,-0.037037037037037035,0.9993138935727438,13,14,"{""/m/07s9rl0"": ""Drama""}",,100.0,3
+13418779,-0.2571428571428571,0.966373401445015,13,22,"{""/m/07s9rl0"": ""Drama"", ""/m/01z4y"": ""Comedy""}",,85.0,2
+165990,-0.36363636363636365,0.9315409787235999,7,15,"{""/m/0lsxr"": ""Crime Fiction"", ""/m/01jfsb"": ""Thriller"", ""/m/03q4nz"": ""World cinema"", ""/m/0hj3l_y"": ""Action Comedy"", ""/m/03btsm8"": ""Action/Adventure"", ""/m/04t2t"": ""Martial Arts Film"", ""/m/01z4y"": ""Comedy"", ""/m/02kdv5l"": ""Action"", ""/m/0gw5qqq"": ""Chinese Movies""}",,91.0,3
+6978600,0.7142857142857143,0.6998542122237653,6,1,"{""/m/04xvh5"": ""Costume drama"", ""/m/01z4y"": ""Comedy""}",,98.0,3
+6494145,-0.2727272727272727,0.9620913858416694,16,28,"{""/m/0gf28"": ""Parody"", ""/m/0hcr"": ""Animation"", ""/m/07s9rl0"": ""Drama"", ""/m/01z4y"": ""Comedy"", ""/m/060__y"": ""Film adaptation"", ""/m/0cshrf"": ""Political cinema"", ""/m/03mqtr"": ""Political drama"", ""/m/026ny"": ""Dystopia""}",,72.0,2
+23150143,-0.48148148148148145,0.8764562641629061,7,20,"{""/m/07s9rl0"": ""Drama""}",,100.0,3
+11502190,0.6666666666666666,0.7453559924999298,5,1,"{""/m/0jtdp"": ""Documentary""}",,75.0,3
+14814612,0.08,0.9967948635501691,27,23,"{""/m/02kdv5l"": ""Action"", ""/m/0jxy"": ""Anime"", ""/m/0gw5n2f"": ""Japanese Movies"", ""/m/0hcr"": ""Animation""}",,93.0,2
+26322280,-0.125,0.9921567416492215,7,9,"{""/m/01z4y"": ""Comedy""}",,,3
+26748825,-1.0,0.0,0,3,"{""/m/0gw5n2f"": ""Japanese Movies"", ""/m/04k2v3"": ""Pinku eiga""}",,,1
+20600000,0.0,1.0,3,3,"{""/m/02hmvc"": ""Short Film"", ""/m/01z4y"": ""Comedy"", ""/m/0hcr"": ""Animation""}",,,3
+18994794,-0.6666666666666666,0.7453559924999298,1,5,"{""/m/07s9rl0"": ""Drama"", ""/m/03mqtr"": ""Political drama"", ""/m/03q4nz"": ""World cinema""}",,105.0,3
+19398524,-0.6,0.8000000000000002,2,8,"{""/m/02hmvc"": ""Short Film"", ""/m/07s9rl0"": ""Drama"", ""/m/01z4y"": ""Comedy"", ""/m/01g6gs"": ""Black-and-white""}",,20.0,3
+5628492,-0.14285714285714285,0.989743318610787,3,4,"{""/m/0lsxr"": ""Crime Fiction"", ""/m/02kdv5l"": ""Action"", ""/m/07s9rl0"": ""Drama"", ""/m/0c3351"": ""Suspense"", ""/m/0219x_"": ""Indie""}",,132.0,3
+1417388,0.0,1.0,1,1,"{""/m/06cvj"": ""Romantic comedy"", ""/m/068d7h"": ""Romantic drama"", ""/m/02l7c8"": ""Romance Film"", ""/m/07s9rl0"": ""Drama"", ""/m/01z4y"": ""Comedy""}",27958191.0,102.0,3
+10253953,0.3333333333333333,0.9428090415820634,2,1,"{""/m/07s9rl0"": ""Drama""}",,97.0,3
