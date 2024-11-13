@@ -48,10 +48,9 @@ def clean_character_metadata(data_directory):
     df_character_metadata_cleaned.replace('Unknown', pd.NA, inplace=True)
     df_character_metadata_cleaned['actor_height'] = pd.to_numeric(df_character_metadata_cleaned['actor_height'], errors='coerce')
     df_character_metadata_cleaned['actor_age'] = pd.to_numeric(df_character_metadata_cleaned['actor_age'], errors='coerce')
-    
-    # Clean actor ages
+    # Age cleaning: Replace negative values with positive and values over 125 with NaN
     df_character_metadata_cleaned['actor_age'] = df_character_metadata_cleaned['actor_age'].abs()
-    df_character_metadata_cleaned.loc[df_character_metadata_cleaned['actor_age'] > 150, 'actor_age'] /= 10
+    df_character_metadata_cleaned.loc[df_character_metadata_cleaned['actor_age'] > 125, 'actor_age'] = pd.NA
     
     print("\nCleaned Character Metadata dataset:")
     print(df_character_metadata_cleaned.head())
