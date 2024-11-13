@@ -1,57 +1,80 @@
-# ada-2024-project-spaghetti-raclette-tangyuan-horizon-nexus
-ada-2024-project-spaghetti-raclette-tangyuan-horizon-nexus created by GitHub Classroom
-# Project Milestone 2
+# Stars or Storyline: How Actor Fame and Sentiment Trajectories Shape a Movie's Critical Success
 
+## Abstract
 
-## this is just a first draft for the readme. to get a basic  idea of what we are gonna do. its gonna have to be structured differently for the M2 submission 
+This project aims to uncover the relative influence of two key factors on a movie's critical success: actor fame and the narrative sentiment arc of the plot. We hypothesize that a film's success, as reflected in its ratings, might be influenced not only by the popularity of its cast but also by the emotional journey it offers. To explore this, we employ two distinct approaches: sentiment analysis on plot summaries to assess emotional complexity and patterns, and social network analysis to evaluate actor prominence and connectivity in the industry. Ultimately, this analysis seeks to provide a nuanced understanding of whether a star-studded cast or a compelling emotional narrative contributes more significantly to a film’s acclaim, offering insights into storytelling and casting strategies that could enhance a film's impact.
 
-## Project Discussion
+## Key Questions We Aim to Answer
 
-This project aims to explore two key factors that contribute to a movie's box office success: **actor fame** and **movie plot complexity**. By analyzing both components, we seek to answer the central question: **What is more important for a movie’s financial success—actor fame or the complexity of the plot?**
+- How can we evaluate a movie’s success (e.g., audience rating, revenue)?
+- How do different sentiment features (e.g., overall positivity, variability, peaks) within movie plots correlate with our success metric?
+- Are certain emotional arcs consistently linked to successful movies? How do they align with the six classic narrative archetypes proposed by Kurt Vonnegut?
+- How does the presence of well-established actors in a film’s network affect the movie’s critical success?
+- Are certain communities of actors who frequently collaborate more impactful for a movie's success?
+- Can we identify an ideal combination of sentiment arc and actor influence that predicts higher audience ratings for movies?
 
-We will use two main approaches in this analysis:
-1. **Sentiment Analysis** to evaluate movie plot complexity.
-2. **Social Network Analysis** to assess actor fame and influence.
+## Additional Datasets
 
-In the first part, we'll apply **sentiment analysis** to movie plot summaries to analyze emotional tones and plot complexity. In the second part, we'll use **social network analysis** to measure the impact of actor fame by examining their connections within the film industry. By comparing these two factors, we aim to determine which has a greater influence on box office performance.
+To enrich our analysis and fill in any missing data, we incorporated two external data sources for critical information on movie ratings and revenues:
 
----
-
-## Previous Groups Who Worked on Similar Topics
-
-We will build upon the work of previous groups, using their methodologies as a foundation:
-
-- **Sentiment Analysis**: [https://melbrt.github.io/runtimeterror_ds/](https://melbrt.github.io/runtimeterror_ds/)
-- **Graph-Based Impact on Actors**: [https://kevinxyc1.github.io/ada-project-teambadass/](https://kevinxyc1.github.io/ada-project-teambadass/)
+- **Movie Ratings from The Movie Database (TMDb)**: Accessed via the [TMDb API](https://api.themoviedb.org/3/search/movie) to retrieve ratings for each movie. Although the API provides a range of data, we focused on ratings relevant to our project. The API returns data in CSV format, which we parse and integrate into our existing dataset.
 
 ---
 
-### 1. Predicting Box Office Success Using Sentiment Analysis of Movie Reviews
+## Methodology
 
-This part of the project focuses on discovering patterns within plot summaries that correlate with box office performance. By applying **sentiment analysis**, we aim to extract emotional tones (positive, negative, neutral) from summaries, providing insights into audience reactions. Additionally, machine learning techniques will be used to analyze factors such as genre, key emotional terms, and plot length to predict box office success.
+### 1. Data Cleaning & Preprocessing
 
-Key questions:
-- Do highly ranked movies share a common lexical field, creating a recipe for success?
-- Do movies with more positive summaries tend to perform better at the box office?
-- Are emotionally complex or ambiguous movies harder to market?
+- **Cleaning Functions**: We created a function to clean each of the primary datasets (movie metadata, plot summaries, etc.), standardizing formats, handling missing values, and removing unnecessary columns.
+- **Adding Ratings**: Ratings data were added using the TMDb API, providing a consistent metric for movie success.
+- **Handling Missing Data**: Essential missing values were filled, and non-essential fields were removed.
+- **Master Dataset**: A single, comprehensive dataset was built containing plot summaries, ratings, and movie metadata.
 
----
+### 2. Metric Selection & Preliminary Analysis
 
-### 2. Social Network Analysis of Actors - The Impact of Actor Fame
+- **Success Metric**: Ratings from TMDb were chosen as our primary success metric, providing a stable measure of audience perception over time. The reasons for this choice are detailed in `results.ipynb`.
+- **Preliminary Analysis**:
+  - **Ratings**: Calculated mean, standard deviation, min, and max to understand rating distribution.
+  - **Release Trends**: Examined annual movie releases.
+  - **Languages**: Analyzed the number of languages per movie and the most common ones.
+  - **Actor Origins**: Investigated actor country distribution for geographic diversity.
 
-This part of the project aims to identify influential actors over time by constructing a **social network** where nodes represent actors and edges represent the movies they've appeared in together. Using network analysis metrics such as **degree centrality** (number of connections), **closeness** (proximity within the network), and **betweenness centrality** (actors who bridge different clusters), we can reveal which actors become central figures in the industry.
+### 3. Sentiment Analysis of Plot Summaries
+*We explored VADER and DistilBERT for sentiment analysis and ultimately chose VADER for its efficiency and suitability with sentence-level plot summaries.*
 
-We may also perform time-series analysis to track how an actor’s influence changes over the years and analyze how working with specific directors or studios might affect their career trajectory. This can help predict trends like the resurgence of "has-been" actors or future award winners.
+1. **Sentence Segmentation & Sentiment Scoring (completed)**:
+   - Each plot summary was segmented into sentences, and VADER was applied to score each sentence, creating an emotional trajectory for each movie.
+   
+2. **Planned Analysis (to do)**:
+   - **Rating Correlation Analysis**: Investigate how sentiment patterns (e.g., variability, peaks) correlate with movie ratings.
+   - **Archetype Comparison**: Classify movies by narrative archetype and assess which structures achieve the highest ratings.
+   - **Predictive Modeling (if time permits)**: Use sentiment and archetypes to forecast movie success based on emotional trajectory.
 
----
+### 4. Actor Fame & Network Analysis
 
-### Main Question: The Impact of Actor Fame vs. Plot Complexity on Box Office Revenue
+1. **Actor Network Visualization (completed)**:
+   - A network graph with nodes representing actors (scaled by movie rating) was generated, illustrating the influence of collaborations. Edges represent shared movie appearances.
 
-This project aims to analyze whether the financial success of a movie depends more on the **fame of its actors** or the **complexity of its plot**. Many modern blockbusters rely heavily on star-studded casts, sometimes at the expense of narrative depth. On the other hand, films with intricate plots but lesser-known actors may struggle at the box office but still achieve critical acclaim.
+2. **Planned Analysis (to do)**:
+   - **Centrality Metrics**: Compute metrics (e.g., degree, betweenness, closeness) to create an Actor Fame Score.
+   - **Community Detection**: Identify prominent actor communities and assess their impact on ratings.
+   - **Predictive Modeling (if time permits)**: Suggest potential actor networks for maximizing a movie’s success.
 
-This analysis will compare movies that feature prominent actors in simple, predictable plots with those that have more complex narratives but lesser-known actors. The goal is to understand how these factors contribute to box office performance.
+### 5. Results & Interpretation
+We will compile insights from sentiment patterns and actor networks to define the optimal mix of emotional arcs and actor collaborations for high movie ratings.
 
-Key questions:
-- How do we evaluate the complexity of a movie's plot?
-- How much does star power contribute to a movie's box office success?
-- What trends can be observed in balancing actor fame with narrative depth to determine box office hits?
+## Timeline
+
+- **15.11.2024**: Milestone 2 Submission - Complete initial data handling, preprocessing, and preliminary analysis.
+- **29.11.2024**: Task 3 (Sentiment Analysis) and Task 4 (Actor Network Analysis) - Focus on in-depth sentiment scoring, correlation with ratings, and network analysis of actor collaborations.
+- **06.12.2024**: Task 5 (Results and Interpretation) - Integrate insights to determine the optimal patterns for high movie ratings.
+- **13.12.2024**: Report Writing & Webpage Development - Finalize the report and webpage for presentation.
+- **20.12.2024**: Milestone 3 Submission - Submit complete report and webpage.
+
+## Team Organization
+
+- **Task 3**: Alessio & Leonardo  
+- **Task 4**: Quentin & Jiayi  
+- **Task 5**: Pierre  
+- **Report & Webpage**: All team members
+
