@@ -21,7 +21,7 @@ To enrich our analysis and fill in any missing data, we incorporated two externa
 
 ---
 
-## Methodology
+## Method
 
 ### 1. Data Cleaning & Preprocessing
 
