@@ -49,6 +49,10 @@ def clean_character_metadata(data_directory):
     df_character_metadata_cleaned['actor_height'] = pd.to_numeric(df_character_metadata_cleaned['actor_height'], errors='coerce')
     df_character_metadata_cleaned['actor_age'] = pd.to_numeric(df_character_metadata_cleaned['actor_age'], errors='coerce')
     
+    # Clean actor ages
+    df_character_metadata_cleaned['actor_age'] = df_character_metadata_cleaned['actor_age'].abs()
+    df_character_metadata_cleaned.loc[df_character_metadata_cleaned['actor_age'] > 150, 'actor_age'] /= 10
+    
     print("\nCleaned Character Metadata dataset:")
     print(df_character_metadata_cleaned.head())
     return df_character_metadata_cleaned
