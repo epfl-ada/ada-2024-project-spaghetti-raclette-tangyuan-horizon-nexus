@@ -64,5 +64,12 @@ def clean_movie_metadata(data_directory):
     df_movie_metadata['countries_clean'] = df_movie_metadata['countries'].apply(lambda x: ', '.join(ast.literal_eval(x).values()) if pd.notnull(x) and x.startswith('{') else x)
     df_movie_metadata['genres_clean'] = df_movie_metadata['genres'].apply(lambda x: ', '.join(ast.literal_eval(x).values()) if pd.notnull(x) and x.startswith('{') else x)
     df_movie_metadata['languages_clean'] = df_movie_metadata['languages'].apply(lambda x: ', '.join(ast.literal_eval(x).values()).replace(' Language', '') if pd.notnull(x) and x.startswith('{') else x)
-    
-    return df_movie_metadata
+    # Add reviews and number of vote
+    movie_metadata_path = os.path.join(data_directory, 'movie_ratings.xlsx')
+    df_movie_ratings = pd.read_excel(movie_metadata_path)
+    # Merge the two DataFrames on the movie_name column
+    print(df_movie_ratings)
+    df_combined = pd.merge(df_movie_metadata, df_movie_ratings[['movie_name', 'rating', 'vote_count']], 
+                        on='movie_name', how='left')
+
+    return df_combined
