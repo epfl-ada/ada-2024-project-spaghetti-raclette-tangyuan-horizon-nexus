@@ -5,21 +5,21 @@ import pandas as pd
 from sklearn.cluster import KMeans
 from sklearn.preprocessing import StandardScaler
 from sklearn.decomposition import PCA
+import matplotlib.pyplot as plt
 from tqdm import tqdm
 from vaderSentiment.vaderSentiment import SentimentIntensityAnalyzer
 
-import matplotlib.pyplot as plt
+# Initialize the VADER sentiment analyzer
+analyzer = SentimentIntensityAnalyzer()
 
 # Load analyzed sentiment data
 def load_sentiment_data(data_directory):
-    file_path = os.path.join(data_directory, 'plot_summaries.csv')
+    file_path = os.path.join(data_directory, 'plot_summaries_cleaned.csv')
     df_sentiment = pd.read_csv(file_path)
-    analyzer = SentimentIntensityAnalyzer()
-    sentiments = []
-    for plot in df_sentiment['plot_summary']:
-        sentiment = analyzer.polarity_scores(plot)
-        sentiments.append(sentiment)
-    df_sentiment['sentiment'] = sentiments
+    
+    # Perform sentiment analysis on plot summaries
+    df_sentiment['sentiment'] = df_sentiment['plot_summary'].apply(lambda x: analyzer.polarity_scores(x))
+    
     return df_sentiment
 
 # Load pre-cleaned movie metadata
@@ -38,9 +38,9 @@ def link_metadata(df_sentiment, df_metadata):
             linked_data.append({
                 'movie_id': movie_id,
                 'average_sentiment': row['sentiment']['compound'],
-                'std_dev_sentiment': row['sentiment']['std_dev'],
-                'num_peaks': row['sentiment']['num_peaks'],
-                'num_valleys': row['sentiment']['num_valleys'],
+                'neg_sentiment': row['sentiment']['neg'],
+                'neu_sentiment': row['sentiment']['neu'],
+                'pos_sentiment': row['sentiment']['pos'],
                 'genres': metadata['genres'],
                 'revenue': metadata['revenue'],
                 'runtime': metadata['runtime']
@@ -51,17 +51,17 @@ def link_metadata(df_sentiment, df_metadata):
 def analyze_genre_trends(linked_data):
     # Convert columns to numeric, handling non-numeric `revenue` values
     linked_data['average_sentiment'] = pd.to_numeric(linked_data['average_sentiment'], errors='coerce')
-    linked_data['std_dev_sentiment'] = pd.to_numeric(linked_data['std_dev_sentiment'], errors='coerce')
-    linked_data['num_peaks'] = pd.to_numeric(linked_data['num_peaks'], errors='coerce')
-    linked_data['num_valleys'] = pd.to_numeric(linked_data['num_valleys'], errors='coerce')
+    linked_data['neg_sentiment'] = pd.to_numeric(linked_data['neg_sentiment'], errors='coerce')
+    linked_data['neu_sentiment'] = pd.to_numeric(linked_data['neu_sentiment'], errors='coerce')
+    linked_data['pos_sentiment'] = pd.to_numeric(linked_data['pos_sentiment'], errors='coerce')
     linked_data['revenue'] = pd.to_numeric(linked_data['revenue'], errors='coerce')
     linked_data['runtime'] = pd.to_numeric(linked_data['runtime'], errors='coerce')
 
     genre_analysis = linked_data.groupby('genres').agg({
         'average_sentiment': 'mean',
-        'std_dev_sentiment': 'mean',
-        'num_peaks': 'mean',
-        'num_valleys': 'mean',
+        'neg_sentiment': 'mean',
+        'neu_sentiment': 'mean',
+        'pos_sentiment': 'mean',
         'revenue': 'mean'
     }).sort_values(by='revenue', ascending=False)
 
@@ -72,7 +72,7 @@ def analyze_genre_trends(linked_data):
 # Clustering of sentiment trajectories
 def perform_clustering(linked_data, num_clusters=4):
     # Select only numeric columns for clustering and drop rows with NaN values
-    numeric_data = linked_data[['average_sentiment', 'std_dev_sentiment', 'num_peaks', 'num_valleys']].dropna()
+    numeric_data = linked_data[['average_sentiment', 'neg_sentiment', 'neu_sentiment', 'pos_sentiment']].dropna()
     filtered_linked_data = linked_data.loc[numeric_data.index]  # Filter linked_data to match numeric_data
 
     # Standardize features
@@ -100,23 +100,35 @@ def perform_clustering(linked_data, num_clusters=4):
     return filtered_linked_data
 
 def main(data_directory):
+    print("Loading sentiment data...")
     # Load sentiment and metadata
     df_sentiment = load_sentiment_data(data_directory)
-    df_metadata = load_movie_metadata(data_directory)
+    print("Sentiment data loaded.")
 
+    print("Loading movie metadata...")
+    df_metadata = load_movie_metadata(data_directory)
+    print("Movie metadata loaded.")
+
+    print("Linking metadata to sentiment data...")
     # Link metadata to sentiment data
     linked_data = link_metadata(df_sentiment, df_metadata)
+    print("Metadata linked to sentiment data.")
 
+    print("Analyzing genre-based sentiment trends...")
     # Perform genre-based sentiment trend analysis
     genre_trends = analyze_genre_trends(linked_data)
+    print("Genre-based sentiment trend analysis complete.")
 
+    print("Performing clustering on sentiment features...")
     # Perform clustering on sentiment features
     clustered_data = perform_clustering(linked_data)
+    print("Clustering on sentiment features complete.")
 
+    print("Saving genre trend and cluster results...")
     # Save genre trend and cluster results
     clustered_data.to_csv(os.path.join(data_directory, 'sentiment_genre_analysis.csv'), index=False)
     print("Saved genre and cluster analysis results to sentiment_genre_analysis.csv")
 
 current_directory = os.getcwd()
-data_directory = os.path.join(current_directory, '..', 'Data')
+data_directory = os.path.join(current_directory, 'data')
 main(data_directory)
