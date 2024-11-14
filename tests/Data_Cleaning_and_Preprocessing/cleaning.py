@@ -68,7 +68,6 @@ def clean_movie_metadata(data_directory):
     movie_metadata_path = os.path.join(data_directory, 'movie_ratings.xlsx')
     df_movie_ratings = pd.read_excel(movie_metadata_path)
     # Merge the two DataFrames on the movie_name column
-    print(df_movie_ratings)
     df_combined = pd.merge(df_movie_metadata, df_movie_ratings[['movie_name', 'rating', 'vote_count']], 
                         on='movie_name', how='left')
 
