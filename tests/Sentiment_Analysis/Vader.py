@@ -28,6 +28,8 @@ def load_movie_metadata(data_directory):
     df_movie_metadata = pd.read_csv(movie_metadata_path)
     return df_movie_metadata
 
+import ast
+
 # Link metadata to sentiment data
 def link_metadata(df_sentiment, df_metadata):
     linked_data = []
@@ -35,13 +37,20 @@ def link_metadata(df_sentiment, df_metadata):
         movie_id = str(row['movie_id'])
         if movie_id in df_metadata['movie_id'].astype(str).values:
             metadata = df_metadata[df_metadata['movie_id'].astype(str) == movie_id].iloc[0]
+            
+            # Extract and concatenate genre names
+            genre_dict_str = metadata['genres']
+            genre_dict = ast.literal_eval(genre_dict_str)
+            genre_names = list(genre_dict.values())
+            genres = ', '.join(genre_names)
+            
             linked_data.append({
                 'movie_id': movie_id,
                 'average_sentiment': row['sentiment']['compound'],
                 'neg_sentiment': row['sentiment']['neg'],
                 'neu_sentiment': row['sentiment']['neu'],
                 'pos_sentiment': row['sentiment']['pos'],
-                'genres': metadata['genres'],
+                'genres': genres,
                 'revenue': metadata['revenue'],
                 'runtime': metadata['runtime']
             })
