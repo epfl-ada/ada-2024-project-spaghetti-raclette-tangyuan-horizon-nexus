@@ -46,7 +46,7 @@ To enrich our analysis and fill in any missing data, we incorporated two externa
    - Each plot summary was segmented into sentences, and VADER was applied to score each sentence, creating an emotional trajectory for each movie.
    
 2. **Planned Analysis (to do)**:
-   - **Rating Correlation Analysis**: Investigate how sentiment patterns (e.g., variability, peaks) correlate with movie ratings.
+   - **Success Correlation Analysis**: Investigate how sentiment patterns (e.g., variability, peaks) correlate with movie success metrics.
    - **Archetype Comparison**: Classify movies by narrative archetype and assess which structures achieve the highest ratings.
    - **Predictive Modeling (if time permits)**: Use sentiment and archetypes to forecast movie success based on emotional trajectory.
 
