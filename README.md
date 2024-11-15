@@ -79,7 +79,10 @@ We will compile insights from sentiment patterns and actor networks to define th
 
 ## Questions fo the TAs
 
-- **Success outliers**: Success = Rating*log(Number of Ratings)
-                        Only 1 Rating --> Success = 0 whatever the Rating ==> differentiation of movies impossible. Solution would be to add an offset in log() (ex: +1).
-                        Some movies: rating = 0 while revenue = millions ==> unlikely.
-                        For now, movies with Ratings < 2 are not taken into account as we consider unreliable.
+- **Success outliers**: Success = Rating*log(No. of Ratings)
+                        Only 1 Rating brings Success to 0 whatever the Rating ==> differentiation of these movies impossible. Solution would be to add an offset for ex: log(No. Ratings + 1).
+                        Moreover, some movies have overall rating = 0 while revenue = millions ==> unlikely.
+                        For now, movies with No. of Ratings < 2 are not taken into account as we consider them unreliable. What do you think?
+               
+- **Movie dataset & Character dataset**:  Once fully cleaned, the movie dataset = ~5000 movies. However, 
+                                          for actor's connections we use all the actors from all the movies (>>5000 movies). Should we instead limit to the same dataset? 
