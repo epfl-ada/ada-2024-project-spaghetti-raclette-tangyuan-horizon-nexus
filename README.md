@@ -60,7 +60,7 @@ To enrich our analysis and fill in any missing data, we incorporated two externa
    - **Community Detection**: Identify prominent actor communities and assess their impact on ratings.
    - **Predictive Modeling (if time permits)**: Suggest potential actor networks for maximizing a movie’s success.
 
-### 5. Results & Interpretation
+### 5. Results & Interpretation (to do)
 We will compile insights from sentiment patterns and actor networks to define the optimal mix of emotional arcs and actor collaborations for high movie ratings.
 
 ## Timeline
