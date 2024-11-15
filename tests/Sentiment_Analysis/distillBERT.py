@@ -3,6 +3,7 @@ import pandas as pd
 from nltk.tokenize import sent_tokenize
 from transformers import pipeline
 from tqdm import tqdm
+import torch
 
 # Segment each plot summary into sentences
 def segment_plot_summaries(df_plot_summaries):
@@ -10,10 +11,9 @@ def segment_plot_summaries(df_plot_summaries):
     return df_plot_summaries
 
 # Analyze sentiment across sentences using DistilBERT
-def analyze_sentiment(sentences):
-    sentiment_analyzer = pipeline("sentiment-analysis", model="distilbert-base-uncased-finetuned-sst-2-english", device=0)
+def analyze_sentiment(sentences, sentiment_analyzer):
     sentiment_scores = []
-    for sentence in tqdm(sentences, desc="Analyzing Sentences", unit="sentence"):
+    for sentence in sentences:
         result = sentiment_analyzer(sentence)[0]
         score = 1 if result['label'] == 'POSITIVE' else -1  # Store as 1 for positive, -1 for negative
         sentiment_scores.append((sentence, score))
@@ -23,33 +23,22 @@ def analyze_sentiment(sentences):
 def save_sentiment_analysis_csv(movie_master_path, output_path):
     if not os.path.exists(movie_master_path):
         raise FileNotFoundError(f"The file 'movie_master_dataset.csv' was not found at: {movie_master_path}")
-    
-    df_plot_summaries = pd.read_csv(movie_master_path)
-
-    # Ensure the plot_summary column exists
-    if 'plot_summary' not in df_plot_summaries.columns:
-        raise ValueError("'plot_summary' column not found in the movie_master_dataset")
-
-    # Segment plot summaries into sentences
-    df_segmented = segment_plot_summaries(df_plot_summaries)
-
+    df_movies = pd.read_csv(movie_master_path)
+    df_movies = segment_plot_summaries(df_movies)
     sentiment_data = []
-
-    # Wrap the outer loop with tqdm for movies
-    for idx, row in tqdm(df_segmented.iterrows(), desc="Processing Movies", total=len(df_segmented), unit="movie"):
-        movie_id = row['movie_id']
-        sentences = row['sentences']
-
-        # Analyze sentiment for all sentences in the plot summary
-        sentiment_scores = analyze_sentiment(sentences)
-        avg_sentiment = sum(score for _, score in sentiment_scores) / len(sentiment_scores) if sentiment_scores else 0
-
-        sentiment_data.append({
-            'movie_id': movie_id,
-            'average_sentiment': avg_sentiment,
-            'num_sentences': len(sentiment_scores)
-        })
-
+    device = 0 if torch.cuda.is_available() else -1
+    sentiment_analyzer = pipeline("sentiment-analysis", model="distilbert-base-uncased-finetuned-sst-2-english", device=device)
+    with tqdm(total=len(df_movies), desc="Processing Movies", unit="movie") as pbar:
+        for index, row in df_movies.iterrows():
+            sentences = row['sentences']
+            sentiment_scores = analyze_sentiment(sentences, sentiment_analyzer)
+            for sentence, score in sentiment_scores:
+                sentiment_data.append({
+                    'movie_id': row['movie_id'],
+                    'sentence': sentence,
+                    'sentiment_score': score
+                })
+            pbar.update(1)
     # Save sentiment analysis results to a CSV file
     sentiment_df = pd.DataFrame(sentiment_data)
     sentiment_df.to_csv(output_path, index=False, encoding='utf-8-sig')

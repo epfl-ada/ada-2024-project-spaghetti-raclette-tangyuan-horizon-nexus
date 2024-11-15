@@ -114,8 +114,8 @@ def main():
     print("Saving genre trend and cluster results...")
     current_directory = os.path.dirname(os.path.abspath(__file__))
     data_directory = os.path.join(current_directory, '../../data')
-    clustered_data.to_csv(os.path.join(data_directory, 'sentiment_genre_analysis.csv'), index=False)
-    print("Saved genre and cluster analysis results to sentiment_genre_analysis.csv")
+    clustered_data.to_csv(os.path.join(data_directory, 'sentiment_genre_Vader_analysis.csv'), index=False)
+    print("Saved genre and cluster analysis results to sentiment_genre_Vader_analysis.csv")
 
 # Run the main function
 if __name__ == "__main__":
