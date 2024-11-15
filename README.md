@@ -32,11 +32,11 @@ To enrich our analysis and fill in any missing data, we incorporated two externa
 
 ### 2. Metric Selection & Preliminary Analysis
 - **Preliminary Analysis**:
-   - **Release Trends**: We examined annual movie releases to understand trends and distribution of data.
-   - **Revenue**: We plotted diverse statistics to understand revenue distribution.
-   - **Ratings & Number of Ratings**: We plotted diverse statistics to understand rating distribution.
-   - **Success Metric**: Ratings from TMDb were chosen as our primary success metric, providing a stable measure of audience perception over time. The reasons for this choice are detailed in `results.ipynb`. We plotted diverse statisctics to understand success distribution. We evaluated the hypothetical correlation of success with Revenue, to evaluate robustness of our definition.
-   - **Actor's begining age vs. life experience**: We investigated actor's age of first apparition to see likeliness of it building further experience (movie apparitions) after.
+   - **Release Trends**: Examined annual movie releases to understand trends.
+   - **Revenue**: Diverse statistics.
+   - **Ratings & Number of Ratings**: Diverse statistics.
+   - **Success Metric**: Ratings from TMDb were chosen as our primary success metric, providing a stable measure of audience perception. Diverse statisctics and hypothetical correlation with Revenue to evaluate robustness of definition.
+   - **Actor's begining age vs. life experience**: Actor's age of first apparition to see likeliness of it building further experience after.
 
 ### 3. Sentiment Analysis of Plot Summaries
 *We explored VADER and DistilBERT for sentiment analysis and ultimately chose VADER for its efficiency and suitability with sentence-level plot summaries.*
@@ -79,7 +79,7 @@ We will compile insights from sentiment patterns and actor networks to define th
 
 ## Questions fo the TAs
 
-- **Success outliers**: For reminder, our definition of success for a movie is: Success = Rating*log(Number of Ratings)
-                        Some movies have only one Rating, which brings the Success to 0 whatever the Rating, making differentiation of such movies impossible. A solution would be to add a small offset to Number of Ratings by adding 1 for example.
-                        Some other movies have a rating of perfectely 0 while having made a revenue of more than millions which seems unlikely.
-                        For now, movies with strictly less than two ratings are not taken into account as we consider them as unreliable data. What do you think?
+- **Success outliers**: Success = Rating*log(Number of Ratings)
+                        Only 1 Rating --> Success = 0 whatever the Rating ==> differentiation of movies impossible. Solution would be to add an offset in log() (ex: +1).
+                        Some movies: rating = 0 while revenue = millions ==> unlikely.
+                        For now, movies with Ratings < 2 are not taken into account as we consider unreliable.
