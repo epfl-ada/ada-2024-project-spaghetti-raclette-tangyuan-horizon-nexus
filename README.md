@@ -28,16 +28,15 @@ To enrich our analysis and fill in any missing data, we incorporated two externa
 - **Cleaning Functions**: We created a function to clean each of the primary datasets (movie metadata, plot summaries, etc.), standardizing formats, handling missing values, and removing unnecessary columns.
 - **Adding Ratings**: Ratings data were added using the TMDb API, providing a consistent metric for movie success.
 - **Handling Missing Data**: Essential missing values were filled, and non-essential fields were removed.
-- **Master Dataset**: A single, comprehensive dataset was built containing plot summaries, ratings, and movie metadata.
+- **Master Dataset**: A single, comprehensive dataset was built containing plot summaries, ratings, and movie metadata, while keeping the character dataset separated for convenience.
 
 ### 2. Metric Selection & Preliminary Analysis
-
-- **Success Metric**: Ratings from TMDb were chosen as our primary success metric, providing a stable measure of audience perception over time. The reasons for this choice are detailed in `results.ipynb`.
 - **Preliminary Analysis**:
-  - **Ratings**: Calculated mean, standard deviation, min, and max to understand rating distribution.
-  - **Release Trends**: Examined annual movie releases.
-  - **Languages**: Analyzed the number of languages per movie and the most common ones.
-  - **Actor Origins**: Investigated actor country distribution for geographic diversity.
+   - **Release Trends**: We examined annual movie releases to understand trends and distribution of data.
+   - **Revenue**: We plotted diverse statistics to understand revenue distribution.
+   - **Ratings & Number of Ratings**: We plotted diverse statistics to understand rating distribution.
+   - **Success Metric**: Ratings from TMDb were chosen as our primary success metric, providing a stable measure of audience perception over time. The reasons for this choice are detailed in `results.ipynb`. We plotted diverse statisctics to understand success distribution. We evaluated the hypothetical correlation of success with Revenue, to evaluate robustness of our definition.
+   - **Actor's begining age vs. life experience**: We investigated actor's age of first apparition to see likeliness of it building further experience (movie apparitions) after.
 
 ### 3. Sentiment Analysis of Plot Summaries
 *We explored VADER and DistilBERT for sentiment analysis and ultimately chose VADER for its efficiency and suitability with sentence-level plot summaries.*
@@ -78,3 +77,9 @@ We will compile insights from sentiment patterns and actor networks to define th
 - **Task 5**: Pierre  
 - **Report & Webpage**: All team members
 
+## Questions fo the TAs
+
+- **Success outliers**: For reminder, our definition of success for a movie is: Success = Rating*log(Number of Ratings)
+                        Some movies have only one Rating, which brings the Success to 0 whatever the Rating, making differentiation of such movies impossible. A solution would be to add a small offset to Number of Ratings by adding 1 for example.
+                        Some other movies have a rating of perfectely 0 while having made a revenue of more than millions which seems unlikely.
+                        For now, movies with strictly less than two ratings are not taken into account as we consider them as unreliable data. What do you think?
