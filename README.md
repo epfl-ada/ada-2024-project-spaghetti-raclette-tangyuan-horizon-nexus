@@ -28,16 +28,15 @@ To enrich our analysis and fill in any missing data, we incorporated two externa
 - **Cleaning Functions**: We created a function to clean each of the primary datasets (movie metadata, plot summaries, etc.), standardizing formats, handling missing values, and removing unnecessary columns.
 - **Adding Ratings**: Ratings data were added using the TMDb API, providing a consistent metric for movie success.
 - **Handling Missing Data**: Essential missing values were filled, and non-essential fields were removed.
-- **Master Dataset**: A single, comprehensive dataset was built containing plot summaries, ratings, and movie metadata.
+- **Master Dataset**: A single, comprehensive dataset was built containing plot summaries, ratings, and movie metadata, while keeping the character dataset separated for convenience.
 
 ### 2. Metric Selection & Preliminary Analysis
-
-- **Success Metric**: Ratings from TMDb were chosen as our primary success metric, providing a stable measure of audience perception over time. The reasons for this choice are detailed in `results.ipynb`.
 - **Preliminary Analysis**:
-  - **Ratings**: Calculated mean, standard deviation, min, and max to understand rating distribution.
-  - **Release Trends**: Examined annual movie releases.
-  - **Languages**: Analyzed the number of languages per movie and the most common ones.
-  - **Actor Origins**: Investigated actor country distribution for geographic diversity.
+   - **Release Trends**: Examined annual movie releases to understand trends.
+   - **Revenue**: Diverse statistics.
+   - **Ratings & Number of Ratings**: Diverse statistics.
+   - **Success Metric**: Ratings from TMDb were chosen as our primary success metric, providing a stable measure of audience perception. Diverse statisctics and hypothetical correlation with Revenue to evaluate robustness of definition.
+   - **Actor's begining age vs. life experience**: Actor's age of first apparition to see likeliness of it building further experience after.
 
 ### 3. Sentiment Analysis of Plot Summaries
 *We explored VADER and DistilBERT for sentiment analysis and ultimately chose VADER for its efficiency and suitability with sentence-level plot summaries.*
@@ -78,3 +77,12 @@ We will compile insights from sentiment patterns and actor networks to define th
 - **Task 5**: Pierre  
 - **Report & Webpage**: All team members
 
+## Questions fo the TAs
+
+- **Success outliers**: Success = Rating*log(No. of Ratings)
+                        Only 1 Rating brings Success to 0 whatever the Rating ==> differentiation of these movies impossible. Solution would be to add an offset for ex: log(No. Ratings + 1).
+                        Moreover, some movies have overall rating = 0 while revenue = millions ==> unlikely.
+                        For now, movies with No. of Ratings < 2 are not taken into account as we consider them unreliable. What do you think?
+               
+- **Movie dataset & Character dataset**:  Once fully cleaned, the movie dataset = ~5000 movies. However, 
+                                          for actor's connections we use all the actors from all the movies (>>5000 movies). Should we instead limit to the same dataset? 
