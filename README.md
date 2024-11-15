@@ -2,11 +2,11 @@
 
 ## Abstract
 
-This project aims to uncover the relative influence of two key factors on a movie's critical success: actor fame and the narrative sentiment arc of the plot. We hypothesize that a film's success, as reflected in its ratings, might be influenced not only by the popularity of its cast but also by the emotional journey it offers. To explore this, we employ two distinct approaches: sentiment analysis on plot summaries to assess emotional complexity and patterns, and social network analysis to evaluate actor prominence and connectivity in the industry. Ultimately, this analysis seeks to provide a nuanced understanding of whether a star-studded cast or a compelling emotional narrative contributes more significantly to a film’s acclaim, offering insights into storytelling and casting strategies that could enhance a film's impact.
+This project aims to uncover the relative influence of two key factors on a movie's critical success: actor fame and the narrative sentiment arc of the plot. We hypothesize that a film's success, might be influenced not only by the popularity of its cast but also by the emotional journey it offers. To explore this, we employ two distinct approaches: sentiment analysis on plot summaries to assess emotional complexity and patterns, and social network analysis to evaluate actor prominence and connectivity in the industry. Ultimately, this analysis seeks to provide a nuanced understanding of whether a star-studded cast or a compelling emotional narrative contributes more significantly to a film’s acclaim, offering insights into storytelling and casting strategies that could enhance a film's impact.
 
 ## Key Questions We Aim to Answer
 
-- How can we evaluate a movie’s success (e.g., audience rating, revenue)?
+- How can we evaluate a movie’s success (e.g., audience rating, revenue, other metric)?
 - How do different sentiment features (e.g., overall positivity, variability, peaks) within movie plots correlate with our success metric?
 - Are certain emotional arcs consistently linked to successful movies? How do they align with the six classic narrative archetypes proposed by Kurt Vonnegut?
 - How does the presence of well-established actors in a film’s network affect the movie’s critical success?
@@ -27,7 +27,6 @@ To enrich our analysis and fill in any missing data, we incorporated two externa
 
 - **Cleaning Functions**: We created a function to clean each of the primary datasets (movie metadata, plot summaries, etc.), standardizing formats, handling missing values, and removing unnecessary columns.
 - **Adding Ratings**: Ratings data were added using the TMDb API, providing a consistent metric for movie success.
-- **Handling Missing Data**: Essential missing values were filled, and non-essential fields were removed.
 - **Master Dataset**: A single, comprehensive dataset was built containing plot summaries, ratings, and movie metadata, while keeping the character dataset separated for convenience.
 
 ### 2. Metric Selection & Preliminary Analysis
@@ -42,7 +41,7 @@ To enrich our analysis and fill in any missing data, we incorporated two externa
 *We explored VADER and DistilBERT for sentiment analysis and ultimately chose VADER for its efficiency and suitability with sentence-level plot summaries.*
 
 1. **Sentence Segmentation & Sentiment Scoring (completed)**:
-   - Each plot summary was segmented into sentences, and VADER was applied to score each sentence, creating an emotional trajectory for each movie.
+   - Each plot summary was segmented into sentences, and VADER was applied to score each sentence. This will allow us to compute an emotional trajectory for each movie. (Same goes for DistilBERT)
    
 2. **Planned Analysis (to do)**:
    - **Success Correlation Analysis**: Investigate how sentiment patterns (e.g., variability, peaks) correlate with movie success metrics.
@@ -52,12 +51,11 @@ To enrich our analysis and fill in any missing data, we incorporated two externa
 ### 4. Actor Fame & Network Analysis
 
 1. **Actor Network Visualization (completed)**:
-   - A network graph with nodes representing actors (scaled by movie rating) was generated, illustrating the influence of collaborations. Edges represent shared movie appearances.
+   - A network graph with nodes representing actors (scaled by our success metric) was generated, illustrating the influence of collaborations. Edges represent shared movie appearances.
 
-2. **Planned Analysis (to do)**:
-   - **Centrality Metrics**: Compute metrics (e.g., degree, betweenness, closeness) to create an Actor Fame Score.
-   - **Community Detection**: Identify prominent actor communities and assess their impact on ratings.
-   - **Predictive Modeling (if time permits)**: Suggest potential actor networks for maximizing a movie’s success.
+2. **Planned Analyses (to do)**:
+   - **Community Structure Analysis**: Examine if certain actor communities have higher success rates by segmenting communities within the network graph.
+   - **Cut Set Analysis**: Assess if key connectors bridging multiple communities achieve more success, using cut set identification within the community graph.
 
 ### 5. Results & Interpretation (to do)
 We will compile insights from sentiment patterns and actor networks to define the optimal mix of emotional arcs and actor collaborations for high movie ratings.
