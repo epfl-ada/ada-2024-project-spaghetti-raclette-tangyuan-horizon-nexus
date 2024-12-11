@@ -1,5 +1,6 @@
 import os
 import pandas as pd
+import numpy as np
 import ast  # To safely evaluate string representations of dictionaries
 
 # Load and clean TV Tropes Clusters dataset
@@ -73,14 +74,14 @@ def clean_movie_metadata(data_directory):
     # Add budget data from external Excel file
     ratings_path = os.path.join(data_directory, 'movie_budget.xlsx')
     df_movie_budget = pd.read_excel(ratings_path)
-
-    # Replace rows where the 'budget' column is 0 with NaN
+    # Convert to log
     df_movie_budget['budget'] = df_movie_budget['budget'].replace(0, np.nan)
+    df_movie_budget['log_budget'] = np.log(df_movie_budget['budget'])
 
     # Merge the two DataFrames on the movie_name column
     df_combined = pd.merge(df_movie_metadata, df_movie_ratings[['movie_name', 'rating', 'vote_count']], 
                            on='movie_name', how='left')
-    df_combined = pd.merge(df_combined, df_movie_budget[['movie_name', 'budget']], 
+    df_combined = pd.merge(df_combined, df_movie_budget[['movie_name', 'log_budget']], 
                            on='movie_name', how='left')
 
     return df_combined
