@@ -4,7 +4,7 @@ import os
 import networkx as nx
 import plotly.graph_objects as go
 from statsmodels.nonparametric.smoothers_lowess import lowess
-from tests.Network_Analysis.network_founctions_v4 import *
+from tests.Network_Analysis.network_founctions_v6 import *
 # Create directory for saving HTML plots
 os.makedirs('html_plots', exist_ok=True)
 
@@ -37,7 +37,7 @@ def analyze_best_actor_fame(movie_master_dataset):
 
     # Create network visualization
     edge_trace, node_trace = prepare_plotly_traces(G_sub, pos)
-    visualize_network_plotly(edge_trace, node_trace)
+    visualize_network_plotly_2(edge_trace, node_trace)
 
     # Collect degree centrality and success
     degrees_all, avg_successes_all = collect_degrees_and_success(G, actor_avg_success)
