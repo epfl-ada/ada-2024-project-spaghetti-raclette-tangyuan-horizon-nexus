@@ -1,6 +1,6 @@
-# 🎥 Stars or Storyline: How Actor Fame and Sentiment Trajectories Shape a Movie's Critical Success
+# 🎥 Stars or Storyline: Decoding Movie Success Through Sentiment and Networks
 
-Welcome to **MovieKinsey Analytics**, a consulting startup dedicated to decoding the secrets behind a movie's critical success. Our story-driven analysis blends **actor network influence** and **narrative sentiment arcs** to uncover how casting decisions and plot structures impact a movies success.  
+Welcome to **MovieKinsey Analytics**, a consulting startup that dives into the complex world of movie success. We aim to uncover the nuanced interplay between **narrative dynamics**, **actor influence**, and other factors that shape a movie's critical success. By leveraging data-driven insights, we provide studios, producers, and filmmakers with actionable strategies for their projects.  
 
 Explore the full analysis on our interactive project site:  
 👉 **[Project Webpage](https://pierrelts.github.io/ada-template-website/)**  
@@ -8,51 +8,69 @@ Explore the full analysis on our interactive project site:
 ---
 
 ## **Abstract**
-This project investigates the relative influence of two key factors on a movie's success: **actor fame** and the **emotional trajectory** of its plot. We hypothesize that a film’s success is shaped not only by its cast's prominence but also by the emotional journey it offers.  
+Our project explores the multifaceted factors that contribute to a movie's success, focusing on two major aspects:  
+1. **The Narrative Arc** – How emotional trajectories in plots engage audiences.  
+2. **Actor Influence** – How prominent actors impact success through their industry networks.  
 
-Our approach combines:  
-- **Sentiment Analysis:** Evaluating movie plot summaries to identify emotional complexity and narrative arcs.  
-- **Social Network Analysis:** Measuring actor prominence through industry connections.  
-- **Predictive Modeling:** Building a predictive model that forecasts movie success based on these features.  
+While we uncovered fascinating relationships between features like sentiment arcs and actor fame, we found that predicting success remains a challenging task. Success is inherently complex, influenced by countless factors beyond measurable data.  
 
 ---
 
 ## **Key Findings**
 1. **Sentiment Analysis of Movie Plots:**  
-   - We applied **VADER Sentiment Analysis** to movie summaries, tracking emotional highs and lows throughout the story.  
-   - We identified **Kurt Vonnegut’s six classic narrative archetypes**, such as "Cinderella" and "Man in a Hole," and linked them to higher success.
+   - We analyzed plot summaries to extract **emotional trajectories** using **VADER sentiment analysis**.  
+   - Movies following **complex arcs** like “Cinderella” and “Oedipus” performed better, suggesting audiences favor stories with dynamic emotional shifts.  
 
 2. **Actor Network Analysis:**  
-   - We constructed a **collaboration network** of actors, where edges indicate shared movie appearances.  
+   - We built a **social network of actors**, calculating metrics like **degree centrality** to measure fame and collaboration influence.  
+   - Prominent actors (those with higher network centrality) consistently correlated with higher movie success.  
 
-3. **Predictive Model:**  
-   - Using features from sentiment trajectories, actor prominence, and movie metadata, we built a predictive model that estimates a movie’s critical success.  
+3. **Economic and Temporal Factors:**  
+   - Features like **holiday releases**, **exposure (language reach)**, and **genre popularity** also played a role in success.  
+
+4. **Predictive Modeling Challenges:**  
+   - Despite meaningful features, predictive performance remains modest.  
+   - Our best-performing models (linear regression and decision trees) reached an R² of ~38–39%, underscoring the complexity of predicting movie success.  
 
 ---
 
 ## **Methodology Overview**
-### **1. Data Collection & Cleaning**
-- Merged multiple datasets, including movie summaries, ratings, and metadata.  
-- Extracted sentiment scores from plot summaries and built an actor collaboration network.  
+### **1. Data Collection & Feature Engineering**
+- Collected data on **movie plots**, **actor collaborations**, and **metadata** like release dates, languages, and genres.  
+- Extracted sentiment metrics such as **amplitude**, **variability**, and **emotional peaks**.  
+- Built **actor collaboration networks** to quantify influence and identify patterns in casting decisions.  
 
-### **2. Analysis Techniques**
-- **Sentiment Features:** Extracted metrics like overall sentiment, variability, emotional peaks, and arc patterns.  
-- **Actor Fame Metric:** Calculated degree centrality to estimate actor prominence.  
-- **Community Detection:** Applied clustering techniques to identify influential actor groups.  
+### **2. Narrative Analysis**
+- Identified **Kurt Vonnegut’s six narrative archetypes** in sentiment trajectories.  
+- Linked narrative types like “Cinderella” and “Man in Hole” to higher levels of audience engagement.  
 
-### **3. Prediction Model**
-- Built a regression-based model combining sentiment features, actor fame, and metadata.  
-- Validated performance through cross-validation, achieving meaningful predictive accuracy.  
+### **3. Actor Fame & Networks**
+- Constructed actor networks where edges represented shared projects.  
+- Measured **network centrality** to quantify actor prominence and examined its correlation with movie success.  
+
+### **4. Prediction Models**
+- Built models combining features from sentiment analysis, actor networks, and metadata.  
+- Used techniques like **OLS regression** and **decision trees** to explore linear and non-linear relationships.  
+- Validated models through **cross-validation** and assessed predictive accuracy.  
+
+---
+
+## **Insights and Reflections**
+- **Features Matter, But Prediction is Tough:** While features like **sentiment amplitude**, **variability**, and **actor fame** showed clear correlations with success, predicting it with high accuracy remains elusive.  
+- **Complex Stories Perform Better:** Narrative arcs with more emotional variation (e.g., “Cinderella” and “Oedipus”) consistently outperformed simpler arcs.  
+- **Networks and Context Count:** Actor influence and contextual factors like release timing (e.g., holiday periods) also played significant roles.  
+
+Our findings highlight the complexity of predicting success, suggesting that while features offer valuable insights, the nuances of human behavior and creative appeal make success prediction inherently uncertain.  
 
 ---
 
 ## **Contributions**
-- **Alessio:** Developed the data processing pipelines, conducted sentiment analysis using VADER, and built the emotional arc analysis framework.  
-- **Leonardo:** Designed and implemented the predictive model, handling feature extraction and success metric definition.  
-- **Quentin:** Built the actor collaboration network using graph theory, conducted community detection, and analyzed network centrality.  
-- **Jiayi:** Performed data cleaning, dataset merging, and integrated metadata from external APIs like TMDb.  
-- **Pierre:** Led data visualization, created interactive plots for the webpage, and managed the project’s front-end web development.  
+- **Alessio:** Designed and implemented the sentiment analysis pipeline and narrative arc clustering.  
+- **Leonardo:** Explored predictive modeling and regression techniques, combining feature engineering with success metrics.  
+- **Quentin:** Developed the actor collaboration network, applying graph metrics and community detection.  
+- **Jiayi:** Focused on data cleaning, dataset integration, and metadata enrichment.  
+- **Pierre:** Created visualizations, managed the project's web interface, and ensured an engaging presentation of findings.  
 
 ---
 
-We hope this project inspires future explorations into the art of filmmaking, data-driven storytelling, and predictive modeling for the entertainment industry. 🎬
+This project serves as a stepping stone for future analyses of movie success, blending storytelling, data science, and industry insights. Whether you’re a filmmaker, producer, or a curious data enthusiast, we hope this work inspires new ways to connect art with analytics. 🎬  
