@@ -1,9 +1,9 @@
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
-from tests.Network_Analysis.network_founctions import *
+from tests.Network_Analysis.network_founctions_v4 import *
 from statsmodels.nonparametric.smoothers_lowess import lowess
-from tests.Network_Analysis.network_big_plot import analyze_best_actor_fame
+from tests.Network_Analysis.network_big_plot_v3 import analyze_best_actor_fame
 
 def perform_lowess_analysis(movie_master_dataset):
     """
